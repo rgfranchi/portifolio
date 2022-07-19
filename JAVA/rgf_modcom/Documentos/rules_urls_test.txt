@@ -1,0 +1,31 @@
+I -- Keep Alive.
+http://localhost:8080/integration/KEEP_ALIVE:Responde%20estou%20vivo.
+
+II -- Data Hora
+http://localhost:8080/integration/DATE_TIME_MESSAGE:Teste%20de%20data%20hora
+
+III -- Texto Fixo Replace TAG.
+http://localhost:8080/integration/TEXT_MESSAGE:Teste%20com%20texto%20fixo%20e%20replace%20de%20TAG
+
+IV -- Evento com busca por resposta.
+http://localhost:8080/integration/RULE_EVENT_UUID%3B1234%3B2022-01-02%3B10:Teste%20evento%20com%20resposta
+
+V -- Evento sem busca por resposta.
+localhost:8080/integration/RULE_EVENT:Teste de evento sem resposta
+
+VI -- Confirmação de uma mensagem de pelo modulo que realiza nova busca por mensagens (substutuir UUID.)
+localhost:8080/integration/CONFIRM_EVENT_FIND%3B <uuid> %3B2022-01-02%3B10:Teste de confirmação de evento e nova busca
+localhost:8080/integration/CONFIRM_EVENT_FIND%3Ba1b2%3B2022-01-02%3B10:Teste de confirmação de evento e nova busca inserido ao carregar sistema
+
+VII -- Confirmação de uma mensagem pelo modulo que NÃO realiza nova busca por mensagens (substutuir UUID.)
+localhost:8080/integration/CONFIRM_EVENT%3B <uuid> %3B2022-01-02%3B10:Teste de confirmação de evento
+localhost:8080/integration/CONFIRM_EVENT%3Ba1b2%3B2022-01-02%3B10:Teste de confirmação de evento inserido ao carregar sistema
+
+VIII -- Configuração com busca por mensagem para o modulo
+http://localhost:8080/integration/CONFIG_RESPONSE%3B1234%3B2022-01-02%3B10:Teste%20configuracao%20com%20resposta
+
+IX -- Configuração sem busca por mensagem para o modulo
+http://localhost:8080/integration/CONFIG%3B1234%3B2022-01-02%3B10:Teste%20configuracao%20sem%20resposta
+
+X -- Busca exatamente a mesma expressão regular.
+http://localhost:8080/integration/EXACT_CONFIG%3B1234

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "TESTE FILE 9000 Regra IV - INCLUI MENSAGEM NA FILA DE EVENTO",
+    "version": "1.0",
+    "ownerModel": "TABELA_PROPRIETARIO VI",
+    "ownerId": "ID_PROPRIETARIO VI",
+    "regex": "EVENT.([0-9]*)",
+    "listenerMessage": {
+      "typeMessageListener": "EVENT",
+      "messageResponse": "$_COD_MODULO_:_UUID_CONFIRM_#",
+      "messageNotFound": "EVENT NOT FOUND",
+      "codModuleGroup": 2,
+      "findModule": true,
+      "confirmTimes": 2,
+      "uuidLength": 4
+    }
+  },
+  {
+    "name": "TESTE FILE 9000 Regra V - INCLUI MENSAGEM NA FILA DE CONFIGURAÇÃO",
+    "version": "1.0",
+    "ownerModel": "TABELA_PROPRIETARIO V",
+    "ownerId": "ID_PROPRIETARIO V",
+    "regex": "CONFIG.([0-9]*)",
+    "listenerMessage": {
+      "typeMessageListener": "CONFIG",
+      "messageResponse": "$_COD_MODULO_:_UUID_CONFIRM_#",
+      "messageNotFound": "CONFIG NOT FOUND",
+      "codModuleGroup": 2,
+      "findModule": true,
+      "confirmTimes": 1,
+      "uuidLength": 7
+    }
+  }
+]

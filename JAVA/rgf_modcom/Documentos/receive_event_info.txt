@@ -1,0 +1,25 @@
+Identifica parâmetros do evento recebido:
+
+Objetos:
+- Documento MongoDB: document/Event.java
+- Service de leitura: service/ListenerFromService.
+
+1.DATA HORA EVENTO
+- 1.1 Valor reservado REGEX:
+-- Event.typeEvent = 'date_time' => identifica data hora que ocorreu o evento.
+-- Event.groups [] => posição do array deve identificar cada uma das variáveis.
+-- :group   :variável       - default
+-- [0]      :year           - 1970
+-- [1]      :month          - 1
+-- [2]      :dayOfMonth     - 1
+-- [3]      :hour           - 0
+-- [4]      :minute         - 0
+-- [5]      :second         - 0
+-- [6]      :nanoOfSecond   - 0
+
+
+
+- 1.2 Valor parse 
+-- RuleType.groupDateTime = default(-1) =>  Posição da data_hora na string, se "-1" ignora.
+-- RuleType.dateTimeExpression => Expressão de conversão de date_time.
+--- DOC LocalDate.parse: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/format/DateTimeFormatter.html) :

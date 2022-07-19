@@ -1,0 +1,100 @@
+-- AÇÕES: (Regras aceitas no LISTENER) 
+I   - KEEP_ALIVE, 
+II  - TEXT, 
+III - DATE_TIME, 
+IV  - EVENT, 
+V   - CONFIG, 
+VI  - CONFIRM, 
+VII - NOT_DEFINED - se nenhuma regra é localizada.
+
+-- PALAVRAS CHAVE:
+_DATE_TIME_: posição da data hora na resposta.
+  - verifica ('listenerMessage.plusHour' e 'listenerMessage.formatDateTime')
+_COD_MODULO_: Codigo do módulo localizado pelo group.
+  - Substitui o valor de 'listenerMessage.CodModulo'
+_UUID_CONFIRM_: Codigo único gerado para confirmar a mensagem.
+  - Substitui o valor de 'listenerMessage.uuidConfirm'
+_SEND_PAYLOAD_: Mensagem Enviada.
+  - Substitui o valor de 'listenerMessage.replayPayload'
+_REPLAY_PAYLOAD_: Mensagem respondida
+  - Substitui texto pela mensagem recebida.
+_ERROR_: Responde exceção localizada no sistema  
+  - Substitui o valor de 'listenerMessage.replayPayload'
+
+-- OBJETO CARREGADO JSON (Chaves JSON):
+"name": 
+  - Nome da regra
+"version": 
+  - Versão da regra
+"ownerModel": 
+  - Tabela que responde ao proprietário da regra (ex: empresa).
+"ownerId": 
+  - Id de quem é o proprietário da regra (responsável no sistema Manager (ex: empresa)).
+"regex": 
+  - Expressão regular que define se a regra é valida.
+"listenerMessage" :
+    "TypeListenerMessage": 
+      - Obrigatório - Tipo de ação que sera executada.
+    "CodModulo":
+      - default (DEFAULT_COD_MODULO) codigo do modulo recebido.
+      - campo utilizado para armazenar o cod_modulo na resposta.
+    "MessageResponse": 
+      - default (null) - Texto de reposta que conforme PROCESSO substitui PALAVRAS CHAVE
+      - se não informada não envia resposta.
+    "MessageNotFound": 
+      - Texto para mensagem de resposta não encontrada. 
+      - Substitui "MessageResponse".
+    "Exact": 
+      - default (false) - false Busca por uma correspondência na mensagem.
+      - true - verifica por exatamente a mesma expressão regular.
+    "CodModuleGroup": 
+      - default (0) - posição na expressão Regex onde está o codigo do módulo.
+      - numérico: deve identificar a posição do codigo do módulo
+    "FindModule": 
+      - default (false) - NÃO realiza busca na fila de configuração para o modulo.
+      - true - busca por eventos na fila de configuração para o modulo.
+    "ConfirmTimes": 
+      - default (0) - NÃO confirma recebimento de mensagem.
+      - numérico: Tentativas de confirmação da mensagem.
+    "UuidLength": 
+      - default (0) - Confirma com UUID completo de 36 caracteres.
+      - numérico - Confirma com UUID no valor informado (MÁXIMO 36).
+    "UuidConfirm": 
+      - default (DEFAULT_UUID_CONFIRM) - Chave de confirmação UUID.
+      - campo utilizado para armazenar o UUID da resposta.
+    "PlusHour": 
+      - default (0) - Hora local do servidor.
+      - numérico - calcula numero de horas, com base na hora do servidor (positivo ou negativo).
+    "FormatDateTime": 
+      - default (YYYY-MM-dd HH:mm:ss) - Formato da data e hora.
+      - string: formato da data hora de retorno (https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/format/DateTimeFormatter.html).
+
+---- PROCESS 
+I   - KEEP_ALIVE: 
+  - responde com a mensagem 'listenerMessage.messageResponse'
+  - não processa a string.
+II  - TEXT: 
+  - Retorna texto 'listenerMessage.MessageResponse' substituído palavra chave.
+  - PALAVRAS CHAVE: _DATE_TIME_ e _PAYLOAD_
+III - DATE_TIME: 
+  - Retorna texto 'listenerMessage.MessageResponse' substituindo data e/ou hora na palavra chave. 
+  - PALAVRA CHAVE: '_DATE_TIME_'.
+IV  - EVENT: 
+  - Inclui mensagem na fila 'Receive'.
+  - obrigatório: 'listenerMessage.codModuleGroup' e 'regex' compatível.
+  - Inclui valor em 'listenerMessage.codModulo'.
+  - Se 'listenerMessage.findModule' for true, busca por mensagem para o módulo.
+V   - CONFIG: 
+  - inclui mensagem na fila 'Manager'.
+  - obrigatório: 'listenerMessage.codModuleGroup' e 'regex' compatível.
+  - Inclui valor em 'listenerMessage.codModulo'.
+  - Se 'listenerMessage.findModule' for true, busca por mensagem para o módulo.  
+VI  - CONFIRM:
+  - confirma o recebimento de uma mensagem.
+  - obrigatório: 'UuidConfirmGroup', identifica a posição 'uuid_confirm' na expressão regex .
+VII - NOT_DEFINED 
+  - resposta se nenhuma regra é localizada no arquivo JSON.
+  - Responde: "RULE NOT DEFINED:" + Mensagem enviada.
+ 
+-- UTILIZADO O MÁXIMO VARIÁVEIS PARA CADA REGRA.
+Exemplo ./test/resources/json/default_rules.json

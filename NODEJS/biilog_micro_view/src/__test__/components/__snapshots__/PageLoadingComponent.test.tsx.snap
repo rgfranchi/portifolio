@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageLoadingComponent  PageLoading 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "KEY01",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "KEY01",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ModalLoading>
+      <Modal
+        animation={false}
+        autoFocus={true}
+        backdrop={true}
+        centered={true}
+        dialogAs={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "ModalDialog",
+            "render": [Function],
+          }
+        }
+        enforceFocus={true}
+        keyboard={true}
+        onHide={[Function]}
+        restoreFocus={true}
+        show={false}
+        size="lg"
+      >
+        <Modal
+          autoFocus={true}
+          backdrop={true}
+          containerClassName="modal-open"
+          enforceFocus={true}
+          keyboard={true}
+          manager={
+            BootstrapModalManager {
+              "containers": Array [],
+              "data": Array [],
+              "handleContainerOverflow": true,
+              "hideSiblingNodes": true,
+              "modals": Array [],
+              "scrollbarSize": 0,
+            }
+          }
+          onEnter={[Function]}
+          onEntering={[Function]}
+          onEscapeKeyDown={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onHide={[Function]}
+          renderBackdrop={[Function]}
+          renderDialog={[Function]}
+          restoreFocus={true}
+          show={false}
+        />
+      </Modal>
+    </ModalLoading>
+    <PageLoadingComponent>
+      <div>
+        <h3>
+          Loading page ....
+        </h3>
+      </div>
+    </PageLoadingComponent>
+  </Router>
+</Provider>
+`;

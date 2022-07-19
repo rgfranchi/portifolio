@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageDevelopmentComponent  snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "KEY01",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "KEY01",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ModalLoading>
+      <Modal
+        animation={false}
+        autoFocus={true}
+        backdrop={true}
+        centered={true}
+        dialogAs={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "ModalDialog",
+            "render": [Function],
+          }
+        }
+        enforceFocus={true}
+        keyboard={true}
+        onHide={[Function]}
+        restoreFocus={true}
+        show={false}
+        size="lg"
+      >
+        <Modal
+          autoFocus={true}
+          backdrop={true}
+          containerClassName="modal-open"
+          enforceFocus={true}
+          keyboard={true}
+          manager={
+            BootstrapModalManager {
+              "containers": Array [],
+              "data": Array [],
+              "handleContainerOverflow": true,
+              "hideSiblingNodes": true,
+              "modals": Array [],
+              "scrollbarSize": 0,
+            }
+          }
+          onEnter={[Function]}
+          onEntering={[Function]}
+          onEscapeKeyDown={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onHide={[Function]}
+          renderBackdrop={[Function]}
+          renderDialog={[Function]}
+          restoreFocus={true}
+          show={false}
+        />
+      </Modal>
+    </ModalLoading>
+    <TitleComponent
+      actions={
+        <button>
+          'BOTÃO DE AÇÃO'
+        </button>
+      }
+      description="Descrição da página"
+      title="Titulo Página Teste"
+    >
+      <Alert
+        closeLabel="Close alert"
+        show={true}
+        transition={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "appear": false,
+              "in": false,
+              "mountOnEnter": false,
+              "timeout": 300,
+              "unmountOnExit": false,
+            },
+            "displayName": "Fade",
+            "render": [Function],
+          }
+        }
+        variant="primary"
+      >
+        <Fade
+          appear={false}
+          in={true}
+          mountOnEnter={false}
+          timeout={300}
+          unmountOnExit={true}
+        >
+          <Transition
+            addEndListener={[Function]}
+            appear={false}
+            enter={true}
+            exit={true}
+            in={true}
+            mountOnEnter={false}
+            onEnter={[Function]}
+            onEntered={[Function]}
+            onEntering={[Function]}
+            onExit={[Function]}
+            onExited={[Function]}
+            onExiting={[Function]}
+            timeout={300}
+            unmountOnExit={true}
+          >
+            <div
+              className="fade alert alert-primary show"
+              role="alert"
+            >
+              <Row
+                className="justify-content-md-center"
+                noGutters={false}
+              >
+                <div
+                  className="justify-content-md-center row"
+                >
+                  <Col
+                    lg="10"
+                  >
+                    <div
+                      className="col-lg-10"
+                    >
+                      <AlertHeading>
+                        <DivStyledAsH4
+                          className="alert-heading"
+                        >
+                          <div
+                            className="alert-heading h4"
+                          >
+                            Titulo Página Teste
+                          </div>
+                        </DivStyledAsH4>
+                      </AlertHeading>
+                      Descrição da página
+                    </div>
+                  </Col>
+                  <Col
+                    className="text-center"
+                    md="2"
+                  >
+                    <div
+                      className="text-center col-md-2"
+                    >
+                      <button>
+                        'BOTÃO DE AÇÃO'
+                      </button>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+            </div>
+          </Transition>
+        </Fade>
+      </Alert>
+      <AlertList>
+        <Alert
+          closeLabel="Close alert"
+          dismissible={true}
+          hidden={true}
+          onClose={[Function]}
+          show={true}
+          transition={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "appear": false,
+                "in": false,
+                "mountOnEnter": false,
+                "timeout": 300,
+                "unmountOnExit": false,
+              },
+              "displayName": "Fade",
+              "render": [Function],
+            }
+          }
+          variant="primary"
+        >
+          <Fade
+            appear={false}
+            hidden={true}
+            in={true}
+            mountOnEnter={false}
+            timeout={300}
+            unmountOnExit={true}
+          >
+            <Transition
+              addEndListener={[Function]}
+              appear={false}
+              enter={true}
+              exit={true}
+              hidden={true}
+              in={true}
+              mountOnEnter={false}
+              onEnter={[Function]}
+              onEntered={[Function]}
+              onEntering={[Function]}
+              onExit={[Function]}
+              onExited={[Function]}
+              onExiting={[Function]}
+              timeout={300}
+              unmountOnExit={true}
+            >
+              <div
+                className="fade alert alert-primary alert-dismissible show"
+                hidden={true}
+                role="alert"
+              >
+                <CloseButton
+                  label="Close alert"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="close"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      ×
+                    </span>
+                    <span
+                      className="sr-only"
+                    >
+                      Close alert
+                    </span>
+                  </button>
+                </CloseButton>
+                <StringArrayToList
+                  stringArray={
+                    Array [
+                      "null",
+                    ]
+                  }
+                >
+                  <ul>
+                    <li
+                      key="0"
+                    >
+                      null
+                    </li>
+                  </ul>
+                </StringArrayToList>
+              </div>
+            </Transition>
+          </Fade>
+        </Alert>
+      </AlertList>
+    </TitleComponent>
+  </Router>
+</Provider>
+`;

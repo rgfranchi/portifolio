@@ -1,0 +1,34 @@
+Não funciona com reactjs ......
+Erro de acesso: Pesquisado que é por se tratar de aplicação de interface e não server.
+Testes está OK. 
+
+npm install googleapis
+
+- GOOGLE:
+    CRIAR CHAVE DE ACESSO:
+        Criar Novo Projeto: https://console.cloud.google.com
+        - Selecionar projeto barra superior 
+        - Janela de seleção do projeto no canto direto superior "NOVO PROJETO"
+        - Dar nome ao projeto.
+        Criar Credencial:
+        - Menu direito "API e Serviços" 
+        - "Credenciais"
+        - "+ CRIAR CREDENCIAIS" -> "Conta de Serviço"
+        - Inserir informações. e "CRIAR E CONTINUAR"
+        - Manter o valor padrão para as próximas etapas.
+        - Retorna para tela de criar credenciais com a conta de serviço.
+        - Copiar o texto do campo "E-mail": felipemaltateste@airtablefelipemalta.iam.gserviceaccount.com (conta de acesso)
+        Selecionar o conta de serviço.
+        - Selecionar aba "CHAVES".
+        - "ADICIONAR CHAVE" -> "Nova Chave" -> Tipo "JSON" -> "CRIAR".
+        - Salvar o arquivo fornecido na raiz da aplicação.
+        Habilitar Google Drive API:
+        - Acessar "APIs e Serviços" 
+        - Menu "BIBLIOTECAS" 
+        - Localizar na tela "GOOGLE DRIVE API"
+        - Clicar em "HABILITAR".
+    ACESSO A PASTA DO GOOGLE DRIVE:
+        - Acessar o DRIVE: https://drive.google.com/
+        - Localizar a pasta onde pretende manter os arquivos.
+        - Clicar com o botão direito e selecionar "Compartilhar"
+        - Em adicione pessoa ou grupo incluir valor do "E-mail" Criado em  "CRIAR CHAVE DE ACESSO" -> "Criar Credencial"

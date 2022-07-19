@@ -1,0 +1,40 @@
+Verificar se a porta está em uso: lsof -i:9001
+
+ACTIVE MQ Artemis: (Alternativa DOCKER)
+- Executar: /Users/Guerra/Desenvolvimento/JAVA/ActiveMQArtemis/bin/biilog_artemis/bin/artemis run
+- URL: http://localhost:8161/console/ (admin/admin)
+- CONFIG: (- ~/Desenvolvimento/JAVA/biilog_microservice/ActiveMQArtemis/bin/biilog_artemis/etc/broker.xml)
+    - Desabilitar salvar:  persistence-enabled:false
+    - Erro: "AMQ212054: Destination address=XXXXXX is blocked" -> max-disk-usage: 100
+    
+ERRO AO IMPORTAR PACOTE 'pojo_object'
+-> Utilizar package para todo projeto.
+
+VSCODE: 
+Limpar projeto: Shift + Maça + P -> digitar "Language Server Workspace"
+
+Maven:
+Incluído no settings caminho absoluto do mvnw embedded.
+Opções da aplicação: "Open Folder Settings".
+Buscar por: mvn
+Abas: User e Workspace, selecionar 'Openshift.io configuration'
+Incluir caminho do "mvnw" da aplicação.
+Ex: /Users/Guerra/Desenvolvimento/JAVA/biilog_microservice/mvnw
+Testes com erro não cria aplicação: incluir skipTests = true.
+
+Executar sub-projeto cmd: ./mvnw spring-boot:run -pl <projeto>
+
+
+EXECUTA MICRO_LISTENER
+1. ACTIVEMQ: /Users/Guerra/Desenvolvimento/JAVA/ActiveMQArtemis/bin/biilog_artemis/bin/artemis run
+2. INSTALAR MÓDULO: ./mvnw install
+3. ./mvnw spring-boot:run -pl micro_listener
+
+VSCODE: utilizar atalhos para executar o processo acima.
+
+Obs:  COMPILAR: ./mvnw compile ANTES DE EXECUTA pelo VSCODE.
+
+BANNER
+resources/banner.txt
+https://devops.datenkollektiv.de/banner.txt/index.html
+- Fonte: small

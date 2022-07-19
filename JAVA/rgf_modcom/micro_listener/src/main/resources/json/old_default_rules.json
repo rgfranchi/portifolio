@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Regra I - Responde com msg de keep alive",
+    "version": "1.0",
+    "regex": "KEEP_ALIVE.",
+    "typeMessageListener": "KEEP_ALIVE",
+    "text": "_OK_",
+    "messageListener": {}
+  },
+  {
+    "name": "Regra II - responde data hora",
+    "version": "1.1",
+    "regex": "DATE_TIME_MESSAGE.",
+    "typeMessageListener": "DATE_TIME",
+    "text": "$_DATE_TIME_=data hora GMT",
+    "messageListener": {
+      "plusHours": -3,
+      "format": "DD/MM/YYYY HH:mm:ss"
+    }
+  },
+  {
+    "name": "Regra III - Texto fixo de resposta com replace de TAGs",
+    "version": "1.2",
+    "regex": "TEXT_MESSAGE.",
+    "typeMessageListener": "TEXT",
+    "text": "$1234,5678,_COD_MODULO_,9123,4567;_DATE_TIME_@",
+    "messageListener": {
+      "plusHours": 3
+    }
+  },
+  {
+    "name": "Regra IV - insere um evento na fila e busca informação de retorno (%3B = ;)",
+    "version": "1.3",
+    "regex": "(RULE_EVENT_UUID.)([0-9]*)",
+    "typeMessageListener": "EVENT",
+    "text": "$_EVENT_%_COD_MODULO_$_UUID_CONFIRM_",
+    "messageListener": {
+      "group": 2,
+      "find_module": true,
+      "confirm_times": 2,
+      "uuid_length": 4,
+      "text_not_found": "$NOT_FOUND_MESSAGE%_COD_MODULO_$"
+    }
+  },
+  {
+    "name": "Regra V - insere um evento na fila e NÃO busca na fila",
+    "version": "1.3",
+    "regex": "(RULE_EVENT.)([0-9]*)",
+    "typeMessageListener": "EVENT",
+    "text": "$_DATE_TIME_",
+    "process": {
+      "group": 2,
+      "find_module": false
+    }
+  },
+  {
+    "name": "Regra VI - Responde com msg de confirmação e busca por novo evento.",
+    "version": "1.0",
+    "regex": "(CONFIRM_EVENT_FIND.)([\\w]*)",
+    "typeMessageListener": "CONFIRM",
+    "text": "$_EVENT_%_COD_MODULO_$_UUID_CONFIRM_",
+    "messageListener": {
+      "group": 2,
+      "find_module": true,
+      "text_not_found": "NOT_FIND_RESPONSE$_DATE_TIME_"
+    }
+  },
+  {
+    "name": "Regra VII - Responde com msg de confirmação (Não busca novo evento).",
+    "version": "1.0",
+    "regex": "(CONFIRM_EVENT.)([\\w]*)",
+    "typeMessageListener": "CONFIRM",
+    "text": "$_DATE_TIME_",
+    "messageListener": {
+      "group": 2
+    }
+  },
+  {
+    "name": "Regra VIII - ENVIA uma configuração PARA fila do management e busca por mensagem.",
+    "version": "1.4",
+    "regex": "(CONFIG_RESPONSE.)([0-9]*)",
+    "typeMessageListener": "CONFIG",
+    "text": "$_EVENT_%_COD_MODULO_$_UUID_CONFIRM_",
+    "messageListener": {
+      "group": 2,
+      "find_module": true,
+      "text_not_found": "$NOT_FOUND_MESSAGE%_COD_MODULO_$"
+    }
+  },
+  {
+    "name": "Regra IX - Envia  configuração e não busca evento",
+    "version": "1.3",
+    "regex": "(CONFIG.)([0-9]*)",
+    "typeMessageListener": "CONFIG",
+    "text": "$_DATE_TIME_%",
+    "messageListener": {
+      "group": 2
+    }
+  },
+  {
+    "name": "Regra X - Exatamente a mesma expressão regular",
+    "version": "1.3",
+    "regex": "(EXACT_CONFIG);([1-4]*)",
+    "typeMessageListener": "CONFIG",
+    "exact": true,
+    "text": "$_DATE_TIME_%EXATAMENTE A MESMA EXPRESSÃO",
+    "messageListener": {
+      "group": 2
+    }
+  }
+]

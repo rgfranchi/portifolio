@@ -1,0 +1,3592 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OperatorPage Snapshot Create 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "PUSH",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "KEY_NEW1",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          Object {
+            "hash": "",
+            "key": "KEY_NEW2",
+            "pathname": "//new",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 1,
+        "length": 2,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "KEY_NEW2",
+          "pathname": "//new",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ModalLoading>
+      <Modal
+        animation={false}
+        autoFocus={true}
+        backdrop={true}
+        centered={true}
+        dialogAs={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "ModalDialog",
+            "render": [Function],
+          }
+        }
+        enforceFocus={true}
+        keyboard={true}
+        onHide={[Function]}
+        restoreFocus={true}
+        show={true}
+        size="lg"
+      >
+        <Modal
+          autoFocus={true}
+          backdrop={true}
+          containerClassName="modal-open"
+          enforceFocus={true}
+          keyboard={true}
+          manager={
+            BootstrapModalManager {
+              "containers": Array [
+                <body
+                  class="modal-open"
+                  style="padding-right: 0px;"
+                >
+                  <div
+                    aria-hidden="true"
+                    class="modal-backdrop show"
+                  />
+                  <div
+                    aria-hidden="true"
+                    aria-modal="true"
+                    class="modal"
+                    role="dialog"
+                    style="display: block;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="modal-dialog modal-lg modal-dialog-centered"
+                      role="document"
+                    >
+                      <div
+                        class="modal-content"
+                      >
+                        <div
+                          class="d-flex justify-content-center"
+                        >
+                          <div
+                            class="m-5 spinner-border text-info"
+                            role="status"
+                            style="width: 5rem; height: 5rem;"
+                          >
+                            <span
+                              class="sr-only"
+                            >
+                              Loading....
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="fade alert alert-info show"
+                          role="alert"
+                        >
+                          Carregando Empresas ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="modal-backdrop show"
+                  />
+                  <div
+                    aria-modal="true"
+                    class="modal"
+                    role="dialog"
+                    style="display: block;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="modal-dialog modal-lg modal-dialog-centered"
+                      role="document"
+                    >
+                      <div
+                        class="modal-content"
+                      >
+                        <div
+                          class="d-flex justify-content-center"
+                        >
+                          <div
+                            class="m-5 spinner-border text-info"
+                            role="status"
+                            style="width: 5rem; height: 5rem;"
+                          >
+                            <span
+                              class="sr-only"
+                            >
+                              Loading....
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="fade alert alert-info show"
+                          role="alert"
+                        >
+                          Carregando Empresas ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </body>,
+              ],
+              "data": Array [
+                Object {
+                  "classes": Array [
+                    "modal-open",
+                  ],
+                  "modals": Array [
+                    Object {
+                      "add": [Function],
+                      "backdrop": <div
+                        aria-hidden="true"
+                        class="modal-backdrop show"
+                      />,
+                      "dialog": <div
+                        aria-hidden="true"
+                        aria-modal="true"
+                        class="modal"
+                        role="dialog"
+                        style="display: block;"
+                        tabindex="-1"
+                      >
+                        <div
+                          class="modal-dialog modal-lg modal-dialog-centered"
+                          role="document"
+                        >
+                          <div
+                            class="modal-content"
+                          >
+                            <div
+                              class="d-flex justify-content-center"
+                            >
+                              <div
+                                class="m-5 spinner-border text-info"
+                                role="status"
+                                style="width: 5rem; height: 5rem;"
+                              >
+                                <span
+                                  class="sr-only"
+                                >
+                                  Loading....
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="fade alert alert-info show"
+                              role="alert"
+                            >
+                              Carregando Empresas ...
+                            </div>
+                          </div>
+                        </div>
+                      </div>,
+                      "isTopModal": [Function],
+                      "remove": [Function],
+                      "setBackdropRef": [Function],
+                      "setDialogRef": [Function],
+                    },
+                    Object {
+                      "add": [Function],
+                      "backdrop": <div
+                        class="modal-backdrop show"
+                      />,
+                      "dialog": <div
+                        aria-modal="true"
+                        class="modal"
+                        role="dialog"
+                        style="display: block;"
+                        tabindex="-1"
+                      >
+                        <div
+                          class="modal-dialog modal-lg modal-dialog-centered"
+                          role="document"
+                        >
+                          <div
+                            class="modal-content"
+                          >
+                            <div
+                              class="d-flex justify-content-center"
+                            >
+                              <div
+                                class="m-5 spinner-border text-info"
+                                role="status"
+                                style="width: 5rem; height: 5rem;"
+                              >
+                                <span
+                                  class="sr-only"
+                                >
+                                  Loading....
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="fade alert alert-info show"
+                              role="alert"
+                            >
+                              Carregando Empresas ...
+                            </div>
+                          </div>
+                        </div>
+                      </div>,
+                      "isTopModal": [Function],
+                      "remove": [Function],
+                      "setBackdropRef": [Function],
+                      "setDialogRef": [Function],
+                    },
+                  ],
+                  "overflowing": true,
+                  "style": Object {
+                    "overflow": "",
+                    "paddingRight": "",
+                  },
+                },
+              ],
+              "handleContainerOverflow": true,
+              "hideSiblingNodes": true,
+              "modals": Array [
+                Object {
+                  "add": [Function],
+                  "backdrop": <div
+                    aria-hidden="true"
+                    class="modal-backdrop show"
+                  />,
+                  "dialog": <div
+                    aria-hidden="true"
+                    aria-modal="true"
+                    class="modal"
+                    role="dialog"
+                    style="display: block;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="modal-dialog modal-lg modal-dialog-centered"
+                      role="document"
+                    >
+                      <div
+                        class="modal-content"
+                      >
+                        <div
+                          class="d-flex justify-content-center"
+                        >
+                          <div
+                            class="m-5 spinner-border text-info"
+                            role="status"
+                            style="width: 5rem; height: 5rem;"
+                          >
+                            <span
+                              class="sr-only"
+                            >
+                              Loading....
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="fade alert alert-info show"
+                          role="alert"
+                        >
+                          Carregando Empresas ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>,
+                  "isTopModal": [Function],
+                  "remove": [Function],
+                  "setBackdropRef": [Function],
+                  "setDialogRef": [Function],
+                },
+                Object {
+                  "add": [Function],
+                  "backdrop": <div
+                    class="modal-backdrop show"
+                  />,
+                  "dialog": <div
+                    aria-modal="true"
+                    class="modal"
+                    role="dialog"
+                    style="display: block;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="modal-dialog modal-lg modal-dialog-centered"
+                      role="document"
+                    >
+                      <div
+                        class="modal-content"
+                      >
+                        <div
+                          class="d-flex justify-content-center"
+                        >
+                          <div
+                            class="m-5 spinner-border text-info"
+                            role="status"
+                            style="width: 5rem; height: 5rem;"
+                          >
+                            <span
+                              class="sr-only"
+                            >
+                              Loading....
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="fade alert alert-info show"
+                          role="alert"
+                        >
+                          Carregando Empresas ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>,
+                  "isTopModal": [Function],
+                  "remove": [Function],
+                  "setBackdropRef": [Function],
+                  "setDialogRef": [Function],
+                },
+              ],
+              "scrollbarSize": 0,
+            }
+          }
+          onEnter={[Function]}
+          onEntering={[Function]}
+          onEscapeKeyDown={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onHide={[Function]}
+          renderBackdrop={[Function]}
+          renderDialog={[Function]}
+          restoreFocus={true}
+          show={true}
+        >
+          <Portal
+            containerInfo={
+              <body
+                class="modal-open"
+                style="padding-right: 0px;"
+              >
+                <div
+                  aria-hidden="true"
+                  class="modal-backdrop show"
+                />
+                <div
+                  aria-hidden="true"
+                  aria-modal="true"
+                  class="modal"
+                  role="dialog"
+                  style="display: block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="modal-dialog modal-lg modal-dialog-centered"
+                    role="document"
+                  >
+                    <div
+                      class="modal-content"
+                    >
+                      <div
+                        class="d-flex justify-content-center"
+                      >
+                        <div
+                          class="m-5 spinner-border text-info"
+                          role="status"
+                          style="width: 5rem; height: 5rem;"
+                        >
+                          <span
+                            class="sr-only"
+                          >
+                            Loading....
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="fade alert alert-info show"
+                        role="alert"
+                      >
+                        Carregando Empresas ...
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="modal-backdrop show"
+                />
+                <div
+                  aria-modal="true"
+                  class="modal"
+                  role="dialog"
+                  style="display: block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="modal-dialog modal-lg modal-dialog-centered"
+                    role="document"
+                  >
+                    <div
+                      class="modal-content"
+                    >
+                      <div
+                        class="d-flex justify-content-center"
+                      >
+                        <div
+                          class="m-5 spinner-border text-info"
+                          role="status"
+                          style="width: 5rem; height: 5rem;"
+                        >
+                          <span
+                            class="sr-only"
+                          >
+                            Loading....
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="fade alert alert-info show"
+                        role="alert"
+                      >
+                        Carregando Empresas ...
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </body>
+            }
+          >
+            <div
+              className="modal-backdrop show"
+              onClick={[Function]}
+            />
+            <div
+              aria-modal={true}
+              className="modal"
+              onClick={[Function]}
+              onMouseUp={[Function]}
+              role="dialog"
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+              tabIndex={-1}
+            >
+              <ModalDialog
+                centered={true}
+                onMouseDown={[Function]}
+                role="document"
+                size="lg"
+              >
+                <div
+                  className="modal-dialog modal-lg modal-dialog-centered"
+                  onMouseDown={[Function]}
+                  role="document"
+                >
+                  <div
+                    className="modal-content"
+                  >
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <Spinner
+                        animation="border"
+                        className="m-5"
+                        role="status"
+                        style={
+                          Object {
+                            "height": "5rem",
+                            "width": "5rem",
+                          }
+                        }
+                        variant="info"
+                      >
+                        <div
+                          className="m-5 spinner-border text-info"
+                          role="status"
+                          style={
+                            Object {
+                              "height": "5rem",
+                              "width": "5rem",
+                            }
+                          }
+                        >
+                          <span
+                            className="sr-only"
+                          >
+                            Loading....
+                          </span>
+                        </div>
+                      </Spinner>
+                    </div>
+                    <Alert
+                      closeLabel="Close alert"
+                      show={true}
+                      transition={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "defaultProps": Object {
+                            "appear": false,
+                            "in": false,
+                            "mountOnEnter": false,
+                            "timeout": 300,
+                            "unmountOnExit": false,
+                          },
+                          "displayName": "Fade",
+                          "render": [Function],
+                        }
+                      }
+                      variant="info"
+                    >
+                      <Fade
+                        appear={false}
+                        in={true}
+                        mountOnEnter={false}
+                        timeout={300}
+                        unmountOnExit={true}
+                      >
+                        <Transition
+                          addEndListener={[Function]}
+                          appear={false}
+                          enter={true}
+                          exit={true}
+                          in={true}
+                          mountOnEnter={false}
+                          onEnter={[Function]}
+                          onEntered={[Function]}
+                          onEntering={[Function]}
+                          onExit={[Function]}
+                          onExited={[Function]}
+                          onExiting={[Function]}
+                          timeout={300}
+                          unmountOnExit={true}
+                        >
+                          <div
+                            className="fade alert alert-info show"
+                            role="alert"
+                          >
+                            Carregando Empresas ...
+                          </div>
+                        </Transition>
+                      </Fade>
+                    </Alert>
+                  </div>
+                </div>
+              </ModalDialog>
+            </div>
+          </Portal>
+        </Modal>
+      </Modal>
+    </ModalLoading>
+    <OperatorPage
+      access={
+        Object {
+          "create": Object {
+            "path": "/new",
+          },
+          "delete": Object {},
+          "update": Object {},
+        }
+      }
+    >
+      <Switch>
+        <Route
+          computedMatch={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "//new",
+              "url": "//new",
+            }
+          }
+          exact={true}
+          location={
+            Object {
+              "hash": "",
+              "key": "KEY_NEW2",
+              "pathname": "//new",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          path="//new"
+        >
+          <TitleComponent
+            description="Criar novo operador."
+            title="Cadastrar Operador"
+          >
+            <Alert
+              closeLabel="Close alert"
+              show={true}
+              transition={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": Object {
+                    "appear": false,
+                    "in": false,
+                    "mountOnEnter": false,
+                    "timeout": 300,
+                    "unmountOnExit": false,
+                  },
+                  "displayName": "Fade",
+                  "render": [Function],
+                }
+              }
+              variant="primary"
+            >
+              <Fade
+                appear={false}
+                in={true}
+                mountOnEnter={false}
+                timeout={300}
+                unmountOnExit={true}
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  enter={true}
+                  exit={true}
+                  in={true}
+                  mountOnEnter={false}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={300}
+                  unmountOnExit={true}
+                >
+                  <div
+                    className="fade alert alert-primary show"
+                    role="alert"
+                  >
+                    <Row
+                      className="justify-content-md-center"
+                      noGutters={false}
+                    >
+                      <div
+                        className="justify-content-md-center row"
+                      >
+                        <Col
+                          lg="10"
+                        >
+                          <div
+                            className="col-lg-10"
+                          >
+                            <AlertHeading>
+                              <DivStyledAsH4
+                                className="alert-heading"
+                              >
+                                <div
+                                  className="alert-heading h4"
+                                >
+                                  Cadastrar Operador
+                                </div>
+                              </DivStyledAsH4>
+                            </AlertHeading>
+                            Criar novo operador.
+                          </div>
+                        </Col>
+                        <Col
+                          className="text-center"
+                          md="2"
+                        >
+                          <div
+                            className="text-center col-md-2"
+                          />
+                        </Col>
+                      </div>
+                    </Row>
+                  </div>
+                </Transition>
+              </Fade>
+            </Alert>
+            <AlertList>
+              <Alert
+                closeLabel="Close alert"
+                dismissible={true}
+                hidden={true}
+                onClose={[Function]}
+                show={true}
+                transition={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "appear": false,
+                      "in": false,
+                      "mountOnEnter": false,
+                      "timeout": 300,
+                      "unmountOnExit": false,
+                    },
+                    "displayName": "Fade",
+                    "render": [Function],
+                  }
+                }
+                variant="primary"
+              >
+                <Fade
+                  appear={false}
+                  hidden={true}
+                  in={true}
+                  mountOnEnter={false}
+                  timeout={300}
+                  unmountOnExit={true}
+                >
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    enter={true}
+                    exit={true}
+                    hidden={true}
+                    in={true}
+                    mountOnEnter={false}
+                    onEnter={[Function]}
+                    onEntered={[Function]}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    timeout={300}
+                    unmountOnExit={true}
+                  >
+                    <div
+                      className="fade alert alert-primary alert-dismissible show"
+                      hidden={true}
+                      role="alert"
+                    >
+                      <CloseButton
+                        label="Close alert"
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="close"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <span
+                            aria-hidden="true"
+                          >
+                            ×
+                          </span>
+                          <span
+                            className="sr-only"
+                          >
+                            Close alert
+                          </span>
+                        </button>
+                      </CloseButton>
+                      <StringArrayToList
+                        stringArray={
+                          Array [
+                            "null",
+                          ]
+                        }
+                      >
+                        <ul>
+                          <li
+                            key="0"
+                          >
+                            null
+                          </li>
+                        </ul>
+                      </StringArrayToList>
+                    </div>
+                  </Transition>
+                </Fade>
+              </Alert>
+            </AlertList>
+          </TitleComponent>
+          <CreateForm>
+            <OperatorForm
+              initValues={
+                Object {
+                  "acessoDataFinal": "2021-01-11",
+                  "acessoDataInicial": "2021-01-11",
+                  "codOperador": "",
+                  "companyId": 0,
+                  "digital": "",
+                  "email": "",
+                  "funcao": "",
+                  "id": 0,
+                  "nome": "",
+                  "observacao": "",
+                  "rfid": "",
+                  "senha": "",
+                  "sexo": "",
+                }
+              }
+              submitForm={[Function]}
+            >
+              <Formik
+                enableReinitialize={true}
+                initialValues={
+                  Object {
+                    "acessoDataFinal": "2021-01-11",
+                    "acessoDataInicial": "2021-01-11",
+                    "codOperador": "",
+                    "companyId": 0,
+                    "digital": "",
+                    "email": "",
+                    "funcao": "",
+                    "id": 0,
+                    "nome": "",
+                    "observacao": "",
+                    "rfid": "",
+                    "senha": "",
+                    "sexo": "",
+                  }
+                }
+                onSubmit={[Function]}
+                validationSchema={
+                  ObjectSchema {
+                    "_blacklist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_conditions": Array [],
+                    "_defaultDefault": [Function],
+                    "_deps": Array [],
+                    "_excludedEdges": Array [],
+                    "_exclusive": Object {},
+                    "_mutate": undefined,
+                    "_nodes": Array [
+                      "email",
+                      "acessoDataFinal",
+                      "acessoDataInicial",
+                      "sexo",
+                      "funcao",
+                      "codOperador",
+                      "nome",
+                    ],
+                    "_options": Object {
+                      "abortEarly": true,
+                      "recursive": true,
+                    },
+                    "_type": "object",
+                    "_typeError": [Function],
+                    "_whitelist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "fields": Object {
+                      "acessoDataFinal": DateSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "min": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "date",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "date",
+                      },
+                      "acessoDataInicial": DateSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "max": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "date",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "date",
+                      },
+                      "codOperador": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "email": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "email": false,
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_nullable": true,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "funcao": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "nome": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "min": true,
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "sexo": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                    },
+                    "tests": Array [],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                    "type": "object",
+                  }
+                }
+              >
+                <Form
+                  inline={false}
+                  onSubmit={[Function]}
+                >
+                  <form
+                    className=""
+                    onSubmit={[Function]}
+                  >
+                    <FormRow>
+                      <div
+                        className="form-row"
+                      >
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlNome"
+                          md="7"
+                        >
+                          <Col
+                            className="form-group"
+                            md="7"
+                          >
+                            <div
+                              className="form-group col-md-7"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlNome"
+                                >
+                                  Nome
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="nome"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="Nome do Operador"
+                                type="text"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlNome"
+                                  name="nome"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="Nome do Operador"
+                                  type="text"
+                                  value=""
+                                />
+                              </FormControl>
+                              <Feedback
+                                type="invalid"
+                              >
+                                <div
+                                  className="invalid-feedback"
+                                />
+                              </Feedback>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlCodOperador"
+                        >
+                          <Col
+                            className="form-group"
+                          >
+                            <div
+                              className="form-group col"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlCodOperador"
+                                >
+                                  Código
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="codOperador"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="Código do operador"
+                                type="text"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlCodOperador"
+                                  name="codOperador"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="Código do operador"
+                                  type="text"
+                                  value=""
+                                />
+                              </FormControl>
+                              <Feedback
+                                type="invalid"
+                              >
+                                <div
+                                  className="invalid-feedback"
+                                />
+                              </Feedback>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                      </div>
+                    </FormRow>
+                    <FormRow>
+                      <div
+                        className="form-row"
+                      >
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlSenha"
+                          md="4"
+                        >
+                          <Col
+                            className="form-group"
+                            md="4"
+                          >
+                            <div
+                              className="form-group col-md-4"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlSenha"
+                                >
+                                  Senha
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="senha"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="Senha Operador"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlSenha"
+                                  name="senha"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="Senha Operador"
+                                  value=""
+                                />
+                              </FormControl>
+                              <Feedback
+                                type="invalid"
+                              >
+                                <div
+                                  className="invalid-feedback"
+                                />
+                              </Feedback>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlRFID"
+                          md="4"
+                        >
+                          <Col
+                            className="form-group"
+                            md="4"
+                          >
+                            <div
+                              className="form-group col-md-4"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlRFID"
+                                >
+                                  Código RFID
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="rfid"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="Código RFID"
+                                type="text"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlRFID"
+                                  name="rfid"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="Código RFID"
+                                  type="text"
+                                  value=""
+                                />
+                              </FormControl>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlFuncao"
+                          md="4"
+                        >
+                          <Col
+                            className="form-group"
+                            md="4"
+                          >
+                            <div
+                              className="form-group col-md-4"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlFuncao"
+                                >
+                                  Função
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="funcao"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="Função Operador"
+                                type="text"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlFuncao"
+                                  name="funcao"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="Função Operador"
+                                  type="text"
+                                  value=""
+                                />
+                              </FormControl>
+                              <Feedback
+                                type="invalid"
+                              >
+                                <div
+                                  className="invalid-feedback"
+                                />
+                              </Feedback>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                      </div>
+                    </FormRow>
+                    <FormRow>
+                      <div
+                        className="form-row"
+                      >
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlAcessoDataInicial"
+                          md="3"
+                        >
+                          <Col
+                            className="form-group"
+                            md="3"
+                          >
+                            <div
+                              className="form-group col-md-3"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlAcessoDataInicial"
+                                >
+                                  Acesso Inicial
+                                </label>
+                              </FormLabel>
+                              <FormDatePicker
+                                dateFormat="dd/MM/yyyy"
+                                format="yyyy-MM-dd"
+                                formikSetFieldValue={[Function]}
+                                name="acessoDataInicial"
+                                showTimeInput={false}
+                                value="2021-01-11"
+                              >
+                                <FormControl
+                                  as={[Function]}
+                                  dateFormat="dd/MM/yyyy"
+                                  name="acessoDataInicial"
+                                  onChange={[Function]}
+                                  selected={2021-01-11T03:00:00.000Z}
+                                  showTimeInput={false}
+                                >
+                                  <a
+                                    allowSameDay={false}
+                                    className="form-control"
+                                    customTimeInput={null}
+                                    dateFormat="dd/MM/yyyy"
+                                    dateFormatCalendar="LLLL yyyy"
+                                    disabled={false}
+                                    disabledKeyboardNavigation={false}
+                                    dropdownMode="scroll"
+                                    enableTabLoop={true}
+                                    excludeScrollbar={true}
+                                    focusSelectedMonth={false}
+                                    id="ctrlAcessoDataInicial"
+                                    monthsShown={1}
+                                    name="acessoDataInicial"
+                                    nextMonthButtonLabel="Next Month"
+                                    nextYearButtonLabel="Next Year"
+                                    onBlur={[Function]}
+                                    onCalendarClose={[Function]}
+                                    onCalendarOpen={[Function]}
+                                    onChange={[Function]}
+                                    onClickOutside={[Function]}
+                                    onFocus={[Function]}
+                                    onInputClick={[Function]}
+                                    onInputError={[Function]}
+                                    onKeyDown={[Function]}
+                                    onMonthChange={[Function]}
+                                    onSelect={[Function]}
+                                    onYearChange={[Function]}
+                                    preventOpenOnFocus={false}
+                                    previousMonthButtonLabel="Previous Month"
+                                    previousYearButtonLabel="Previous Year"
+                                    readOnly={false}
+                                    renderDayContents={[Function]}
+                                    selected={2021-01-11T03:00:00.000Z}
+                                    shouldCloseOnSelect={true}
+                                    showFullMonthYearPicker={false}
+                                    showMonthYearPicker={false}
+                                    showPopperArrow={true}
+                                    showPreviousMonths={false}
+                                    showQuarterYearPicker={false}
+                                    showTimeInput={false}
+                                    showTimeSelect={false}
+                                    showTwoColumnMonthYearPicker={false}
+                                    showYearPicker={false}
+                                    strictParsing={false}
+                                    timeCaption="Time"
+                                    timeInputLabel="Time"
+                                    timeIntervals={30}
+                                    withPortal={false}
+                                    yearItemNumber={12}
+                                  >
+                                    <o
+                                      enableTabLoop={true}
+                                      hidePopper={true}
+                                      popperComponent={null}
+                                      popperModifiers={
+                                        Object {
+                                          "preventOverflow": Object {
+                                            "boundariesElement": "viewport",
+                                            "enabled": true,
+                                            "escapeWithReference": true,
+                                          },
+                                        }
+                                      }
+                                      popperOnKeyDown={[Function]}
+                                      popperPlacement="bottom-start"
+                                      popperProps={Object {}}
+                                      targetComponent={
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className="form-control"
+                                            disabled={false}
+                                            id="ctrlAcessoDataInicial"
+                                            name="acessoDataInicial"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="11/01/2021"
+                                          />
+                                        </div>
+                                      }
+                                    >
+                                      <Manager
+                                        className="react-datepicker-manager"
+                                      >
+                                        <Reference>
+                                          <InnerReference
+                                            setReferenceNode={[Function]}
+                                          >
+                                            <div
+                                              className="react-datepicker-wrapper"
+                                            >
+                                              <div
+                                                className="react-datepicker__input-container"
+                                              >
+                                                <input
+                                                  className="form-control"
+                                                  disabled={false}
+                                                  id="ctrlAcessoDataInicial"
+                                                  name="acessoDataInicial"
+                                                  onBlur={[Function]}
+                                                  onChange={[Function]}
+                                                  onClick={[Function]}
+                                                  onFocus={[Function]}
+                                                  onKeyDown={[Function]}
+                                                  readOnly={false}
+                                                  type="text"
+                                                  value="11/01/2021"
+                                                />
+                                              </div>
+                                            </div>
+                                          </InnerReference>
+                                        </Reference>
+                                      </Manager>
+                                    </o>
+                                  </a>
+                                </FormControl>
+                              </FormDatePicker>
+                              <Feedback
+                                style={
+                                  Object {
+                                    "display": "block",
+                                  }
+                                }
+                                type="invalid"
+                              >
+                                <div
+                                  className="invalid-feedback"
+                                  style={
+                                    Object {
+                                      "display": "block",
+                                    }
+                                  }
+                                />
+                              </Feedback>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlAcessoDataFinal"
+                          md="3"
+                        >
+                          <Col
+                            className="form-group"
+                            md="3"
+                          >
+                            <div
+                              className="form-group col-md-3"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlAcessoDataFinal"
+                                >
+                                  Acesso Final
+                                </label>
+                              </FormLabel>
+                              <FormDatePicker
+                                dateFormat="dd/MM/yyyy"
+                                format="yyyy-MM-dd"
+                                formikSetFieldValue={[Function]}
+                                name="acessoDataFinal"
+                                value="2021-01-11"
+                              >
+                                <FormControl
+                                  as={[Function]}
+                                  dateFormat="dd/MM/yyyy"
+                                  name="acessoDataFinal"
+                                  onChange={[Function]}
+                                  selected={2021-01-11T03:00:00.000Z}
+                                >
+                                  <a
+                                    allowSameDay={false}
+                                    className="form-control"
+                                    customTimeInput={null}
+                                    dateFormat="dd/MM/yyyy"
+                                    dateFormatCalendar="LLLL yyyy"
+                                    disabled={false}
+                                    disabledKeyboardNavigation={false}
+                                    dropdownMode="scroll"
+                                    enableTabLoop={true}
+                                    excludeScrollbar={true}
+                                    focusSelectedMonth={false}
+                                    id="ctrlAcessoDataFinal"
+                                    monthsShown={1}
+                                    name="acessoDataFinal"
+                                    nextMonthButtonLabel="Next Month"
+                                    nextYearButtonLabel="Next Year"
+                                    onBlur={[Function]}
+                                    onCalendarClose={[Function]}
+                                    onCalendarOpen={[Function]}
+                                    onChange={[Function]}
+                                    onClickOutside={[Function]}
+                                    onFocus={[Function]}
+                                    onInputClick={[Function]}
+                                    onInputError={[Function]}
+                                    onKeyDown={[Function]}
+                                    onMonthChange={[Function]}
+                                    onSelect={[Function]}
+                                    onYearChange={[Function]}
+                                    preventOpenOnFocus={false}
+                                    previousMonthButtonLabel="Previous Month"
+                                    previousYearButtonLabel="Previous Year"
+                                    readOnly={false}
+                                    renderDayContents={[Function]}
+                                    selected={2021-01-11T03:00:00.000Z}
+                                    shouldCloseOnSelect={true}
+                                    showFullMonthYearPicker={false}
+                                    showMonthYearPicker={false}
+                                    showPopperArrow={true}
+                                    showPreviousMonths={false}
+                                    showQuarterYearPicker={false}
+                                    showTimeInput={false}
+                                    showTimeSelect={false}
+                                    showTwoColumnMonthYearPicker={false}
+                                    showYearPicker={false}
+                                    strictParsing={false}
+                                    timeCaption="Time"
+                                    timeInputLabel="Time"
+                                    timeIntervals={30}
+                                    withPortal={false}
+                                    yearItemNumber={12}
+                                  >
+                                    <o
+                                      enableTabLoop={true}
+                                      hidePopper={true}
+                                      popperComponent={null}
+                                      popperModifiers={
+                                        Object {
+                                          "preventOverflow": Object {
+                                            "boundariesElement": "viewport",
+                                            "enabled": true,
+                                            "escapeWithReference": true,
+                                          },
+                                        }
+                                      }
+                                      popperOnKeyDown={[Function]}
+                                      popperPlacement="bottom-start"
+                                      popperProps={Object {}}
+                                      targetComponent={
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className="form-control"
+                                            disabled={false}
+                                            id="ctrlAcessoDataFinal"
+                                            name="acessoDataFinal"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="11/01/2021"
+                                          />
+                                        </div>
+                                      }
+                                    >
+                                      <Manager
+                                        className="react-datepicker-manager"
+                                      >
+                                        <Reference>
+                                          <InnerReference
+                                            setReferenceNode={[Function]}
+                                          >
+                                            <div
+                                              className="react-datepicker-wrapper"
+                                            >
+                                              <div
+                                                className="react-datepicker__input-container"
+                                              >
+                                                <input
+                                                  className="form-control"
+                                                  disabled={false}
+                                                  id="ctrlAcessoDataFinal"
+                                                  name="acessoDataFinal"
+                                                  onBlur={[Function]}
+                                                  onChange={[Function]}
+                                                  onClick={[Function]}
+                                                  onFocus={[Function]}
+                                                  onKeyDown={[Function]}
+                                                  readOnly={false}
+                                                  type="text"
+                                                  value="11/01/2021"
+                                                />
+                                              </div>
+                                            </div>
+                                          </InnerReference>
+                                        </Reference>
+                                      </Manager>
+                                    </o>
+                                  </a>
+                                </FormControl>
+                              </FormDatePicker>
+                              <Feedback
+                                style={
+                                  Object {
+                                    "display": "block",
+                                  }
+                                }
+                                type="invalid"
+                              >
+                                <div
+                                  className="invalid-feedback"
+                                  style={
+                                    Object {
+                                      "display": "block",
+                                    }
+                                  }
+                                />
+                              </Feedback>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlEMAIL"
+                          md="4"
+                        >
+                          <Col
+                            className="form-group"
+                            md="4"
+                          >
+                            <div
+                              className="form-group col-md-4"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlEMAIL"
+                                >
+                                  E-mail
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="email"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="email@email.com"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlEMAIL"
+                                  name="email"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="email@email.com"
+                                  value=""
+                                />
+                              </FormControl>
+                              <Feedback
+                                type="invalid"
+                              >
+                                <div
+                                  className="invalid-feedback"
+                                />
+                              </Feedback>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlSexo"
+                          md="2"
+                        >
+                          <Col
+                            className="form-group"
+                            md="2"
+                          >
+                            <div
+                              className="form-group col-md-2"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlSexo"
+                                >
+                                  Sexo
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                as="select"
+                                name="sexo"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                value=""
+                              >
+                                <select
+                                  className="form-control"
+                                  id="ctrlSexo"
+                                  name="sexo"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  value=""
+                                >
+                                  <option
+                                    value=""
+                                  >
+                                    Selecione ... 
+                                  </option>
+                                  <option
+                                    value="Masculino"
+                                  >
+                                    Masculino
+                                  </option>
+                                  <option
+                                    value="Feminino"
+                                  >
+                                    Feminino
+                                  </option>
+                                </select>
+                              </FormControl>
+                              <Feedback
+                                type="invalid"
+                              >
+                                <div
+                                  className="invalid-feedback"
+                                />
+                              </Feedback>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                      </div>
+                    </FormRow>
+                    <FormGroup
+                      controlId="ctrlObservacao"
+                    >
+                      <div
+                        className="form-group"
+                      >
+                        <FormLabel
+                          column={false}
+                          srOnly={false}
+                        >
+                          <label
+                            className="form-label"
+                            htmlFor="ctrlObservacao"
+                          >
+                            Observações
+                          </label>
+                        </FormLabel>
+                        <FormControl
+                          as="textarea"
+                          name="observacao"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          placeholder="Informações sobre o operador .... "
+                          rows={4}
+                          value=""
+                        >
+                          <textarea
+                            className="form-control"
+                            id="ctrlObservacao"
+                            name="observacao"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            placeholder="Informações sobre o operador .... "
+                            rows={4}
+                            value=""
+                          />
+                        </FormControl>
+                      </div>
+                    </FormGroup>
+                    <Button
+                      active={false}
+                      disabled={false}
+                      type="submit"
+                      variant="primary"
+                    >
+                      <button
+                        className="btn btn-primary"
+                        disabled={false}
+                        type="submit"
+                      >
+                        Salvar
+                      </button>
+                    </Button>
+                  </form>
+                </Form>
+              </Formik>
+            </OperatorForm>
+          </CreateForm>
+        </Route>
+      </Switch>
+    </OperatorPage>
+  </Router>
+</Provider>
+`;
+
+exports[`OperatorPage Snapshot List 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "KEY_LIST1",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "KEY_LIST1",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ModalLoading>
+      <Modal
+        animation={false}
+        autoFocus={true}
+        backdrop={true}
+        centered={true}
+        dialogAs={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "ModalDialog",
+            "render": [Function],
+          }
+        }
+        enforceFocus={true}
+        keyboard={true}
+        onHide={[Function]}
+        restoreFocus={true}
+        show={false}
+        size="lg"
+      >
+        <Modal
+          autoFocus={true}
+          backdrop={true}
+          containerClassName="modal-open"
+          enforceFocus={true}
+          keyboard={true}
+          manager={
+            BootstrapModalManager {
+              "containers": Array [
+                <body
+                  class="modal-open"
+                  style="padding-right: 0px;"
+                >
+                  <div
+                    class="modal-backdrop show"
+                  />
+                  <div
+                    aria-modal="true"
+                    class="modal"
+                    role="dialog"
+                    style="display: block;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="modal-dialog modal-lg modal-dialog-centered"
+                      role="document"
+                    >
+                      <div
+                        class="modal-content"
+                      >
+                        <div
+                          class="d-flex justify-content-center"
+                        >
+                          <div
+                            class="m-5 spinner-border text-info"
+                            role="status"
+                            style="width: 5rem; height: 5rem;"
+                          >
+                            <span
+                              class="sr-only"
+                            >
+                              Loading....
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="fade alert alert-info show"
+                          role="alert"
+                        >
+                          Carregando Empresas ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </body>,
+              ],
+              "data": Array [
+                Object {
+                  "classes": Array [
+                    "modal-open",
+                  ],
+                  "modals": Array [
+                    Object {
+                      "add": [Function],
+                      "backdrop": <div
+                        class="modal-backdrop show"
+                      />,
+                      "dialog": <div
+                        aria-modal="true"
+                        class="modal"
+                        role="dialog"
+                        style="display: block;"
+                        tabindex="-1"
+                      >
+                        <div
+                          class="modal-dialog modal-lg modal-dialog-centered"
+                          role="document"
+                        >
+                          <div
+                            class="modal-content"
+                          >
+                            <div
+                              class="d-flex justify-content-center"
+                            >
+                              <div
+                                class="m-5 spinner-border text-info"
+                                role="status"
+                                style="width: 5rem; height: 5rem;"
+                              >
+                                <span
+                                  class="sr-only"
+                                >
+                                  Loading....
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="fade alert alert-info show"
+                              role="alert"
+                            >
+                              Carregando Empresas ...
+                            </div>
+                          </div>
+                        </div>
+                      </div>,
+                      "isTopModal": [Function],
+                      "remove": [Function],
+                      "setBackdropRef": [Function],
+                      "setDialogRef": [Function],
+                    },
+                  ],
+                  "overflowing": true,
+                  "style": Object {
+                    "overflow": "",
+                    "paddingRight": "",
+                  },
+                },
+              ],
+              "handleContainerOverflow": true,
+              "hideSiblingNodes": true,
+              "modals": Array [
+                Object {
+                  "add": [Function],
+                  "backdrop": <div
+                    class="modal-backdrop show"
+                  />,
+                  "dialog": <div
+                    aria-modal="true"
+                    class="modal"
+                    role="dialog"
+                    style="display: block;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="modal-dialog modal-lg modal-dialog-centered"
+                      role="document"
+                    >
+                      <div
+                        class="modal-content"
+                      >
+                        <div
+                          class="d-flex justify-content-center"
+                        >
+                          <div
+                            class="m-5 spinner-border text-info"
+                            role="status"
+                            style="width: 5rem; height: 5rem;"
+                          >
+                            <span
+                              class="sr-only"
+                            >
+                              Loading....
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="fade alert alert-info show"
+                          role="alert"
+                        >
+                          Carregando Empresas ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>,
+                  "isTopModal": [Function],
+                  "remove": [Function],
+                  "setBackdropRef": [Function],
+                  "setDialogRef": [Function],
+                },
+              ],
+              "scrollbarSize": 0,
+            }
+          }
+          onEnter={[Function]}
+          onEntering={[Function]}
+          onEscapeKeyDown={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onHide={[Function]}
+          renderBackdrop={[Function]}
+          renderDialog={[Function]}
+          restoreFocus={true}
+          show={false}
+        />
+      </Modal>
+    </ModalLoading>
+    <OperatorPage
+      access={
+        Object {
+          "create": Object {
+            "path": "/new",
+          },
+          "delete": Object {},
+          "update": Object {},
+        }
+      }
+    >
+      <Switch>
+        <Route
+          computedMatch={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+          exact={true}
+          location={
+            Object {
+              "hash": "",
+              "key": "KEY_LIST1",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          path="/"
+        >
+          <TitleComponent
+            actions={
+              <ButtonCreate
+                linkTo="//new"
+              />
+            }
+            description="Operadores castrados no sistema"
+            title="Operador"
+          >
+            <Alert
+              closeLabel="Close alert"
+              show={true}
+              transition={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": Object {
+                    "appear": false,
+                    "in": false,
+                    "mountOnEnter": false,
+                    "timeout": 300,
+                    "unmountOnExit": false,
+                  },
+                  "displayName": "Fade",
+                  "render": [Function],
+                }
+              }
+              variant="primary"
+            >
+              <Fade
+                appear={false}
+                in={true}
+                mountOnEnter={false}
+                timeout={300}
+                unmountOnExit={true}
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  enter={true}
+                  exit={true}
+                  in={true}
+                  mountOnEnter={false}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={300}
+                  unmountOnExit={true}
+                >
+                  <div
+                    className="fade alert alert-primary show"
+                    role="alert"
+                  >
+                    <Row
+                      className="justify-content-md-center"
+                      noGutters={false}
+                    >
+                      <div
+                        className="justify-content-md-center row"
+                      >
+                        <Col
+                          lg="10"
+                        >
+                          <div
+                            className="col-lg-10"
+                          >
+                            <AlertHeading>
+                              <DivStyledAsH4
+                                className="alert-heading"
+                              >
+                                <div
+                                  className="alert-heading h4"
+                                >
+                                  Operador
+                                </div>
+                              </DivStyledAsH4>
+                            </AlertHeading>
+                            Operadores castrados no sistema
+                          </div>
+                        </Col>
+                        <Col
+                          className="text-center"
+                          md="2"
+                        >
+                          <div
+                            className="text-center col-md-2"
+                          >
+                            <ButtonCreate
+                              linkTo="//new"
+                            >
+                              <Button
+                                active={false}
+                                as={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "displayName": "Link",
+                                    "propTypes": Object {
+                                      "innerRef": [Function],
+                                      "onClick": [Function],
+                                      "replace": [Function],
+                                      "target": [Function],
+                                      "to": [Function],
+                                    },
+                                    "render": [Function],
+                                  }
+                                }
+                                disabled={false}
+                                to="//new"
+                                variant="outline-primary"
+                              >
+                                <Link
+                                  className="btn btn-outline-primary"
+                                  disabled={false}
+                                  to="//new"
+                                >
+                                  <LinkAnchor
+                                    className="btn btn-outline-primary"
+                                    disabled={false}
+                                    href="//new"
+                                    navigate={[Function]}
+                                  >
+                                    <a
+                                      className="btn btn-outline-primary"
+                                      disabled={false}
+                                      href="//new"
+                                      onClick={[Function]}
+                                    >
+                                      Cadastrar
+                                    </a>
+                                  </LinkAnchor>
+                                </Link>
+                              </Button>
+                            </ButtonCreate>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                  </div>
+                </Transition>
+              </Fade>
+            </Alert>
+            <AlertList>
+              <Alert
+                closeLabel="Close alert"
+                dismissible={true}
+                hidden={true}
+                onClose={[Function]}
+                show={true}
+                transition={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "appear": false,
+                      "in": false,
+                      "mountOnEnter": false,
+                      "timeout": 300,
+                      "unmountOnExit": false,
+                    },
+                    "displayName": "Fade",
+                    "render": [Function],
+                  }
+                }
+                variant="primary"
+              >
+                <Fade
+                  appear={false}
+                  hidden={true}
+                  in={true}
+                  mountOnEnter={false}
+                  timeout={300}
+                  unmountOnExit={true}
+                >
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    enter={true}
+                    exit={true}
+                    hidden={true}
+                    in={true}
+                    mountOnEnter={false}
+                    onEnter={[Function]}
+                    onEntered={[Function]}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    timeout={300}
+                    unmountOnExit={true}
+                  >
+                    <div
+                      className="fade alert alert-primary alert-dismissible show"
+                      hidden={true}
+                      role="alert"
+                    >
+                      <CloseButton
+                        label="Close alert"
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="close"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <span
+                            aria-hidden="true"
+                          >
+                            ×
+                          </span>
+                          <span
+                            className="sr-only"
+                          >
+                            Close alert
+                          </span>
+                        </button>
+                      </CloseButton>
+                      <StringArrayToList
+                        stringArray={
+                          Array [
+                            "null",
+                          ]
+                        }
+                      >
+                        <ul>
+                          <li
+                            key="0"
+                          >
+                            null
+                          </li>
+                        </ul>
+                      </StringArrayToList>
+                    </div>
+                  </Transition>
+                </Fade>
+              </Alert>
+            </AlertList>
+          </TitleComponent>
+          <List
+            access={
+              Object {
+                "create": Object {
+                  "path": "/new",
+                },
+                "delete": Object {},
+                "update": Object {},
+              }
+            }
+            baseUrl="/"
+          >
+            <PageLoadingComponent
+              pageName="Lista Operadores"
+            >
+              <div>
+                <h3>
+                  Lista Operadores Loading....
+                </h3>
+              </div>
+            </PageLoadingComponent>
+          </List>
+        </Route>
+      </Switch>
+    </OperatorPage>
+  </Router>
+</Provider>
+`;
+
+exports[`OperatorPage Snapshot Update 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "PUSH",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "KEY_UPDATE1",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          Object {
+            "hash": "",
+            "key": "KEY_UPDATE2",
+            "pathname": "//update/2",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 1,
+        "length": 2,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "KEY_UPDATE2",
+          "pathname": "//update/2",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ModalLoading>
+      <Modal
+        animation={false}
+        autoFocus={true}
+        backdrop={true}
+        centered={true}
+        dialogAs={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "ModalDialog",
+            "render": [Function],
+          }
+        }
+        enforceFocus={true}
+        keyboard={true}
+        onHide={[Function]}
+        restoreFocus={true}
+        show={true}
+        size="lg"
+      >
+        <Modal
+          autoFocus={true}
+          backdrop={true}
+          containerClassName="modal-open"
+          enforceFocus={true}
+          keyboard={true}
+          manager={
+            BootstrapModalManager {
+              "containers": Array [
+                <body
+                  class="modal-open"
+                  style="padding-right: 0px;"
+                >
+                  <div
+                    aria-hidden="true"
+                    class="modal-backdrop show"
+                  />
+                  <div
+                    aria-hidden="true"
+                    aria-modal="true"
+                    class="modal"
+                    role="dialog"
+                    style="display: block;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="modal-dialog modal-lg modal-dialog-centered"
+                      role="document"
+                    >
+                      <div
+                        class="modal-content"
+                      >
+                        <div
+                          class="d-flex justify-content-center"
+                        >
+                          <div
+                            class="m-5 spinner-border text-info"
+                            role="status"
+                            style="width: 5rem; height: 5rem;"
+                          >
+                            <span
+                              class="sr-only"
+                            >
+                              Loading....
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="fade alert alert-info show"
+                          role="alert"
+                        >
+                          Carregando Empresa ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="modal-backdrop show"
+                  />
+                  <div
+                    aria-hidden="true"
+                    aria-modal="true"
+                    class="modal"
+                    role="dialog"
+                    style="display: block;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="modal-dialog modal-lg modal-dialog-centered"
+                      role="document"
+                    >
+                      <div
+                        class="modal-content"
+                      >
+                        <div
+                          class="d-flex justify-content-center"
+                        >
+                          <div
+                            class="m-5 spinner-border text-info"
+                            role="status"
+                            style="width: 5rem; height: 5rem;"
+                          >
+                            <span
+                              class="sr-only"
+                            >
+                              Loading....
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="fade alert alert-info show"
+                          role="alert"
+                        >
+                          Carregando Empresa ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="modal-backdrop show"
+                  />
+                  <div
+                    aria-modal="true"
+                    class="modal"
+                    role="dialog"
+                    style="display: block;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="modal-dialog modal-lg modal-dialog-centered"
+                      role="document"
+                    >
+                      <div
+                        class="modal-content"
+                      >
+                        <div
+                          class="d-flex justify-content-center"
+                        >
+                          <div
+                            class="m-5 spinner-border text-info"
+                            role="status"
+                            style="width: 5rem; height: 5rem;"
+                          >
+                            <span
+                              class="sr-only"
+                            >
+                              Loading....
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="fade alert alert-info show"
+                          role="alert"
+                        >
+                          Carregando Empresa ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </body>,
+              ],
+              "data": Array [
+                Object {
+                  "classes": Array [
+                    "modal-open",
+                  ],
+                  "modals": Array [
+                    Object {
+                      "add": [Function],
+                      "backdrop": <div
+                        aria-hidden="true"
+                        class="modal-backdrop show"
+                      />,
+                      "dialog": <div
+                        aria-hidden="true"
+                        aria-modal="true"
+                        class="modal"
+                        role="dialog"
+                        style="display: block;"
+                        tabindex="-1"
+                      >
+                        <div
+                          class="modal-dialog modal-lg modal-dialog-centered"
+                          role="document"
+                        >
+                          <div
+                            class="modal-content"
+                          >
+                            <div
+                              class="d-flex justify-content-center"
+                            >
+                              <div
+                                class="m-5 spinner-border text-info"
+                                role="status"
+                                style="width: 5rem; height: 5rem;"
+                              >
+                                <span
+                                  class="sr-only"
+                                >
+                                  Loading....
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="fade alert alert-info show"
+                              role="alert"
+                            >
+                              Carregando Empresa ...
+                            </div>
+                          </div>
+                        </div>
+                      </div>,
+                      "isTopModal": [Function],
+                      "remove": [Function],
+                      "setBackdropRef": [Function],
+                      "setDialogRef": [Function],
+                    },
+                    Object {
+                      "add": [Function],
+                      "backdrop": <div
+                        aria-hidden="true"
+                        class="modal-backdrop show"
+                      />,
+                      "dialog": <div
+                        aria-hidden="true"
+                        aria-modal="true"
+                        class="modal"
+                        role="dialog"
+                        style="display: block;"
+                        tabindex="-1"
+                      >
+                        <div
+                          class="modal-dialog modal-lg modal-dialog-centered"
+                          role="document"
+                        >
+                          <div
+                            class="modal-content"
+                          >
+                            <div
+                              class="d-flex justify-content-center"
+                            >
+                              <div
+                                class="m-5 spinner-border text-info"
+                                role="status"
+                                style="width: 5rem; height: 5rem;"
+                              >
+                                <span
+                                  class="sr-only"
+                                >
+                                  Loading....
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="fade alert alert-info show"
+                              role="alert"
+                            >
+                              Carregando Empresa ...
+                            </div>
+                          </div>
+                        </div>
+                      </div>,
+                      "isTopModal": [Function],
+                      "remove": [Function],
+                      "setBackdropRef": [Function],
+                      "setDialogRef": [Function],
+                    },
+                    Object {
+                      "add": [Function],
+                      "backdrop": <div
+                        class="modal-backdrop show"
+                      />,
+                      "dialog": <div
+                        aria-modal="true"
+                        class="modal"
+                        role="dialog"
+                        style="display: block;"
+                        tabindex="-1"
+                      >
+                        <div
+                          class="modal-dialog modal-lg modal-dialog-centered"
+                          role="document"
+                        >
+                          <div
+                            class="modal-content"
+                          >
+                            <div
+                              class="d-flex justify-content-center"
+                            >
+                              <div
+                                class="m-5 spinner-border text-info"
+                                role="status"
+                                style="width: 5rem; height: 5rem;"
+                              >
+                                <span
+                                  class="sr-only"
+                                >
+                                  Loading....
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class="fade alert alert-info show"
+                              role="alert"
+                            >
+                              Carregando Empresa ...
+                            </div>
+                          </div>
+                        </div>
+                      </div>,
+                      "isTopModal": [Function],
+                      "remove": [Function],
+                      "setBackdropRef": [Function],
+                      "setDialogRef": [Function],
+                    },
+                  ],
+                  "overflowing": true,
+                  "style": Object {
+                    "overflow": "",
+                    "paddingRight": "",
+                  },
+                },
+              ],
+              "handleContainerOverflow": true,
+              "hideSiblingNodes": true,
+              "modals": Array [
+                Object {
+                  "add": [Function],
+                  "backdrop": <div
+                    aria-hidden="true"
+                    class="modal-backdrop show"
+                  />,
+                  "dialog": <div
+                    aria-hidden="true"
+                    aria-modal="true"
+                    class="modal"
+                    role="dialog"
+                    style="display: block;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="modal-dialog modal-lg modal-dialog-centered"
+                      role="document"
+                    >
+                      <div
+                        class="modal-content"
+                      >
+                        <div
+                          class="d-flex justify-content-center"
+                        >
+                          <div
+                            class="m-5 spinner-border text-info"
+                            role="status"
+                            style="width: 5rem; height: 5rem;"
+                          >
+                            <span
+                              class="sr-only"
+                            >
+                              Loading....
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="fade alert alert-info show"
+                          role="alert"
+                        >
+                          Carregando Empresa ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>,
+                  "isTopModal": [Function],
+                  "remove": [Function],
+                  "setBackdropRef": [Function],
+                  "setDialogRef": [Function],
+                },
+                Object {
+                  "add": [Function],
+                  "backdrop": <div
+                    aria-hidden="true"
+                    class="modal-backdrop show"
+                  />,
+                  "dialog": <div
+                    aria-hidden="true"
+                    aria-modal="true"
+                    class="modal"
+                    role="dialog"
+                    style="display: block;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="modal-dialog modal-lg modal-dialog-centered"
+                      role="document"
+                    >
+                      <div
+                        class="modal-content"
+                      >
+                        <div
+                          class="d-flex justify-content-center"
+                        >
+                          <div
+                            class="m-5 spinner-border text-info"
+                            role="status"
+                            style="width: 5rem; height: 5rem;"
+                          >
+                            <span
+                              class="sr-only"
+                            >
+                              Loading....
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="fade alert alert-info show"
+                          role="alert"
+                        >
+                          Carregando Empresa ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>,
+                  "isTopModal": [Function],
+                  "remove": [Function],
+                  "setBackdropRef": [Function],
+                  "setDialogRef": [Function],
+                },
+                Object {
+                  "add": [Function],
+                  "backdrop": <div
+                    class="modal-backdrop show"
+                  />,
+                  "dialog": <div
+                    aria-modal="true"
+                    class="modal"
+                    role="dialog"
+                    style="display: block;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="modal-dialog modal-lg modal-dialog-centered"
+                      role="document"
+                    >
+                      <div
+                        class="modal-content"
+                      >
+                        <div
+                          class="d-flex justify-content-center"
+                        >
+                          <div
+                            class="m-5 spinner-border text-info"
+                            role="status"
+                            style="width: 5rem; height: 5rem;"
+                          >
+                            <span
+                              class="sr-only"
+                            >
+                              Loading....
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="fade alert alert-info show"
+                          role="alert"
+                        >
+                          Carregando Empresa ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>,
+                  "isTopModal": [Function],
+                  "remove": [Function],
+                  "setBackdropRef": [Function],
+                  "setDialogRef": [Function],
+                },
+              ],
+              "scrollbarSize": 0,
+            }
+          }
+          onEnter={[Function]}
+          onEntering={[Function]}
+          onEscapeKeyDown={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onHide={[Function]}
+          renderBackdrop={[Function]}
+          renderDialog={[Function]}
+          restoreFocus={true}
+          show={true}
+        >
+          <Portal
+            containerInfo={
+              <body
+                class="modal-open"
+                style="padding-right: 0px;"
+              >
+                <div
+                  aria-hidden="true"
+                  class="modal-backdrop show"
+                />
+                <div
+                  aria-hidden="true"
+                  aria-modal="true"
+                  class="modal"
+                  role="dialog"
+                  style="display: block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="modal-dialog modal-lg modal-dialog-centered"
+                    role="document"
+                  >
+                    <div
+                      class="modal-content"
+                    >
+                      <div
+                        class="d-flex justify-content-center"
+                      >
+                        <div
+                          class="m-5 spinner-border text-info"
+                          role="status"
+                          style="width: 5rem; height: 5rem;"
+                        >
+                          <span
+                            class="sr-only"
+                          >
+                            Loading....
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="fade alert alert-info show"
+                        role="alert"
+                      >
+                        Carregando Empresa ...
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="modal-backdrop show"
+                />
+                <div
+                  aria-hidden="true"
+                  aria-modal="true"
+                  class="modal"
+                  role="dialog"
+                  style="display: block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="modal-dialog modal-lg modal-dialog-centered"
+                    role="document"
+                  >
+                    <div
+                      class="modal-content"
+                    >
+                      <div
+                        class="d-flex justify-content-center"
+                      >
+                        <div
+                          class="m-5 spinner-border text-info"
+                          role="status"
+                          style="width: 5rem; height: 5rem;"
+                        >
+                          <span
+                            class="sr-only"
+                          >
+                            Loading....
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="fade alert alert-info show"
+                        role="alert"
+                      >
+                        Carregando Empresa ...
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="modal-backdrop show"
+                />
+                <div
+                  aria-modal="true"
+                  class="modal"
+                  role="dialog"
+                  style="display: block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="modal-dialog modal-lg modal-dialog-centered"
+                    role="document"
+                  >
+                    <div
+                      class="modal-content"
+                    >
+                      <div
+                        class="d-flex justify-content-center"
+                      >
+                        <div
+                          class="m-5 spinner-border text-info"
+                          role="status"
+                          style="width: 5rem; height: 5rem;"
+                        >
+                          <span
+                            class="sr-only"
+                          >
+                            Loading....
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="fade alert alert-info show"
+                        role="alert"
+                      >
+                        Carregando Empresa ...
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </body>
+            }
+          >
+            <div
+              className="modal-backdrop show"
+              onClick={[Function]}
+            />
+            <div
+              aria-modal={true}
+              className="modal"
+              onClick={[Function]}
+              onMouseUp={[Function]}
+              role="dialog"
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+              tabIndex={-1}
+            >
+              <ModalDialog
+                centered={true}
+                onMouseDown={[Function]}
+                role="document"
+                size="lg"
+              >
+                <div
+                  className="modal-dialog modal-lg modal-dialog-centered"
+                  onMouseDown={[Function]}
+                  role="document"
+                >
+                  <div
+                    className="modal-content"
+                  >
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <Spinner
+                        animation="border"
+                        className="m-5"
+                        role="status"
+                        style={
+                          Object {
+                            "height": "5rem",
+                            "width": "5rem",
+                          }
+                        }
+                        variant="info"
+                      >
+                        <div
+                          className="m-5 spinner-border text-info"
+                          role="status"
+                          style={
+                            Object {
+                              "height": "5rem",
+                              "width": "5rem",
+                            }
+                          }
+                        >
+                          <span
+                            className="sr-only"
+                          >
+                            Loading....
+                          </span>
+                        </div>
+                      </Spinner>
+                    </div>
+                    <Alert
+                      closeLabel="Close alert"
+                      show={true}
+                      transition={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "defaultProps": Object {
+                            "appear": false,
+                            "in": false,
+                            "mountOnEnter": false,
+                            "timeout": 300,
+                            "unmountOnExit": false,
+                          },
+                          "displayName": "Fade",
+                          "render": [Function],
+                        }
+                      }
+                      variant="info"
+                    >
+                      <Fade
+                        appear={false}
+                        in={true}
+                        mountOnEnter={false}
+                        timeout={300}
+                        unmountOnExit={true}
+                      >
+                        <Transition
+                          addEndListener={[Function]}
+                          appear={false}
+                          enter={true}
+                          exit={true}
+                          in={true}
+                          mountOnEnter={false}
+                          onEnter={[Function]}
+                          onEntered={[Function]}
+                          onEntering={[Function]}
+                          onExit={[Function]}
+                          onExited={[Function]}
+                          onExiting={[Function]}
+                          timeout={300}
+                          unmountOnExit={true}
+                        >
+                          <div
+                            className="fade alert alert-info show"
+                            role="alert"
+                          >
+                            Carregando Empresas ...
+                          </div>
+                        </Transition>
+                      </Fade>
+                    </Alert>
+                  </div>
+                </div>
+              </ModalDialog>
+            </div>
+          </Portal>
+        </Modal>
+      </Modal>
+    </ModalLoading>
+    <OperatorPage
+      access={
+        Object {
+          "create": Object {
+            "path": "/new",
+          },
+          "delete": Object {},
+          "update": Object {},
+        }
+      }
+    >
+      <Switch>
+        <Route
+          computedMatch={
+            Object {
+              "isExact": true,
+              "params": Object {
+                "id": "2",
+              },
+              "path": "//update/:id",
+              "url": "//update/2",
+            }
+          }
+          exact={true}
+          location={
+            Object {
+              "hash": "",
+              "key": "KEY_UPDATE2",
+              "pathname": "//update/2",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          path="//update/:id"
+        >
+          <TitleComponent
+            title="Atualizar Operador"
+          >
+            <Alert
+              closeLabel="Close alert"
+              show={true}
+              transition={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": Object {
+                    "appear": false,
+                    "in": false,
+                    "mountOnEnter": false,
+                    "timeout": 300,
+                    "unmountOnExit": false,
+                  },
+                  "displayName": "Fade",
+                  "render": [Function],
+                }
+              }
+              variant="primary"
+            >
+              <Fade
+                appear={false}
+                in={true}
+                mountOnEnter={false}
+                timeout={300}
+                unmountOnExit={true}
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  enter={true}
+                  exit={true}
+                  in={true}
+                  mountOnEnter={false}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={300}
+                  unmountOnExit={true}
+                >
+                  <div
+                    className="fade alert alert-primary show"
+                    role="alert"
+                  >
+                    <Row
+                      className="justify-content-md-center"
+                      noGutters={false}
+                    >
+                      <div
+                        className="justify-content-md-center row"
+                      >
+                        <Col
+                          lg="10"
+                        >
+                          <div
+                            className="col-lg-10"
+                          >
+                            <AlertHeading>
+                              <DivStyledAsH4
+                                className="alert-heading"
+                              >
+                                <div
+                                  className="alert-heading h4"
+                                >
+                                  Atualizar Operador
+                                </div>
+                              </DivStyledAsH4>
+                            </AlertHeading>
+                          </div>
+                        </Col>
+                        <Col
+                          className="text-center"
+                          md="2"
+                        >
+                          <div
+                            className="text-center col-md-2"
+                          />
+                        </Col>
+                      </div>
+                    </Row>
+                  </div>
+                </Transition>
+              </Fade>
+            </Alert>
+            <AlertList>
+              <Alert
+                closeLabel="Close alert"
+                dismissible={true}
+                hidden={true}
+                onClose={[Function]}
+                show={true}
+                transition={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "appear": false,
+                      "in": false,
+                      "mountOnEnter": false,
+                      "timeout": 300,
+                      "unmountOnExit": false,
+                    },
+                    "displayName": "Fade",
+                    "render": [Function],
+                  }
+                }
+                variant="primary"
+              >
+                <Fade
+                  appear={false}
+                  hidden={true}
+                  in={true}
+                  mountOnEnter={false}
+                  timeout={300}
+                  unmountOnExit={true}
+                >
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    enter={true}
+                    exit={true}
+                    hidden={true}
+                    in={true}
+                    mountOnEnter={false}
+                    onEnter={[Function]}
+                    onEntered={[Function]}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    timeout={300}
+                    unmountOnExit={true}
+                  >
+                    <div
+                      className="fade alert alert-primary alert-dismissible show"
+                      hidden={true}
+                      role="alert"
+                    >
+                      <CloseButton
+                        label="Close alert"
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="close"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <span
+                            aria-hidden="true"
+                          >
+                            ×
+                          </span>
+                          <span
+                            className="sr-only"
+                          >
+                            Close alert
+                          </span>
+                        </button>
+                      </CloseButton>
+                      <StringArrayToList
+                        stringArray={
+                          Array [
+                            "null",
+                          ]
+                        }
+                      >
+                        <ul>
+                          <li
+                            key="0"
+                          >
+                            null
+                          </li>
+                        </ul>
+                      </StringArrayToList>
+                    </div>
+                  </Transition>
+                </Fade>
+              </Alert>
+            </AlertList>
+          </TitleComponent>
+          <UpdateForm>
+            <PageLoadingComponent
+              pageName="Operadores"
+            >
+              <div>
+                <h3>
+                  Operadores Loading....
+                </h3>
+              </div>
+            </PageLoadingComponent>
+          </UpdateForm>
+        </Route>
+      </Switch>
+    </OperatorPage>
+  </Router>
+</Provider>
+`;

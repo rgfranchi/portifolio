@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonsComponent snapshot ButtonCreate 1`] = `
+<Button
+  active={false}
+  as={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "displayName": "Link",
+      "propTypes": Object {
+        "innerRef": [Function],
+        "onClick": [Function],
+        "replace": [Function],
+        "target": [Function],
+        "to": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  disabled={false}
+  to="http://linkteste.com.br"
+  variant="outline-success"
+>
+  Novo Item
+</Button>
+`;
+
+exports[`ButtonsComponent snapshot ButtonIconDelete 1`] = `
+<Button
+  active={false}
+  disabled={false}
+  onClick={[Function]}
+  size="sm"
+  variant="danger"
+>
+  <AiFillDelete />
+</Button>
+`;
+
+exports[`ButtonsComponent snapshot ButtonIconUpdate 1`] = `
+<Button
+  active={false}
+  as={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "displayName": "Link",
+      "propTypes": Object {
+        "innerRef": [Function],
+        "onClick": [Function],
+        "replace": [Function],
+        "target": [Function],
+        "to": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  disabled={false}
+  size="sm"
+  to="http://linkteste.com.br"
+  variant="primary"
+>
+  <FiEdit />
+</Button>
+`;
+
+exports[`ButtonsComponent snapshot ButtonsPanel 1`] = `
+<Fragment>
+  <Row
+    key="0"
+    noGutters={false}
+  >
+    <Col
+      key="0"
+    >
+      <Button
+        active={false}
+        block={true}
+        disabled={false}
+        id={1}
+        key="0"
+        onClick={[Function]}
+        variant="outline-primary"
+      >
+        Bt Test 1
+      </Button>
+    </Col>
+    <Col
+      key="1"
+    >
+      <Button
+        active={false}
+        block={true}
+        disabled={false}
+        id={2}
+        key="1"
+        onClick={[Function]}
+        variant="outline-primary"
+      >
+        Bt Test 2
+      </Button>
+    </Col>
+    <Col
+      key="2"
+    >
+      <Button
+        active={false}
+        block={true}
+        disabled={false}
+        id={3}
+        key="2"
+        onClick={[Function]}
+        variant="outline-primary"
+      >
+        Bt Test 3
+      </Button>
+    </Col>
+  </Row>
+</Fragment>
+`;

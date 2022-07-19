@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormsComponent snapshot FormDatePicker 1`] = `
+<FormControl
+  as={[Function]}
+  dateFormat="dd/MM/yyyy"
+  isInvalid={true}
+  name="mockDatePicker"
+  onChange={[Function]}
+  selected={2020-01-01T00:00:00.000Z}
+  showTimeInput={true}
+/>
+`;
+
+exports[`FormsComponent snapshot FromSelect 1`] = `
+<FormGroup
+  controlId="ctrlCompany"
+>
+  <FormLabel
+    column={false}
+    srOnly={false}
+  >
+    Teste Select Mock
+  </FormLabel>
+  <FormControl
+    as="select"
+    isInvalid={true}
+    name="mockSelect"
+    onBlur={[Function]}
+    onChange={[MockFunction]}
+    value="2"
+  >
+    <option
+      value={0}
+    >
+      VALOR 0
+    </option>
+    <option
+      key="0"
+      selected={false}
+      value={1}
+    >
+      VALOR 1
+    </option>
+    <option
+      key="1"
+      selected={true}
+      value={2}
+    >
+      VALOR 2
+    </option>
+    <option
+      key="2"
+      selected={false}
+      value={3}
+    >
+      VALOR 3
+    </option>
+  </FormControl>
+  <Feedback
+    type="invalid"
+  />
+</FormGroup>
+`;
+
+exports[`FormsComponent snapshot StringArrayToList 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    texto 1
+  </li>
+  <li
+    key="1"
+  >
+    texto 2
+  </li>
+  <li
+    key="2"
+  >
+    texto 3
+  </li>
+</ul>
+`;

@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Default Regra I - Responde KEEP ALIVE",
+    "version": "1.0",
+    "ownerModel": "TABELA_PROPRIETARIO I",
+    "ownerId": "ID_PROPRIETARIO I",
+    "regex": "KEEP_ALIVE.",
+    "listenerMessage": {
+      "typeMessageListener": "KEEP_ALIVE",
+      "messageResponse": "$OK#"
+    }
+  },
+  {
+    "name": "Default Regra II - Responde TEXTO",
+    "version": "1.0",
+    "ownerModel": "TABELA_PROPRIETARIO II",
+    "ownerId": "ID_PROPRIETARIO II",
+    "regex": "TEXT_MESSAGE.",
+    "listenerMessage": {
+      "typeMessageListener": "TEXT",
+      "messageResponse": "$_DATE_TIME_!_SEND_PAYLOAD_#"
+    }
+  },
+  {
+    "name": "Default Regra III - Responde DATE TIME",
+    "version": "1.0",
+    "ownerModel": "TABELA_PROPRIETARIO III",
+    "ownerId": "ID_PROPRIETARIO III",
+    "regex": "DATE_TIME_MESSAGE.",
+    "listenerMessage": {
+      "typeMessageListener": "DATE_TIME",
+      "messageResponse": "$_DATE_TIME_#",
+      "formatDateTime": "ddMMYYYYHHmmss",
+      "plusHour": -3
+    }
+  },
+  {
+    "name": "Default Regra IV - INCLUI MENSAGEM NA FILA DE EVENTO",
+    "version": "1.0",
+    "ownerModel": "TABELA_PROPRIETARIO VI",
+    "ownerId": "ID_PROPRIETARIO VI",
+    "regex": "(EVENT.)([0-9]{4})",
+    "listenerMessage": {
+      "typeMessageListener": "EVENT",
+      "messageResponse": "$_COD_MODULO_:_REPLAY_PAYLOAD_#_UUID_CONFIRM_",
+      "messageNotFound": "EVENT_NOT_FOUND$_COD_MODULO_:_UUID_CONFIRM_#",
+      "codModuleGroup": 2,
+      "findModule": true,
+      "confirmTimes": 2,
+      "uuidLength": 4
+    }
+  },
+  {
+    "name": "Default Regra V - INCLUI MENSAGEM NA FILA DE CONFIGURAÇÃO",
+    "version": "1.0",
+    "ownerModel": "TABELA_PROPRIETARIO V",
+    "ownerId": "ID_PROPRIETARIO V",
+    "regex": "(CONFIG.)([0-9]{4})",
+    "listenerMessage": {
+      "typeMessageListener": "CONFIG",
+      "messageResponse": "$_COD_MODULO_:_REPLAY_PAYLOAD_#_UUID_CONFIRM_",
+      "messageNotFound": "CONFIG_NOT_FOUND$_COD_MODULO_:_UUID_CONFIRM_#",
+      "codModuleGroup": 2,
+      "findModule": true,
+      "confirmTimes": 1,
+      "uuidLength": 7
+    }
+  },
+  {
+    "name": "Default Regra VI - CONFIRMA O RECEBIMENTO DA MENSAGEM",
+    "version": "1.0",
+    "ownerModel": "TABELA_PROPRIETARIO VI",
+    "ownerId": "ID_PROPRIETARIO VI",
+    "regex": "(UUID_CONFIRM)(\\w*)",
+    "listenerMessage": {
+      "typeMessageListener": "CONFIRM",
+      "messageResponse": "$_UUID_CONFIRM_:_REPLAY_PAYLOAD_#",
+      "messageNotFound": "NOT FOUND$_SEND_PAYLOAD_#",
+      "uuidConfirmGroup": 2,
+      "findModule": true
+    }
+  },
+  {
+    "name": "Fail Regra IV - ERRO AO VERIFICA codModuleGroup EVENTO",
+    "version": "1.0",
+    "ownerModel": "TABELA_PROPRIETARIO VI",
+    "ownerId": "ID_PROPRIETARIO VI",
+    "regex": "(EVENT_FAIL.)([0-9,A-Z]{4})",
+    "listenerMessage": {
+      "typeMessageListener": "EVENT",
+      "messageResponse": "$_COD_MODULO_:_REPLAY_PAYLOAD_#_UUID_CONFIRM_",
+      "messageNotFound": "EVENT_NOT_FOUND$_COD_MODULO_:_UUID_CONFIRM_#",
+      "messageError": "$EVENT_FAIL:_ERROR_#",
+      "codModuleGroup": 3,
+      "findModule": true,
+      "confirmTimes": 2,
+      "uuidLength": 4
+    }
+  },
+  {
+    "name": "Fail Regra V - ERRO AO VERIFICA codModuleGroup CONFIGURAÇÃO",
+    "version": "1.0",
+    "ownerModel": "TABELA_PROPRIETARIO V",
+    "ownerId": "ID_PROPRIETARIO V",
+    "regex": "(CONFIG_FAIL.)([0-9,A-Z]{4})",
+    "listenerMessage": {
+      "typeMessageListener": "CONFIG",
+      "messageResponse": "$_COD_MODULO_:_REPLAY_PAYLOAD_#_UUID_CONFIRM_",
+      "messageNotFound": "CONFIG_NOT_FOUND$_COD_MODULO_:_UUID_CONFIRM_#",
+      "messageError": "$CONFIG_FAIL:_ERROR_#",
+      "codModuleGroup": 5,
+      "findModule": true,
+      "confirmTimes": 1,
+      "uuidLength": 7
+    }
+  }
+]

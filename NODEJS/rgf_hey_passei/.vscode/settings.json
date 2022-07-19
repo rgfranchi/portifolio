@@ -1,0 +1,22 @@
+{
+  "cSpell.words": [
+    "academica",
+    "Academica",
+    "ACADEMICOS",
+    "Airtable",
+    "apresentacao",
+    "endereco",
+    "exercicio",
+    "formacao",
+    "formik",
+    "horario",
+    "instituicao",
+    "Resizer",
+    "servico"
+  ],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

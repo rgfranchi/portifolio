@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "MicroListenerApplication<micro_listener>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "rgf.MicroListenerApplication",
+      "projectName": "micro_listener",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "MicroReceiverApplication<micro_receiver>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "rgf.MicroReceiverApplication",
+      "projectName": "micro_receiver",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

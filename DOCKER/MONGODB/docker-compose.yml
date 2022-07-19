@@ -1,0 +1,15 @@
+# https://hub.docker.com/_/mongo
+version: "3.8"
+services:
+  mongodb:
+    image: mongo:5.0.9-focal
+    # restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    volumes: 
+      - ./files/data:/data/db
+      - ./files/backup:/data/backup
+      # - ./files/config:/etc/mongo # Arquivo de configuração se necessário.
+    ports:
+      - "27017:27017"

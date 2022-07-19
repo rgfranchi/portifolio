@@ -1,0 +1,40 @@
+
+TESTE COM CONEXÃO UDP: mesmas sentenças dos testes.
+Utilizar 'http://localhost:8161/console/' para verificar informação do servidor.
+
+Conectar: 
+Client: nc -u localhost 9000
+Server: nc -u -l 9000
+
+I   - Keep Alive -> '$OK#'.
+KEEP_ALIVE I-KEEP_ALIVE
+
+II  - Responde TEXTO -> '$2022-06-13 09:36:51!TEXT_MESSAGE II-TEXT#'
+TEXT_MESSAGE II-TEXT
+
+III - Responde DATE TIME -> $13062022063852#
+DATE_TIME_MESSAGE III-DATE TIME
+
+IV  - INCLUI MENSAGEM NA FILA DE EVENTO -> 'EVENT_NOT_FOUND$1234:8f55#'
+EVENT 1234 IV-NOT MESSAGE IN QUEUE
+--> verificar no Active MQ o recebimento.
+
+V   - INCLUI MENSAGEM NA FILA DE CONFIGURAÇÃO -> 'CONFIG_NOT_FOUND$1234:8f32f75#'
+CONFIG 1234 V-NOT MESSAGE IN QUEUE
+--> verificar no Active MQ o recebimento.
+
+VI.A  - RECEBE MENSAGEM -> '$5432:MENSAGEM TO MODULE 4321#8692'
+EVENT 5432 IV-GET MESSAGE IN QUEUE
+--> Mensagem inserida em 'listener/bootstrap/InsertMessages.java' com cod_modulo 5432
+VI.B  - CONFIRMA O RECEBIMENTO DA MENSAGEM -> 'NOT FOUND$UUID_CONFIRM46b4#'
+UUID_CONFIRM + 'uuid_confirm' da mensagem anterior do ActiveMQ.
+
+VII - NOT DEFINED -> 'RULE NOT DEFINED:MESSAGE VII.RULE_NOT_DEFINED'
+MESSAGE VII.RULE_NOT_DEFINED
+
+---- TESTES ALTERNATIVOS
+IV.1- ERRO AO VERIFICAR codModuleGroup EVENTO -> '$EVENT_FAIL:No group 3#'
+EVENT_FAIL K9DB
+
+V.1 - ERRO AO VERIFICAR codModuleGroup CONFIGURAÇÃO -> '$CONFIG_FAIL:No group 5#'
+CONFIG_FAIL K9DB

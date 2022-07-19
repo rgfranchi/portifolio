@@ -1,0 +1,69 @@
+######################
+# MONGODB.
+######################
+/MONGODB/files/data/*
+!/MONGODB/files/data/empty
+/MONGODB/files/config/*
+!/MONGODB/files/config/empty
+/MONGODB/files/backup/*
+!/MONGODB/files/backup/empty
+
+######################
+# Apache ActiveMQ Artemis.
+######################
+/ActiveMQArtemis/apache-artemis-*
+/ActiveMQArtemis/files/data/*
+!/ActiveMQArtemis/files/data/empty
+/ActiveMQArtemis/files/etc/*
+!/ActiveMQArtemis/files/etc/empty
+/ActiveMQArtemis/files/log/*
+!/ActiveMQArtemis/files/log/empty
+
+######################
+# PHP 5.6
+######################
+/PHP_5.6/www/*
+!/PHP_5.6/www/mysql_teste.php
+!/PHP_5.6/www/phpinfo.php
+
+/PHP_5.6/data/log/apache2/*
+!/PHP_5.6/data/log/apache2/empty
+/PHP_5.6/data/log/php/*
+!/PHP_5.6/data/log/php/empty
+/PHP_5.6/data/mysql/*
+!/PHP_5.6/data/mysql/empty
+/PHP_5.6/data/tmp/*
+!/PHP_5.6/data/tmp/empty
+
+######################
+# PHP 7.4
+######################
+/PHP_7.4/www/*
+!/PHP_7.4/www/mysql_teste.php
+!/PHP_7.4/www/phpinfo.php
+
+/PHP_7.4/data/log/apache2/*
+!/PHP_7.4/data/log/apache2/empty
+/PHP_7.4/data/log/php/*
+!/PHP_7.4/data/log/php/empty
+/PHP_7.4/data/mysql/*
+!/PHP_7.4/data/mysql/empty
+/PHP_7.4/data/tmp/*
+!/PHP_7.4/data/tmp/empty
+
+
+######################
+# Visual Studio Code
+######################
+.vscode/
+
+######################
+# Mac OSX
+######################
+.DS_Store*
+.svn
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes

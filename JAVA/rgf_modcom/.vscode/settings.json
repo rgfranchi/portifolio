@@ -1,0 +1,30 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "cSpell.words": [
+    "ACTIVEMQ",
+    "biilog",
+    "classpath",
+    "configurer",
+    "Configurer",
+    "jupiter",
+    "mockito",
+    "Mockito",
+    "PROPRIETARIO",
+    "uuid",
+    "versao",
+    "XPTO"
+  ],
+  "maven.executable.preferMavenWrapper": true,
+  "maven.executable.path": "/Users/rgf/Desenvolvimento/JAVA/rgf_modcom/mvnw",
+  "java.format.settings.url": ".vscode/eclipse-java-google-style.xml",
+  "java.format.settings.profile": "GoogleStyle",
+  "workbench.editor.enablePreview": false,
+  "maven.excludedFolders": [
+
+    "**/.*",
+    "**/node_modules",
+    "**/target",
+    "**/bin",
+    "**/archetype-resources"
+  ]
+}

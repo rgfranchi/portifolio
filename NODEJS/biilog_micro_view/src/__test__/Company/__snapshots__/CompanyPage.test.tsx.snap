@@ -1,0 +1,2184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompanyPage Snapshot Create 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "PUSH",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "KEY_NEW1",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          Object {
+            "hash": "",
+            "key": "KEY_NEW2",
+            "pathname": "//new",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 1,
+        "length": 2,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "KEY_NEW2",
+          "pathname": "//new",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <CompanyPage
+      access={
+        Object {
+          "create": Object {
+            "path": "/new",
+          },
+          "delete": Object {},
+          "update": Object {},
+        }
+      }
+    >
+      <Switch>
+        <Route
+          computedMatch={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "//new",
+              "url": "//new",
+            }
+          }
+          exact={true}
+          location={
+            Object {
+              "hash": "",
+              "key": "KEY_NEW2",
+              "pathname": "//new",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          path="//new"
+        >
+          <TitleComponent
+            description="Criar nova empresa."
+            title="Cadastrar Empresa"
+          >
+            <Alert
+              closeLabel="Close alert"
+              show={true}
+              transition={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": Object {
+                    "appear": false,
+                    "in": false,
+                    "mountOnEnter": false,
+                    "timeout": 300,
+                    "unmountOnExit": false,
+                  },
+                  "displayName": "Fade",
+                  "render": [Function],
+                }
+              }
+              variant="primary"
+            >
+              <Fade
+                appear={false}
+                in={true}
+                mountOnEnter={false}
+                timeout={300}
+                unmountOnExit={true}
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  enter={true}
+                  exit={true}
+                  in={true}
+                  mountOnEnter={false}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={300}
+                  unmountOnExit={true}
+                >
+                  <div
+                    className="fade alert alert-primary show"
+                    role="alert"
+                  >
+                    <Row
+                      className="justify-content-md-center"
+                      noGutters={false}
+                    >
+                      <div
+                        className="justify-content-md-center row"
+                      >
+                        <Col
+                          lg="10"
+                        >
+                          <div
+                            className="col-lg-10"
+                          >
+                            <AlertHeading>
+                              <DivStyledAsH4
+                                className="alert-heading"
+                              >
+                                <div
+                                  className="alert-heading h4"
+                                >
+                                  Cadastrar Empresa
+                                </div>
+                              </DivStyledAsH4>
+                            </AlertHeading>
+                            Criar nova empresa.
+                          </div>
+                        </Col>
+                        <Col
+                          className="text-center"
+                          md="2"
+                        >
+                          <div
+                            className="text-center col-md-2"
+                          />
+                        </Col>
+                      </div>
+                    </Row>
+                  </div>
+                </Transition>
+              </Fade>
+            </Alert>
+            <AlertList>
+              <Alert
+                closeLabel="Close alert"
+                dismissible={true}
+                hidden={true}
+                onClose={[Function]}
+                show={true}
+                transition={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "appear": false,
+                      "in": false,
+                      "mountOnEnter": false,
+                      "timeout": 300,
+                      "unmountOnExit": false,
+                    },
+                    "displayName": "Fade",
+                    "render": [Function],
+                  }
+                }
+                variant="primary"
+              >
+                <Fade
+                  appear={false}
+                  hidden={true}
+                  in={true}
+                  mountOnEnter={false}
+                  timeout={300}
+                  unmountOnExit={true}
+                >
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    enter={true}
+                    exit={true}
+                    hidden={true}
+                    in={true}
+                    mountOnEnter={false}
+                    onEnter={[Function]}
+                    onEntered={[Function]}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    timeout={300}
+                    unmountOnExit={true}
+                  >
+                    <div
+                      className="fade alert alert-primary alert-dismissible show"
+                      hidden={true}
+                      role="alert"
+                    >
+                      <CloseButton
+                        label="Close alert"
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="close"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <span
+                            aria-hidden="true"
+                          >
+                            ×
+                          </span>
+                          <span
+                            className="sr-only"
+                          >
+                            Close alert
+                          </span>
+                        </button>
+                      </CloseButton>
+                      <StringArrayToList
+                        stringArray={
+                          Array [
+                            "null",
+                          ]
+                        }
+                      >
+                        <ul>
+                          <li
+                            key="0"
+                          >
+                            null
+                          </li>
+                        </ul>
+                      </StringArrayToList>
+                    </div>
+                  </Transition>
+                </Fade>
+              </Alert>
+            </AlertList>
+          </TitleComponent>
+          <CreateForm>
+            <CompanyForm
+              initValues={
+                Object {
+                  "bairro": "",
+                  "cidade": "",
+                  "cnpj": "",
+                  "codPostal": "",
+                  "complemento": "",
+                  "email": "",
+                  "estado": "",
+                  "id": 0,
+                  "logradouro": "",
+                  "nome": "",
+                  "nomeContato": "",
+                  "numero": "",
+                  "pais": "Brasil",
+                  "telefone1": "",
+                  "telefone2": "",
+                }
+              }
+              submitForm={[Function]}
+            >
+              <Formik
+                enableReinitialize={true}
+                initialValues={
+                  Object {
+                    "bairro": "",
+                    "cidade": "",
+                    "cnpj": "",
+                    "codPostal": "",
+                    "complemento": "",
+                    "email": "",
+                    "estado": "",
+                    "id": 0,
+                    "logradouro": "",
+                    "nome": "",
+                    "nomeContato": "",
+                    "numero": "",
+                    "pais": "Brasil",
+                    "telefone1": "",
+                    "telefone2": "",
+                  }
+                }
+                onSubmit={[Function]}
+                validationSchema={
+                  ObjectSchema {
+                    "_blacklist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_conditions": Array [],
+                    "_defaultDefault": [Function],
+                    "_deps": Array [],
+                    "_excludedEdges": Array [],
+                    "_exclusive": Object {},
+                    "_mutate": undefined,
+                    "_nodes": Array [
+                      "codPostal",
+                      "telefone1",
+                      "email",
+                      "cnpj",
+                      "nomeContato",
+                      "nome",
+                    ],
+                    "_options": Object {
+                      "abortEarly": true,
+                      "recursive": true,
+                    },
+                    "_type": "object",
+                    "_typeError": [Function],
+                    "_whitelist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "fields": Object {
+                      "cnpj": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "is-cnpj": false,
+                          "matches": false,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "codPostal": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "matches": false,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "email": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "email": false,
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "nome": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "min": true,
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "nomeContato": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "min": true,
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "telefone1": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                    },
+                    "tests": Array [],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                    "type": "object",
+                  }
+                }
+              >
+                <Form
+                  inline={false}
+                  onSubmit={[Function]}
+                >
+                  <form
+                    className=""
+                    onSubmit={[Function]}
+                  >
+                    <FormRow>
+                      <div
+                        className="form-row"
+                      >
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlNome"
+                          md="6"
+                        >
+                          <Col
+                            className="form-group"
+                            md="6"
+                          >
+                            <div
+                              className="form-group col-md-6"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlNome"
+                                >
+                                  Nome
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="nome"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="Nome da Empresa"
+                                type="text"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlNome"
+                                  name="nome"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="Nome da Empresa"
+                                  type="text"
+                                  value=""
+                                />
+                              </FormControl>
+                              <Feedback
+                                type="invalid"
+                              >
+                                <div
+                                  className="invalid-feedback"
+                                />
+                              </Feedback>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlNomeContato"
+                          md="6"
+                        >
+                          <Col
+                            className="form-group"
+                            md="6"
+                          >
+                            <div
+                              className="form-group col-md-6"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlNomeContato"
+                                >
+                                  Contato
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="nomeContato"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="Nome Responsável"
+                                type="text"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlNomeContato"
+                                  name="nomeContato"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="Nome Responsável"
+                                  type="text"
+                                  value=""
+                                />
+                              </FormControl>
+                              <Feedback
+                                type="invalid"
+                              >
+                                <div
+                                  className="invalid-feedback"
+                                />
+                              </Feedback>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                      </div>
+                    </FormRow>
+                    <FormRow>
+                      <div
+                        className="form-row"
+                      >
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlCNPJ"
+                          md="6"
+                        >
+                          <Col
+                            className="form-group"
+                            md="6"
+                          >
+                            <div
+                              className="form-group col-md-6"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlCNPJ"
+                                >
+                                  CNPJ
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                as={[Function]}
+                                mask={
+                                  Array [
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    ".",
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    ".",
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    "/",
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    "-",
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                  ]
+                                }
+                                name="cnpj"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                value=""
+                              >
+                                <t
+                                  className="form-control"
+                                  id="ctrlCNPJ"
+                                  mask={
+                                    Array [
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      ".",
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      ".",
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      "/",
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      "-",
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                    ]
+                                  }
+                                  name="cnpj"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  render={[Function]}
+                                  value=""
+                                >
+                                  <input
+                                    className="form-control"
+                                    defaultValue=""
+                                    id="ctrlCNPJ"
+                                    name="cnpj"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                  />
+                                </t>
+                              </FormControl>
+                              <Feedback
+                                type="invalid"
+                              >
+                                <div
+                                  className="invalid-feedback"
+                                />
+                              </Feedback>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlEMAIL"
+                          md="6"
+                        >
+                          <Col
+                            className="form-group"
+                            md="6"
+                          >
+                            <div
+                              className="form-group col-md-6"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlEMAIL"
+                                >
+                                  E-mail
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="email"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="email@email.com"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlEMAIL"
+                                  name="email"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="email@email.com"
+                                  value=""
+                                />
+                              </FormControl>
+                              <Feedback
+                                type="invalid"
+                              >
+                                <div
+                                  className="invalid-feedback"
+                                />
+                              </Feedback>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                      </div>
+                    </FormRow>
+                    <FormRow>
+                      <div
+                        className="form-row"
+                      >
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlCodPostal"
+                          md="2"
+                        >
+                          <Col
+                            className="form-group"
+                            md="2"
+                          >
+                            <div
+                              className="form-group col-md-2"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlCodPostal"
+                                >
+                                  CEP
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                as={[Function]}
+                                mask={
+                                  Array [
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    "-",
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                  ]
+                                }
+                                name="codPostal"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="00000-000"
+                                type="text"
+                                value=""
+                              >
+                                <t
+                                  className="form-control"
+                                  id="ctrlCodPostal"
+                                  mask={
+                                    Array [
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      "-",
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                    ]
+                                  }
+                                  name="codPostal"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="00000-000"
+                                  render={[Function]}
+                                  type="text"
+                                  value=""
+                                >
+                                  <input
+                                    className="form-control"
+                                    defaultValue=""
+                                    id="ctrlCodPostal"
+                                    name="codPostal"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    placeholder="00000-000"
+                                    type="text"
+                                  />
+                                </t>
+                              </FormControl>
+                              <Feedback
+                                type="invalid"
+                              >
+                                <div
+                                  className="invalid-feedback"
+                                />
+                              </Feedback>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlEstado"
+                          md="2"
+                        >
+                          <Col
+                            className="form-group"
+                            md="2"
+                          >
+                            <div
+                              className="form-group col-md-2"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlEstado"
+                                >
+                                  Estado
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="estado"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="Estado"
+                                type="text"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlEstado"
+                                  name="estado"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="Estado"
+                                  type="text"
+                                  value=""
+                                />
+                              </FormControl>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlCidade"
+                          md="3"
+                        >
+                          <Col
+                            className="form-group"
+                            md="3"
+                          >
+                            <div
+                              className="form-group col-md-3"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlCidade"
+                                >
+                                  Cidade
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="cidade"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="Cidade"
+                                type="text"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlCidade"
+                                  name="cidade"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="Cidade"
+                                  type="text"
+                                  value=""
+                                />
+                              </FormControl>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlBairro"
+                          md="3"
+                        >
+                          <Col
+                            className="form-group"
+                            md="3"
+                          >
+                            <div
+                              className="form-group col-md-3"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlBairro"
+                                >
+                                  Bairro
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="bairro"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="Bairro"
+                                type="text"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlBairro"
+                                  name="bairro"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="Bairro"
+                                  type="text"
+                                  value=""
+                                />
+                              </FormControl>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlPais"
+                          md="2"
+                        >
+                          <Col
+                            className="form-group"
+                            md="2"
+                          >
+                            <div
+                              className="form-group col-md-2"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlPais"
+                                >
+                                  Pais
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="pais"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="Pais"
+                                type="text"
+                                value="Brasil"
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlPais"
+                                  name="pais"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="Pais"
+                                  type="text"
+                                  value="Brasil"
+                                />
+                              </FormControl>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                      </div>
+                    </FormRow>
+                    <FormRow>
+                      <div
+                        className="form-row"
+                      >
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlLogradouro"
+                          md="8"
+                        >
+                          <Col
+                            className="form-group"
+                            md="8"
+                          >
+                            <div
+                              className="form-group col-md-8"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlLogradouro"
+                                >
+                                  Logradouro
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="logradouro"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="Logradouro"
+                                type="text"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlLogradouro"
+                                  name="logradouro"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="Logradouro"
+                                  type="text"
+                                  value=""
+                                />
+                              </FormControl>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlNumero"
+                          md="2"
+                        >
+                          <Col
+                            className="form-group"
+                            md="2"
+                          >
+                            <div
+                              className="form-group col-md-2"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlNumero"
+                                >
+                                  Número
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="numero"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="Numero"
+                                type="text"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlNumero"
+                                  name="numero"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="Numero"
+                                  type="text"
+                                  value=""
+                                />
+                              </FormControl>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlComplemento"
+                          md="2"
+                        >
+                          <Col
+                            className="form-group"
+                            md="2"
+                          >
+                            <div
+                              className="form-group col-md-2"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlComplemento"
+                                >
+                                  Complemento
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                name="complemento"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="Complemento"
+                                type="text"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  id="ctrlComplemento"
+                                  name="complemento"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="Complemento"
+                                  type="text"
+                                  value=""
+                                />
+                              </FormControl>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                      </div>
+                    </FormRow>
+                    <FormRow>
+                      <div
+                        className="form-row"
+                      >
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlTelefone1"
+                          md="6"
+                        >
+                          <Col
+                            className="form-group"
+                            md="6"
+                          >
+                            <div
+                              className="form-group col-md-6"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlTelefone1"
+                                >
+                                  Telefone Principal
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                as={[Function]}
+                                mask={
+                                  Array [
+                                    "(",
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    ")",
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    "-",
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                  ]
+                                }
+                                name="telefone1"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="(99)9999-9999X"
+                                type="text"
+                                value=""
+                              >
+                                <t
+                                  className="form-control"
+                                  id="ctrlTelefone1"
+                                  mask={
+                                    Array [
+                                      "(",
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      ")",
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      "-",
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                    ]
+                                  }
+                                  name="telefone1"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="(99)9999-9999X"
+                                  render={[Function]}
+                                  type="text"
+                                  value=""
+                                >
+                                  <input
+                                    className="form-control"
+                                    defaultValue=""
+                                    id="ctrlTelefone1"
+                                    name="telefone1"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    placeholder="(99)9999-9999X"
+                                    type="text"
+                                  />
+                                </t>
+                              </FormControl>
+                              <Feedback
+                                type="invalid"
+                              >
+                                <div
+                                  className="invalid-feedback"
+                                />
+                              </Feedback>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                        <FormGroup
+                          as={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "displayName": "Col",
+                              "render": [Function],
+                            }
+                          }
+                          controlId="ctrlTelefone2"
+                          md="6"
+                        >
+                          <Col
+                            className="form-group"
+                            md="6"
+                          >
+                            <div
+                              className="form-group col-md-6"
+                            >
+                              <FormLabel
+                                column={false}
+                                srOnly={false}
+                              >
+                                <label
+                                  className="form-label"
+                                  htmlFor="ctrlTelefone2"
+                                >
+                                  Telefone Secundário
+                                </label>
+                              </FormLabel>
+                              <FormControl
+                                as={[Function]}
+                                mask={
+                                  Array [
+                                    "(",
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    ")",
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    "-",
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                    /\\[0-9\\]/,
+                                  ]
+                                }
+                                name="telefone2"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="(99)9999-9999X"
+                                type="text"
+                                value=""
+                              >
+                                <t
+                                  className="form-control"
+                                  id="ctrlTelefone2"
+                                  mask={
+                                    Array [
+                                      "(",
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      ")",
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      "-",
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                      /\\[0-9\\]/,
+                                    ]
+                                  }
+                                  name="telefone2"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  placeholder="(99)9999-9999X"
+                                  render={[Function]}
+                                  type="text"
+                                  value=""
+                                >
+                                  <input
+                                    className="form-control"
+                                    defaultValue=""
+                                    id="ctrlTelefone2"
+                                    name="telefone2"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    placeholder="(99)9999-9999X"
+                                    type="text"
+                                  />
+                                </t>
+                              </FormControl>
+                            </div>
+                          </Col>
+                        </FormGroup>
+                      </div>
+                    </FormRow>
+                    <Button
+                      active={false}
+                      disabled={false}
+                      type="submit"
+                      variant="primary"
+                    >
+                      <button
+                        className="btn btn-primary"
+                        disabled={false}
+                        type="submit"
+                      >
+                        Salvar
+                      </button>
+                    </Button>
+                  </form>
+                </Form>
+              </Formik>
+            </CompanyForm>
+          </CreateForm>
+        </Route>
+      </Switch>
+    </CompanyPage>
+  </Router>
+</Provider>
+`;
+
+exports[`CompanyPage Snapshot List 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "KEY_LIST1",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "KEY_LIST1",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <CompanyPage
+      access={
+        Object {
+          "create": Object {
+            "path": "/new",
+          },
+          "delete": Object {},
+          "update": Object {},
+        }
+      }
+    >
+      <Switch>
+        <Route
+          computedMatch={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+          exact={true}
+          location={
+            Object {
+              "hash": "",
+              "key": "KEY_LIST1",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          path="/"
+        >
+          <TitleComponent
+            actions={
+              <ButtonCreate
+                linkTo="//new"
+              />
+            }
+            description="Empresas cadastradas que tem acesso ao sistema."
+            title="Empresas"
+          >
+            <Alert
+              closeLabel="Close alert"
+              show={true}
+              transition={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": Object {
+                    "appear": false,
+                    "in": false,
+                    "mountOnEnter": false,
+                    "timeout": 300,
+                    "unmountOnExit": false,
+                  },
+                  "displayName": "Fade",
+                  "render": [Function],
+                }
+              }
+              variant="primary"
+            >
+              <Fade
+                appear={false}
+                in={true}
+                mountOnEnter={false}
+                timeout={300}
+                unmountOnExit={true}
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  enter={true}
+                  exit={true}
+                  in={true}
+                  mountOnEnter={false}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={300}
+                  unmountOnExit={true}
+                >
+                  <div
+                    className="fade alert alert-primary show"
+                    role="alert"
+                  >
+                    <Row
+                      className="justify-content-md-center"
+                      noGutters={false}
+                    >
+                      <div
+                        className="justify-content-md-center row"
+                      >
+                        <Col
+                          lg="10"
+                        >
+                          <div
+                            className="col-lg-10"
+                          >
+                            <AlertHeading>
+                              <DivStyledAsH4
+                                className="alert-heading"
+                              >
+                                <div
+                                  className="alert-heading h4"
+                                >
+                                  Empresas
+                                </div>
+                              </DivStyledAsH4>
+                            </AlertHeading>
+                            Empresas cadastradas que tem acesso ao sistema.
+                          </div>
+                        </Col>
+                        <Col
+                          className="text-center"
+                          md="2"
+                        >
+                          <div
+                            className="text-center col-md-2"
+                          >
+                            <ButtonCreate
+                              linkTo="//new"
+                            >
+                              <Button
+                                active={false}
+                                as={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "displayName": "Link",
+                                    "propTypes": Object {
+                                      "innerRef": [Function],
+                                      "onClick": [Function],
+                                      "replace": [Function],
+                                      "target": [Function],
+                                      "to": [Function],
+                                    },
+                                    "render": [Function],
+                                  }
+                                }
+                                disabled={false}
+                                to="//new"
+                                variant="outline-primary"
+                              >
+                                <Link
+                                  className="btn btn-outline-primary"
+                                  disabled={false}
+                                  to="//new"
+                                >
+                                  <LinkAnchor
+                                    className="btn btn-outline-primary"
+                                    disabled={false}
+                                    href="//new"
+                                    navigate={[Function]}
+                                  >
+                                    <a
+                                      className="btn btn-outline-primary"
+                                      disabled={false}
+                                      href="//new"
+                                      onClick={[Function]}
+                                    >
+                                      Cadastrar
+                                    </a>
+                                  </LinkAnchor>
+                                </Link>
+                              </Button>
+                            </ButtonCreate>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                  </div>
+                </Transition>
+              </Fade>
+            </Alert>
+            <AlertList>
+              <Alert
+                closeLabel="Close alert"
+                dismissible={true}
+                hidden={true}
+                onClose={[Function]}
+                show={true}
+                transition={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "appear": false,
+                      "in": false,
+                      "mountOnEnter": false,
+                      "timeout": 300,
+                      "unmountOnExit": false,
+                    },
+                    "displayName": "Fade",
+                    "render": [Function],
+                  }
+                }
+                variant="primary"
+              >
+                <Fade
+                  appear={false}
+                  hidden={true}
+                  in={true}
+                  mountOnEnter={false}
+                  timeout={300}
+                  unmountOnExit={true}
+                >
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    enter={true}
+                    exit={true}
+                    hidden={true}
+                    in={true}
+                    mountOnEnter={false}
+                    onEnter={[Function]}
+                    onEntered={[Function]}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    timeout={300}
+                    unmountOnExit={true}
+                  >
+                    <div
+                      className="fade alert alert-primary alert-dismissible show"
+                      hidden={true}
+                      role="alert"
+                    >
+                      <CloseButton
+                        label="Close alert"
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="close"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <span
+                            aria-hidden="true"
+                          >
+                            ×
+                          </span>
+                          <span
+                            className="sr-only"
+                          >
+                            Close alert
+                          </span>
+                        </button>
+                      </CloseButton>
+                      <StringArrayToList
+                        stringArray={
+                          Array [
+                            "null",
+                          ]
+                        }
+                      >
+                        <ul>
+                          <li
+                            key="0"
+                          >
+                            null
+                          </li>
+                        </ul>
+                      </StringArrayToList>
+                    </div>
+                  </Transition>
+                </Fade>
+              </Alert>
+            </AlertList>
+          </TitleComponent>
+          <List
+            access={
+              Object {
+                "create": Object {
+                  "path": "/new",
+                },
+                "delete": Object {},
+                "update": Object {},
+              }
+            }
+            baseUrl="/"
+          >
+            <PageLoadingComponent
+              pageName="Lista Empresas"
+            >
+              <div>
+                <h3>
+                  Lista Empresas Loading....
+                </h3>
+              </div>
+            </PageLoadingComponent>
+          </List>
+        </Route>
+      </Switch>
+    </CompanyPage>
+  </Router>
+</Provider>
+`;
+
+exports[`CompanyPage Snapshot Update 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "PUSH",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "KEY_UPDATE1",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          Object {
+            "hash": "",
+            "key": "KEY_UPDATE2",
+            "pathname": "//update/2",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 1,
+        "length": 2,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "KEY_UPDATE2",
+          "pathname": "//update/2",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <CompanyPage
+      access={
+        Object {
+          "create": Object {
+            "path": "/new",
+          },
+          "delete": Object {},
+          "update": Object {},
+        }
+      }
+    >
+      <Switch>
+        <Route
+          computedMatch={
+            Object {
+              "isExact": true,
+              "params": Object {
+                "id": "2",
+              },
+              "path": "//update/:id",
+              "url": "//update/2",
+            }
+          }
+          exact={true}
+          location={
+            Object {
+              "hash": "",
+              "key": "KEY_UPDATE2",
+              "pathname": "//update/2",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          path="//update/:id"
+        >
+          <TitleComponent
+            description="Mantenha as informações atualizadas da empresas"
+            title="Atualizar Empresa"
+          >
+            <Alert
+              closeLabel="Close alert"
+              show={true}
+              transition={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": Object {
+                    "appear": false,
+                    "in": false,
+                    "mountOnEnter": false,
+                    "timeout": 300,
+                    "unmountOnExit": false,
+                  },
+                  "displayName": "Fade",
+                  "render": [Function],
+                }
+              }
+              variant="primary"
+            >
+              <Fade
+                appear={false}
+                in={true}
+                mountOnEnter={false}
+                timeout={300}
+                unmountOnExit={true}
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  enter={true}
+                  exit={true}
+                  in={true}
+                  mountOnEnter={false}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={300}
+                  unmountOnExit={true}
+                >
+                  <div
+                    className="fade alert alert-primary show"
+                    role="alert"
+                  >
+                    <Row
+                      className="justify-content-md-center"
+                      noGutters={false}
+                    >
+                      <div
+                        className="justify-content-md-center row"
+                      >
+                        <Col
+                          lg="10"
+                        >
+                          <div
+                            className="col-lg-10"
+                          >
+                            <AlertHeading>
+                              <DivStyledAsH4
+                                className="alert-heading"
+                              >
+                                <div
+                                  className="alert-heading h4"
+                                >
+                                  Atualizar Empresa
+                                </div>
+                              </DivStyledAsH4>
+                            </AlertHeading>
+                            Mantenha as informações atualizadas da empresas
+                          </div>
+                        </Col>
+                        <Col
+                          className="text-center"
+                          md="2"
+                        >
+                          <div
+                            className="text-center col-md-2"
+                          />
+                        </Col>
+                      </div>
+                    </Row>
+                  </div>
+                </Transition>
+              </Fade>
+            </Alert>
+            <AlertList>
+              <Alert
+                closeLabel="Close alert"
+                dismissible={true}
+                hidden={true}
+                onClose={[Function]}
+                show={true}
+                transition={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "appear": false,
+                      "in": false,
+                      "mountOnEnter": false,
+                      "timeout": 300,
+                      "unmountOnExit": false,
+                    },
+                    "displayName": "Fade",
+                    "render": [Function],
+                  }
+                }
+                variant="primary"
+              >
+                <Fade
+                  appear={false}
+                  hidden={true}
+                  in={true}
+                  mountOnEnter={false}
+                  timeout={300}
+                  unmountOnExit={true}
+                >
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    enter={true}
+                    exit={true}
+                    hidden={true}
+                    in={true}
+                    mountOnEnter={false}
+                    onEnter={[Function]}
+                    onEntered={[Function]}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    timeout={300}
+                    unmountOnExit={true}
+                  >
+                    <div
+                      className="fade alert alert-primary alert-dismissible show"
+                      hidden={true}
+                      role="alert"
+                    >
+                      <CloseButton
+                        label="Close alert"
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="close"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <span
+                            aria-hidden="true"
+                          >
+                            ×
+                          </span>
+                          <span
+                            className="sr-only"
+                          >
+                            Close alert
+                          </span>
+                        </button>
+                      </CloseButton>
+                      <StringArrayToList
+                        stringArray={
+                          Array [
+                            "null",
+                          ]
+                        }
+                      >
+                        <ul>
+                          <li
+                            key="0"
+                          >
+                            null
+                          </li>
+                        </ul>
+                      </StringArrayToList>
+                    </div>
+                  </Transition>
+                </Fade>
+              </Alert>
+            </AlertList>
+          </TitleComponent>
+          <UpdateForm>
+            <PageLoadingComponent
+              pageName="Empresas"
+            >
+              <div>
+                <h3>
+                  Empresas Loading....
+                </h3>
+              </div>
+            </PageLoadingComponent>
+          </UpdateForm>
+        </Route>
+      </Switch>
+    </CompanyPage>
+  </Router>
+</Provider>
+`;

@@ -1,0 +1,60 @@
+Atualização:
+alterar versão: nvm use v15
+Atualizar npm:
+npm update
+npm -version
+npm install -g npm@8.5.0
+
+Install:
+npx create-react-app airtable_react_tester --template typescript
+cd airtable_react_tester
+npm start
+
+npm install react-bootstrap bootstrap
+npm install -D @types/react-bootstrap
+
+npm install react-router-bootstrap
+npm install -D @types/react-router-bootstrap
+
+npm install react-router-dom
+
+npm install axios
+
+npm install react-redux
+npm install @reduxjs/toolkit
+npm i @redux-devtools/extension
+
+npm install prettier
+
+npm install formik
+
+npm install react-datepicker
+npm install -D @types/react-text-mask
+
+npm install react-icons
+
+npm install buffer 
+
+npm install @emailjs/browser
+
+npm install yup
+npm install -D @types/yup
+
+npm install react-text-mask
+npm install -D @types/react-text-mask
+
+npm install react-image-file-resizer
+
+// permite leitura de arquivo sass (css).
+npm i sass --save-dev
+
+// tentaiva de utilizar o jQuery no layout.
+npm install jquery --save
+
+--------------
+Link Airtable: https://airtable.com/shr1FTeKgauzCZwrc
+
+
+TODO:
+Documentar:
+group: 'updateUser' como default para alimentar menu superior. (Minha Conta)

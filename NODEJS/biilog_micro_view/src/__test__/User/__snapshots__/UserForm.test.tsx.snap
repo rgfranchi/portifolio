@@ -1,0 +1,293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserForm snapshot empty 1`] = `
+<div>
+  <form
+    autocomplete="off"
+    class=""
+  >
+    <div
+      class="form-row"
+    >
+      <div
+        class="form-group col-md-9"
+      >
+        <label
+          class="form-label"
+          for="ctrlNome"
+        >
+          Nome
+        </label>
+        <input
+          class="form-control"
+          id="ctrlNome"
+          name="nome"
+          placeholder="Nome do Operador"
+          type="text"
+          value=""
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+      <div
+        class="form-group col-md-3"
+      >
+        <label
+          class="form-label"
+          for="ctrlGrupo"
+        >
+          Grupo
+        </label>
+        <select
+          class="form-control"
+          id="ctrlGrupo"
+          name="groupId"
+        >
+          <option
+            value="0"
+          >
+            Selecione ... 
+          </option>
+          <option
+            value="1"
+          >
+            Root
+          </option>
+          <option
+            value="2"
+          >
+            Administrador
+          </option>
+          <option
+            value="3"
+          >
+            Usuário Comum
+          </option>
+        </select>
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+    </div>
+    <div
+      class="form-row"
+    >
+      <div
+        class="form-group col-md-4"
+      >
+        <label
+          class="form-label"
+          for="ctrlEMAIL"
+        >
+          E-mail
+        </label>
+        <input
+          class="form-control"
+          id="ctrlEMAIL"
+          name="email"
+          placeholder="email@email.com"
+          value=""
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+      <div
+        class="form-group col-md-4"
+      >
+        <label
+          class="form-label"
+          for="ctrlPassword"
+        >
+          Senha
+        </label>
+        <input
+          class="form-control"
+          id="ctrlPassword"
+          name="password"
+          placeholder="Senha do Usuário"
+          type="password"
+          value=""
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+      <div
+        class="form-group col-md-4"
+      >
+        <label
+          class="form-label"
+          for="ctrlTipo"
+        >
+          Confirmar Senha
+        </label>
+        <input
+          class="form-control"
+          id="ctrlTipo"
+          name="passwordConfirm"
+          placeholder="Confirmar Senha do Usuário"
+          type="password"
+          value=""
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+    </div>
+    <button
+      class="btn btn-primary"
+      type="submit"
+    >
+      Salvar
+    </button>
+  </form>
+</div>
+`;
+
+exports[`UserForm snapshot with data 1`] = `
+<div>
+  <form
+    autocomplete="off"
+    class=""
+  >
+    <div
+      class="form-row"
+    >
+      <div
+        class="form-group col-md-9"
+      >
+        <label
+          class="form-label"
+          for="ctrlNome"
+        >
+          Nome
+        </label>
+        <input
+          class="form-control"
+          id="ctrlNome"
+          name="nome"
+          placeholder="Nome do Operador"
+          type="text"
+          value="USUÁRIO TESTE"
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+      <div
+        class="form-group col-md-3"
+      >
+        <label
+          class="form-label"
+          for="ctrlGrupo"
+        >
+          Grupo
+        </label>
+        <select
+          class="form-control"
+          id="ctrlGrupo"
+          name="groupId"
+        >
+          <option
+            value="0"
+          >
+            Selecione ... 
+          </option>
+          <option
+            value="1"
+          >
+            Root
+          </option>
+          <option
+            value="2"
+          >
+            Administrador
+          </option>
+          <option
+            value="3"
+          >
+            Usuário Comum
+          </option>
+        </select>
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+    </div>
+    <div
+      class="form-row"
+    >
+      <div
+        class="form-group col-md-4"
+      >
+        <label
+          class="form-label"
+          for="ctrlEMAIL"
+        >
+          E-mail
+        </label>
+        <input
+          class="form-control"
+          id="ctrlEMAIL"
+          name="email"
+          placeholder="email@email.com"
+          value="testemock@teste.com.br"
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+      <div
+        class="form-group col-md-4"
+      >
+        <label
+          class="form-label"
+          for="ctrlPassword"
+        >
+          Senha
+        </label>
+        <input
+          class="form-control"
+          id="ctrlPassword"
+          name="password"
+          placeholder="Senha do Usuário"
+          type="password"
+          value="dTVlclBAc3N3b3Jk"
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+      <div
+        class="form-group col-md-4"
+      >
+        <label
+          class="form-label"
+          for="ctrlTipo"
+        >
+          Confirmar Senha
+        </label>
+        <input
+          class="form-control"
+          id="ctrlTipo"
+          name="passwordConfirm"
+          placeholder="Confirmar Senha do Usuário"
+          type="password"
+          value=""
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+    </div>
+    <button
+      class="btn btn-primary"
+      type="submit"
+    >
+      Salvar
+    </button>
+  </form>
+</div>
+`;

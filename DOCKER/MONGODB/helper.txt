@@ -1,0 +1,27 @@
+Start:
+    docker-compose up
+    - criar container: mongodb_mongo_db_1
+    
+Acessando via shell
+docker exec -it mongodb_mongo_db_1 mongo -u root -p root
+-- Comandos teste/exemplo:
+db.help() -> executa login
+db.stats() -> executa somente com login
+
+Incluir no sistema.
+-> incluir no arquivo '~/.zshrc'
+alias mongo='docker exec -it mongodb_mongo_db_1 mongo'
+alias mongosh='docker exec -it mongodb_mongo_db_1 mongosh'
+alias mongodump='docker exec -it mongodb_mongo_db_1 mongodump'
+alias mongorestore='docker exec -it mongodb_mongo_db_1 mongorestore'
+alias mongostat='docker exec -it mongodb_mongo_db_1 mongostat'
+alias mongotop='docker exec -it mongodb_mongo_db_1 mongotop'
+
+BACKUP MONGO
+-- Utilizar pasta compartilhada 'files/backup'
+mongodump -u root -p root --out /data/backup
+mongorestore -u root -p root --dir /data/backup
+
+MONITORAMENTO
+mongostat "mongodb://root:root@localhost/rgf_receive?authSource=admin"
+mongotop "mongodb://root:root@localhost/rgf_receive?authSource=admin"

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "airtablefelipemalta",
+  "private_key_id": "8003ea4b6a85ab2edc3edcaaac9e4e455dc221a0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDl0jKL+nEuq46V\nlFkB2H30NGZegahsjEQG6tw8LLf4aO6FxRV8Xkndo2AKP6Vd/LQYfqc7dWD4dGhK\nmUChzjtWrlcdFw3cxmRDqlvhpuTCEJLfLyO+2dWLZIAZRtVerzwMTSXtX0kxVuFP\n2j0V2Yl9nq3kDthqXSLpfkKdUD1sIBqJxq4JC0gm60+cOdrQqgzy3HfWRcADak7z\ng99Wf6yUXmdwnKvGB8CdxUfjQ8V0xj7a2nCt0jsliIA2fbhg1Rlk/wJUGBmFjnHO\n/cpuzWQj112c1UvPi37/N2Z2292Vycvd+1JILt70UXR1YTHJi92hQugvXAM++SwX\nmJRPxhejAgMBAAECggEAaLS4H8s19sflueNxG+SpGfIns6YJ+I59TdOCDI5pMO2J\nwnt02wlQSQDuuCygKG6CFOjbQz0qtXe/rkEdT7rYkRj0CoZe4/elZai/nNK/RWVs\nrO9ar1CquIvMyvdZLf7Tcl1RytCPVcHZ/FoXW5WVTRzW5+EVm3wcdFn4epi8qz4m\nEWGdlpOYmKSmpNcenp7qrjIga8DbmSAcy1cpe8KeZjNDGUkGBHIrFGxdgZOK0wzn\ncBC8IimQr2tkho1PpWUn60qeTfPSXCc4dFyuafgfH8QDX+3pa1iXgCEtc/EP3mTR\nrV5Nv+iz0jeK84/wFYAOIb3v8kji1sYqVWK/6XR2XQKBgQD41Jb/W8gIAaSOysGZ\nl667tpFZR6dzPfZh2gTevHjkWgWXfYh1h7fDqsHTUR/6vEb13einfTBK5HQ/9Dbn\nA3erJb0kTJvHydC0rS+IHaA5+DYC7W6jaTpHSFpJM8ZzVsrbRCGcJR56XwiWGYi9\n9n5xPk1kXAvBgy7ZuLCQLbmuJQKBgQDscWRRJe2rg06fF+fC5hpfjGiOcQuG2IyS\neafXOsZ5IuwHrbu03qYkNBj0ZutEDlGXXqiFdCmFaqPKD7OLYA8PM/cezbFp+dYF\n6OnLr069I4OX7ZjUG0eNUTdBA38C4HOFZ+DcaapJLps2xUc1CgoEuiL2gIW1emXq\n7GYJAn1QJwKBgEuFoorAnZaogPyB1365heQdRkI1uEIG9We/lyjPRVXxaK8Q/8DE\nP2cYxZlQjwc368Wl434qReUFL69VfPBiogiE/MIuqj1aKIkd40ZJz56okiQTUjgw\nsOp/sD91gm7xUcJ5DEZrEbQMcfu0pkcZsEjIow6pzTufiDG2l4g7CJctAoGBAJ3P\nuSMoa4+UXn91Vy0Qo/2uG4MnFIh2NKz3If1Xr2ze0Cb34FcCXGXBl/5YSyLrY63i\nchxQwf3YhWWyQSX/gU2mY4RdydJv/FeJc7KNWcKH16cp4F2Br6o00OpFyRpEcRZT\nlRPIOu4Je3N9DN/ryXAKRJe+hH/yJ+A61Iei77z1AoGAHDaT5nIZqH5UXEry8lxE\nVfuELVoqdq8lCck4oYOkYklW/mJxE3QZ9AOGtSJhYzO+2ujyBISJANkvk4obT1f5\nJHBjqYLRra/ZPwM17qHkhb6rv7G4ayzu0BF8ZkuyWO+UINdSLRa5h5i8vuEhzsco\no4eWwT9vCJHWFvgxyAd766U=\n-----END PRIVATE KEY-----\n",
+  "client_email": "felipemaltateste@airtablefelipemalta.iam.gserviceaccount.com",
+  "client_id": "113338487155776426475",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/felipemaltateste%40airtablefelipemalta.iam.gserviceaccount.com"
+}

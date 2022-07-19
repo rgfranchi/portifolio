@@ -1,0 +1,517 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OperatorForm snapshot empty 1`] = `
+<div>
+  <form
+    class=""
+  >
+    <div
+      class="form-row"
+    >
+      <div
+        class="form-group col-md-7"
+      >
+        <label
+          class="form-label"
+          for="ctrlNome"
+        >
+          Nome
+        </label>
+        <input
+          class="form-control"
+          id="ctrlNome"
+          name="nome"
+          placeholder="Nome do Operador"
+          type="text"
+          value=""
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+      <div
+        class="form-group col"
+      >
+        <label
+          class="form-label"
+          for="ctrlCodOperador"
+        >
+          Código
+        </label>
+        <input
+          class="form-control"
+          id="ctrlCodOperador"
+          name="codOperador"
+          placeholder="Código do operador"
+          type="text"
+          value=""
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+    </div>
+    <div
+      class="form-row"
+    >
+      <div
+        class="form-group col-md-4"
+      >
+        <label
+          class="form-label"
+          for="ctrlSenha"
+        >
+          Senha
+        </label>
+        <input
+          class="form-control"
+          id="ctrlSenha"
+          name="senha"
+          placeholder="Senha Operador"
+          value=""
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+      <div
+        class="form-group col-md-4"
+      >
+        <label
+          class="form-label"
+          for="ctrlRFID"
+        >
+          Código RFID
+        </label>
+        <input
+          class="form-control"
+          id="ctrlRFID"
+          name="rfid"
+          placeholder="Código RFID"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group col-md-4"
+      >
+        <label
+          class="form-label"
+          for="ctrlFuncao"
+        >
+          Função
+        </label>
+        <input
+          class="form-control"
+          id="ctrlFuncao"
+          name="funcao"
+          placeholder="Função Operador"
+          type="text"
+          value=""
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+    </div>
+    <div
+      class="form-row"
+    >
+      <div
+        class="form-group col-md-3"
+      >
+        <label
+          class="form-label"
+          for="ctrlAcessoDataInicial"
+        >
+          Acesso Inicial
+        </label>
+        <div
+          class="react-datepicker-wrapper"
+        >
+          <div
+            class="react-datepicker__input-container"
+          >
+            <input
+              class="form-control"
+              id="ctrlAcessoDataInicial"
+              name="acessoDataInicial"
+              type="text"
+              value="07/01/2021"
+            />
+          </div>
+        </div>
+        <div
+          class="invalid-feedback"
+          style="display: block;"
+        />
+      </div>
+      <div
+        class="form-group col-md-3"
+      >
+        <label
+          class="form-label"
+          for="ctrlAcessoDataFinal"
+        >
+          Acesso Final
+        </label>
+        <div
+          class="react-datepicker-wrapper"
+        >
+          <div
+            class="react-datepicker__input-container"
+          >
+            <input
+              class="form-control"
+              id="ctrlAcessoDataFinal"
+              name="acessoDataFinal"
+              type="text"
+              value="07/01/2021"
+            />
+          </div>
+        </div>
+        <div
+          class="invalid-feedback"
+          style="display: block;"
+        />
+      </div>
+      <div
+        class="form-group col-md-4"
+      >
+        <label
+          class="form-label"
+          for="ctrlEMAIL"
+        >
+          E-mail
+        </label>
+        <input
+          class="form-control"
+          id="ctrlEMAIL"
+          name="email"
+          placeholder="email@email.com"
+          value=""
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+      <div
+        class="form-group col-md-2"
+      >
+        <label
+          class="form-label"
+          for="ctrlSexo"
+        >
+          Sexo
+        </label>
+        <select
+          class="form-control"
+          id="ctrlSexo"
+          name="sexo"
+        >
+          <option
+            value=""
+          >
+            Selecione ... 
+          </option>
+          <option
+            value="Masculino"
+          >
+            Masculino
+          </option>
+          <option
+            value="Feminino"
+          >
+            Feminino
+          </option>
+        </select>
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+    </div>
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="ctrlObservacao"
+      >
+        Observações
+      </label>
+      <textarea
+        class="form-control"
+        id="ctrlObservacao"
+        name="observacao"
+        placeholder="Informações sobre o operador .... "
+        rows="4"
+      />
+    </div>
+    <button
+      class="btn btn-primary"
+      type="submit"
+    >
+      Salvar
+    </button>
+  </form>
+</div>
+`;
+
+exports[`OperatorForm snapshot with data 1`] = `
+<div>
+  <form
+    class=""
+  >
+    <div
+      class="form-row"
+    >
+      <div
+        class="form-group col-md-7"
+      >
+        <label
+          class="form-label"
+          for="ctrlNome"
+        >
+          Nome
+        </label>
+        <input
+          class="form-control"
+          id="ctrlNome"
+          name="nome"
+          placeholder="Nome do Operador"
+          type="text"
+          value="NOME TESTE"
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+      <div
+        class="form-group col"
+      >
+        <label
+          class="form-label"
+          for="ctrlCodOperador"
+        >
+          Código
+        </label>
+        <input
+          class="form-control"
+          id="ctrlCodOperador"
+          name="codOperador"
+          placeholder="Código do operador"
+          type="text"
+          value="88888"
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+    </div>
+    <div
+      class="form-row"
+    >
+      <div
+        class="form-group col-md-4"
+      >
+        <label
+          class="form-label"
+          for="ctrlSenha"
+        >
+          Senha
+        </label>
+        <input
+          class="form-control"
+          id="ctrlSenha"
+          name="senha"
+          placeholder="Senha Operador"
+          value="Senha 9999"
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+      <div
+        class="form-group col-md-4"
+      >
+        <label
+          class="form-label"
+          for="ctrlRFID"
+        >
+          Código RFID
+        </label>
+        <input
+          class="form-control"
+          id="ctrlRFID"
+          name="rfid"
+          placeholder="Código RFID"
+          type="text"
+          value="RF 8888"
+        />
+      </div>
+      <div
+        class="form-group col-md-4"
+      >
+        <label
+          class="form-label"
+          for="ctrlFuncao"
+        >
+          Função
+        </label>
+        <input
+          class="form-control"
+          id="ctrlFuncao"
+          name="funcao"
+          placeholder="Função Operador"
+          type="text"
+          value="OPERADOR"
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+    </div>
+    <div
+      class="form-row"
+    >
+      <div
+        class="form-group col-md-3"
+      >
+        <label
+          class="form-label"
+          for="ctrlAcessoDataInicial"
+        >
+          Acesso Inicial
+        </label>
+        <div
+          class="react-datepicker-wrapper"
+        >
+          <div
+            class="react-datepicker__input-container"
+          >
+            <input
+              class="form-control"
+              id="ctrlAcessoDataInicial"
+              name="acessoDataInicial"
+              type="text"
+              value="10/01/2021"
+            />
+          </div>
+        </div>
+        <div
+          class="invalid-feedback"
+          style="display: block;"
+        />
+      </div>
+      <div
+        class="form-group col-md-3"
+      >
+        <label
+          class="form-label"
+          for="ctrlAcessoDataFinal"
+        >
+          Acesso Final
+        </label>
+        <div
+          class="react-datepicker-wrapper"
+        >
+          <div
+            class="react-datepicker__input-container"
+          >
+            <input
+              class="form-control"
+              id="ctrlAcessoDataFinal"
+              name="acessoDataFinal"
+              type="text"
+              value="10/01/2021"
+            />
+          </div>
+        </div>
+        <div
+          class="invalid-feedback"
+          style="display: block;"
+        />
+      </div>
+      <div
+        class="form-group col-md-4"
+      >
+        <label
+          class="form-label"
+          for="ctrlEMAIL"
+        >
+          E-mail
+        </label>
+        <input
+          class="form-control"
+          id="ctrlEMAIL"
+          name="email"
+          placeholder="email@email.com"
+          value="operador@teste.com"
+        />
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+      <div
+        class="form-group col-md-2"
+      >
+        <label
+          class="form-label"
+          for="ctrlSexo"
+        >
+          Sexo
+        </label>
+        <select
+          class="form-control"
+          id="ctrlSexo"
+          name="sexo"
+        >
+          <option
+            value=""
+          >
+            Selecione ... 
+          </option>
+          <option
+            value="Masculino"
+          >
+            Masculino
+          </option>
+          <option
+            value="Feminino"
+          >
+            Feminino
+          </option>
+        </select>
+        <div
+          class="invalid-feedback"
+        />
+      </div>
+    </div>
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="ctrlObservacao"
+      >
+        Observações
+      </label>
+      <textarea
+        class="form-control"
+        id="ctrlObservacao"
+        name="observacao"
+        placeholder="Informações sobre o operador .... "
+        rows="4"
+      >
+        Isto é um teste teste
+      </textarea>
+    </div>
+    <button
+      class="btn btn-primary"
+      type="submit"
+    >
+      Salvar
+    </button>
+  </form>
+</div>
+`;

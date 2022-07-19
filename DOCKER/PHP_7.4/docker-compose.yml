@@ -1,0 +1,25 @@
+version: "2"
+services:
+  php:
+    build: ./PHP/
+    ports:
+      - "8000:80"
+      - "443:443"
+    volumes: 
+      - /Users/rgf/Desenvolvimento/PHP:/var/www/html
+      - ./data/log/apache2:/var/log/apache2 
+      - ./data/log/php:/var/log/php 
+      - ./data/tmp:/tmp 
+    networks:
+      - php7-network 
+  mysql:
+    build: ./MySQL/
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+    networks:
+      - php7-network
+
+networks:
+  php7-network:    

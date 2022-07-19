@@ -1,0 +1,960 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModuleForm snapshot empty 1`] = `
+<div>
+  <form>
+    <div
+      class="accordion"
+    >
+      <div
+        class="card-header"
+      >
+        Operadores
+      </div>
+      <div
+        class="collapse show"
+      >
+        <div
+          class="card-body"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <button
+                class="btn btn-primary btn-block"
+                id="1"
+                type="button"
+              >
+                Thiago de Lima Esmero
+              </button>
+            </div>
+            <div
+              class="col"
+            >
+              <button
+                class="btn btn-primary btn-block"
+                id="2"
+                type="button"
+              >
+                JN Manutenções
+              </button>
+            </div>
+            <div
+              class="col"
+            >
+              <button
+                class="btn btn-primary btn-block"
+                id="7"
+                type="button"
+              >
+                Operador padrão WINE
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="accordion"
+    >
+      <div
+        class="card-header"
+      >
+        Módulo
+      </div>
+      <div
+        class="collapse show"
+      >
+        <div
+          class="card-body"
+        >
+          <div
+            class="form-row"
+          >
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlModule_Codigo"
+              >
+                Código Modulo
+              </label>
+              <input
+                class="form-control"
+                id="ctrlModule_Codigo"
+                name="module.codigo"
+                placeholder="Código do módulo"
+                type="text"
+                value=""
+              />
+              <div
+                class="invalid-feedback"
+              />
+            </div>
+            <div
+              class="form-group col-md-1"
+            >
+              <label
+                class="form-label"
+                for="ctrlModule_ativo"
+              >
+                Ativo
+              </label>
+              <button
+                class="btn btn-success form-control"
+                id="ctrlModule_ativo"
+                name="module.ativo"
+              >
+                Ativo
+              </button>
+            </div>
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlModule_modelo"
+              >
+                Modelo
+              </label>
+              <input
+                class="form-control"
+                id="ctrlModule_modelo"
+                name="module.modelo"
+                placeholder="Modelo Modulo"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlModule_fabricante"
+              >
+                Fabricante
+              </label>
+              <input
+                class="form-control"
+                id="ctrlModule_fabricante"
+                name="module.fabricante"
+                placeholder="Fabricante do módulo"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group col-md-2"
+            >
+              <label
+                class="form-label"
+                for="ctrlModule_Place"
+              >
+                Localização
+              </label>
+              <select
+                class="form-control"
+                id="ctrlModule_Place"
+                name="module.placeId"
+              >
+                <option
+                  value="2"
+                >
+                  WINE
+                </option>
+              </select>
+            </div>
+          </div>
+          <div
+            class="form-row"
+          />
+          <div
+            class="form-row"
+          >
+            <div
+              class="form-group col"
+            >
+              <label
+                class="form-label"
+                for="ctrlModule_observacoes"
+              >
+                Observações
+              </label>
+              <textarea
+                class="form-control"
+                id="ctrlModule_observacoes"
+                name="module.observacoes"
+                placeholder="Informações do módulo ..."
+                rows="4"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="accordion"
+    >
+      <div
+        class="card-header"
+      >
+        Transmissão
+      </div>
+      <div
+        class="collapse show"
+      >
+        <div
+          class="card-body"
+        >
+          <div
+            class="form-row"
+          >
+            <div
+              class="form-group col-md-4"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Tipo"
+              >
+                Tipo Transmissão
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Tipo"
+                name="module.transmission.tipo"
+                placeholder="Tipo de transmissão"
+                type="text"
+                value=""
+              />
+              <div
+                class="invalid-feedback"
+              />
+            </div>
+            <div
+              class="form-group col-md-4"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Fabricante"
+              >
+                Fabricante
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Fabricante"
+                name="module.transmission.fabricante"
+                placeholder="Fabricante da Transmissão"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group col-md-4"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Modelo"
+              >
+                Modelo
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Modelo"
+                name="module.transmission.modelo"
+                placeholder="Modelo Transmissão"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="form-row"
+          >
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Chip"
+              >
+                Chip
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Chip"
+                name="module.transmission.chip"
+                placeholder="Chip"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Operadora"
+              >
+                Operadora
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Operadora"
+                name="module.transmission.operadora"
+                placeholder="Operadora"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_NumeroLinha"
+              >
+                Número Linha
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_NumeroLinha"
+                name="module.transmission.numeroLinha"
+                placeholder="(99)9999-9999"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Pin"
+              >
+                PIN
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Pin"
+                name="module.transmission.pin"
+                placeholder="9999"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="form-row"
+          >
+            <div
+              class="form-group col-md-2"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Puk1"
+              >
+                PUK 1
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Puk1"
+                name="module.transmission.puk1"
+                placeholder="99999999"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group col-md-2"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Puk2"
+              >
+                PUK 2
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Puk2"
+                name="module.transmission.puk2"
+                placeholder="99999999"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group col-md-2"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Puk3"
+              >
+                PUK 3
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Puk3"
+                name="module.transmission.puk3"
+                placeholder="99999999"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_IMEI"
+              >
+                IMEI
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_IMEI"
+                name="module.transmission.imei"
+                placeholder="99999999"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_PAN"
+              >
+                PAN
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_PAN"
+                name="module.transmission.pan"
+                placeholder="99999999"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="form-row"
+          >
+            <div
+              class="form-group col"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_observacoes"
+              >
+                Observações
+              </label>
+              <textarea
+                class="form-control"
+                id="ctrlTransmission_observacoes"
+                name="module.transmission.observacoes"
+                placeholder="Informações da transmissão ..."
+                rows="4"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      type="submit"
+    >
+      Salvar
+    </button>
+  </form>
+</div>
+`;
+
+exports[`ModuleForm snapshot with data 1`] = `
+<div>
+  <form>
+    <div
+      class="accordion"
+    >
+      <div
+        class="card-header"
+      >
+        Operadores
+      </div>
+      <div
+        class="collapse show"
+      >
+        <div
+          class="card-body"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <button
+                class="btn btn-primary btn-block"
+                id="1"
+                type="button"
+              >
+                Thiago de Lima Esmero
+              </button>
+            </div>
+            <div
+              class="col"
+            >
+              <button
+                class="btn btn-primary btn-block"
+                id="2"
+                type="button"
+              >
+                JN Manutenções
+              </button>
+            </div>
+            <div
+              class="col"
+            >
+              <button
+                class="btn btn-primary btn-block"
+                id="7"
+                type="button"
+              >
+                Operador padrão WINE
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="accordion"
+    >
+      <div
+        class="card-header"
+      >
+        Módulo
+      </div>
+      <div
+        class="collapse show"
+      >
+        <div
+          class="card-body"
+        >
+          <div
+            class="form-row"
+          >
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlModule_Codigo"
+              >
+                Código Modulo
+              </label>
+              <input
+                class="form-control"
+                id="ctrlModule_Codigo"
+                name="module.codigo"
+                placeholder="Código do módulo"
+                type="text"
+                value="99ABCNEW"
+              />
+              <div
+                class="invalid-feedback"
+              />
+            </div>
+            <div
+              class="form-group col-md-1"
+            >
+              <label
+                class="form-label"
+                for="ctrlModule_ativo"
+              >
+                Ativo
+              </label>
+              <button
+                class="btn btn-success form-control"
+                id="ctrlModule_ativo"
+                name="module.ativo"
+              >
+                Ativo
+              </button>
+            </div>
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlModule_modelo"
+              >
+                Modelo
+              </label>
+              <input
+                class="form-control"
+                id="ctrlModule_modelo"
+                name="module.modelo"
+                placeholder="Modelo Modulo"
+                type="text"
+                value="ELÉTRICO New"
+              />
+            </div>
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlModule_fabricante"
+              >
+                Fabricante
+              </label>
+              <input
+                class="form-control"
+                id="ctrlModule_fabricante"
+                name="module.fabricante"
+                placeholder="Fabricante do módulo"
+                type="text"
+                value="BIILOG"
+              />
+            </div>
+            <div
+              class="form-group col-md-2"
+            >
+              <label
+                class="form-label"
+                for="ctrlModule_Place"
+              >
+                Localização
+              </label>
+              <select
+                class="form-control"
+                id="ctrlModule_Place"
+                name="module.placeId"
+              >
+                <option
+                  value="2"
+                >
+                  WINE
+                </option>
+                <option
+                  value="2"
+                >
+                  WINE
+                </option>
+              </select>
+            </div>
+          </div>
+          <div
+            class="form-row"
+          />
+          <div
+            class="form-row"
+          >
+            <div
+              class="form-group col"
+            >
+              <label
+                class="form-label"
+                for="ctrlModule_observacoes"
+              >
+                Observações
+              </label>
+              <textarea
+                class="form-control"
+                id="ctrlModule_observacoes"
+                name="module.observacoes"
+                placeholder="Informações do módulo ..."
+                rows="4"
+              >
+                CNHi Modulo MOCK NEW
+              </textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="accordion"
+    >
+      <div
+        class="card-header"
+      >
+        Transmissão
+      </div>
+      <div
+        class="collapse show"
+      >
+        <div
+          class="card-body"
+        >
+          <div
+            class="form-row"
+          >
+            <div
+              class="form-group col-md-4"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Tipo"
+              >
+                Tipo Transmissão
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Tipo"
+                name="module.transmission.tipo"
+                placeholder="Tipo de transmissão"
+                type="text"
+                value="Zigbee"
+              />
+              <div
+                class="invalid-feedback"
+              />
+            </div>
+            <div
+              class="form-group col-md-4"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Fabricante"
+              >
+                Fabricante
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Fabricante"
+                name="module.transmission.fabricante"
+                placeholder="Fabricante da Transmissão"
+                type="text"
+                value="NEW Biilog"
+              />
+            </div>
+            <div
+              class="form-group col-md-4"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Modelo"
+              >
+                Modelo
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Modelo"
+                name="module.transmission.modelo"
+                placeholder="Modelo Transmissão"
+                type="text"
+                value="GATEWAY NEW"
+              />
+            </div>
+          </div>
+          <div
+            class="form-row"
+          >
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Chip"
+              >
+                Chip
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Chip"
+                name="module.transmission.chip"
+                placeholder="Chip"
+                type="text"
+                value="256325422554"
+              />
+            </div>
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Operadora"
+              >
+                Operadora
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Operadora"
+                name="module.transmission.operadora"
+                placeholder="Operadora"
+                type="text"
+                value="TIM"
+              />
+            </div>
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_NumeroLinha"
+              >
+                Número Linha
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_NumeroLinha"
+                name="module.transmission.numeroLinha"
+                placeholder="(99)9999-9999"
+                type="text"
+                value="(11)40046895"
+              />
+            </div>
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Pin"
+              >
+                PIN
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Pin"
+                name="module.transmission.pin"
+                placeholder="9999"
+                type="text"
+                value="3698"
+              />
+            </div>
+          </div>
+          <div
+            class="form-row"
+          >
+            <div
+              class="form-group col-md-2"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Puk1"
+              >
+                PUK 1
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Puk1"
+                name="module.transmission.puk1"
+                placeholder="99999999"
+                type="text"
+                value="3677"
+              />
+            </div>
+            <div
+              class="form-group col-md-2"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Puk2"
+              >
+                PUK 2
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Puk2"
+                name="module.transmission.puk2"
+                placeholder="99999999"
+                type="text"
+                value="3666"
+              />
+            </div>
+            <div
+              class="form-group col-md-2"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_Puk3"
+              >
+                PUK 3
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_Puk3"
+                name="module.transmission.puk3"
+                placeholder="99999999"
+                type="text"
+                value="3655"
+              />
+            </div>
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_IMEI"
+              >
+                IMEI
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_IMEI"
+                name="module.transmission.imei"
+                placeholder="99999999"
+                type="text"
+                value="3132165164554635"
+              />
+            </div>
+            <div
+              class="form-group col-md-3"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_PAN"
+              >
+                PAN
+              </label>
+              <input
+                class="form-control"
+                id="ctrlTransmission_PAN"
+                name="module.transmission.pan"
+                placeholder="99999999"
+                type="text"
+                value="AJSPT3216549"
+              />
+            </div>
+          </div>
+          <div
+            class="form-row"
+          >
+            <div
+              class="form-group col"
+            >
+              <label
+                class="form-label"
+                for="ctrlTransmission_observacoes"
+              >
+                Observações
+              </label>
+              <textarea
+                class="form-control"
+                id="ctrlTransmission_observacoes"
+                name="module.transmission.observacoes"
+                placeholder="Informações da transmissão ..."
+                rows="4"
+              >
+                Transmissão do MOCK NEW
+              </textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      type="submit"
+    >
+      Salvar
+    </button>
+  </form>
+</div>
+`;

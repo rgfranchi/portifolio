@@ -1,0 +1,129 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select/Create database.
+use('rgf_receive');
+// DB em uso
+// db
+// DBs Existentes
+// show dbs
+// Cria/Insere valor no
+// db.message.insert({
+//     ownerModel:"MODULE TEST",
+//     ownerId:"CARREGAR ID"
+// })
+// Excluir DB
+// db.dropDatabase()
+// Criar collection
+// db.createCollection("message");
+// db.createCollection("module", {
+//     capped : true, // ativar tamnhao máximo da collection (incluir size).
+//     size : 6142800, //tamanho máximo do documento
+//     max : 10000 // nro maximo de documentos (linhas)
+// });
+// db.module.insertOne({
+//     ruleName: "RULE TESTE",
+//     ruleVersion: "0.0.1",
+//     events: [{
+//         _id: "INDEX BY MONGO",
+//         date_time: new Date(),
+//         typeEvent: "IMPACTO",
+//         values: [8],
+//         cod_operador: "235"
+//     }]
+// });
+
+// show collections;
+// db.getCollectionNames()
+
+// excluir collection.
+// db.message.drop();
+
+// cria varios registros
+// db.message.insertMany([{
+//     _id: "QUALQUER CHAVE III",
+//     ownerModel:"MODULE TEST 3",
+//     ownerId:"CARREGAR ID 3"
+// },{
+//     _id: "QUALQUER CHAVE IV",
+//     ownerModel:"MODULE TEST 4",
+//     ownerId:"CARREGAR ID 4"
+// },{
+//     _id: "QUALQUER CHAVE V",
+//     ownerModel:"MODULE TEST 5",
+//     ownerId:"CARREGAR ID 5"
+// }]);
+
+// Busca tudo
+// db.message.find();
+// Busca UM
+// db.message.findOne();
+// db.message.findOne({ownerModel: "MODULE TEST 3"});
+// Condição: https://www.tutorialspoint.com/mongodb/mongodb_query_document.htm
+// db.message.find({ownerModel: "MODULE TEST 3"});
+// db.message.find({
+//  $and: [{ownerModel: "MODULE TEST 3"}, {_id: {$eq:"QUALQUER CHAVE II"}}]
+// });
+
+// Atualiza
+// https://www.mongodb.com/docs/manual/tutorial/update-documents/
+//  db.message.update({
+//   $and: [{_id: {$eq:"QUALQUER CHAVE IV"}}]
+//  },
+//  {$set: {'ownerId':'CARREGAR ID 4',ownerModel: "MODULE TEST 4"}}
+//  );
+// Delete
+//  db.message.remove({
+//   $and: [{_id: {$eq:"QUALQUER CHAVE IV"}}]
+//  });
+
+// Busca com campos 
+// db.message.find({}, {ownerModel:1, _id:0});
+// Busca limit
+// db.message.find({}, {ownerModel:1, _id:0}).limit(2);
+// Busca limit skip
+// db.message.find({}, {ownerModel:1, _id:0}).limit(2).skip(3);
+// Ordenar
+// db.message.find({}).sort({ownerModel:-1});
+// Index
+// db.message.createIndex({ownerModel:1,ownerId:1});
+// db.message.getIndexes();
+// db.message.dropIndex({ownerModel:1,ownerId:1});
+// Agrupar
+// db.message.aggregate([{$group: { _id: "$ownerModel", qtd_sum: {$sum: 1}}}]); 
+
+
+// convensão Refs para referenciar outro objeto (JOIN)
+// cria message
+// db.message.insertOne({
+//     _id: ObjectId("53402597d852426020000002"),
+//     ownerModel:"MESSAGE TEST REFS",
+//     ownerId:"XXXXX"
+// });
+// Cria modulo
+// db.module.insertOne({
+//     message: {
+//         '$refs':'message',
+//         '$id': ObjectId("53402597d852426020000002"),
+//     },
+//     ruleName: "RULE TEST REFS",
+//     ruleVersion: "0.0.1",
+//     events: [{
+//         _id: "INDEX BY MONGO",
+//         date_time: new Date(),
+//         typeEvent: "IMPACTO",
+//         values: [8],
+//         cod_operador: "235"
+//     }]
+// });
+
+// Otimizar busca:
+// https://www.tutorialspoint.com/mongodb/mongodb_covered_queries.htm
+// Verificar otimização.
+// db.message.createIndex({ownerModel:1,ownerId:1});
+// db.message.find().explain();
+// db.message.find({},{ownerId:1,_id:0}).explain();
+// força uso do index
+// db.message.find({},{ownerId:1,_id:0}).hint({ownerModel:1,ownerId:1});

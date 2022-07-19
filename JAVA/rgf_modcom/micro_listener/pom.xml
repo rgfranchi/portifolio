@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+        <groupId>rgf.microservices</groupId>
+        <artifactId>bom_microservices</artifactId>
+        <version>${revision}</version>
+	</parent> 
+
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
+    <version>${revision}</version>
+
+    <artifactId>micro_listener</artifactId>
+    <name>Micro Listener</name>
+    <description>Recebe mensagem de uma porta do sistema e encaminha informação através do JMS</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>rgf.microservices</groupId>
+            <artifactId>pojo_object</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>rgf.microservices</groupId>
+            <artifactId>base_config</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency> 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-artemis</artifactId>
+        </dependency>
+
+        <!-- Spring integration -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-integration</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.integration</groupId>
+            <artifactId>spring-integration-ip</artifactId>
+        </dependency> 
+
+        <!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>1.0.0.GA</version>
+        </dependency>
+
+        <!-- Convert Object to Json https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>    
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>2.6.0</version>
+            <scope>test</scope>
+        </dependency> 
+
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>artemis-server</artifactId>
+            <version>${artemis.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+
+    </dependencies>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>

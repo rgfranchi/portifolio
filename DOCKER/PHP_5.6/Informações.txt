@@ -1,0 +1,6 @@
+Imagens:
+	- PHP 5.6
+	- Mysql 5.7 (acesso externo a pasta)
+
+Projetos:
+- Executa com PHP antigo da Biilog.

@@ -1,0 +1,959 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompanyList snapshot empty 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "EMPTY_01",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "EMPTY_01",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ModalLoading>
+      <Modal
+        animation={false}
+        autoFocus={true}
+        backdrop={true}
+        centered={true}
+        dialogAs={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "ModalDialog",
+            "render": [Function],
+          }
+        }
+        enforceFocus={true}
+        keyboard={true}
+        onHide={[Function]}
+        restoreFocus={true}
+        show={false}
+        size="lg"
+      >
+        <Modal
+          autoFocus={true}
+          backdrop={true}
+          containerClassName="modal-open"
+          enforceFocus={true}
+          keyboard={true}
+          manager={
+            BootstrapModalManager {
+              "containers": Array [],
+              "data": Array [],
+              "handleContainerOverflow": true,
+              "hideSiblingNodes": true,
+              "modals": Array [],
+              "scrollbarSize": 0,
+            }
+          }
+          onEnter={[Function]}
+          onEntering={[Function]}
+          onEscapeKeyDown={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onHide={[Function]}
+          renderBackdrop={[Function]}
+          renderDialog={[Function]}
+          restoreFocus={true}
+          show={false}
+        />
+      </Modal>
+    </ModalLoading>
+    <CompanyList
+      access={
+        Object {
+          "delete": Object {},
+          "update": Object {},
+        }
+      }
+      baseUrl="/urlFake"
+      handleDeleteOpen={[Function]}
+      list={Array []}
+    >
+      <ForwardRef>
+        <table
+          className="table"
+        >
+          <thead>
+            <tr>
+              <th>
+                Nome
+              </th>
+              <th>
+                Contato
+              </th>
+              <th>
+                CNPJ
+              </th>
+              <th>
+                E-mail
+              </th>
+              <th>
+                Ações
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+      </ForwardRef>
+    </CompanyList>
+  </Router>
+</Provider>
+`;
+
+exports[`CompanyList snapshot with data 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "DATA_01",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "DATA_01",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ModalLoading>
+      <Modal
+        animation={false}
+        autoFocus={true}
+        backdrop={true}
+        centered={true}
+        dialogAs={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "ModalDialog",
+            "render": [Function],
+          }
+        }
+        enforceFocus={true}
+        keyboard={true}
+        onHide={[Function]}
+        restoreFocus={true}
+        show={false}
+        size="lg"
+      >
+        <Modal
+          autoFocus={true}
+          backdrop={true}
+          containerClassName="modal-open"
+          enforceFocus={true}
+          keyboard={true}
+          manager={
+            BootstrapModalManager {
+              "containers": Array [],
+              "data": Array [],
+              "handleContainerOverflow": true,
+              "hideSiblingNodes": true,
+              "modals": Array [],
+              "scrollbarSize": 0,
+            }
+          }
+          onEnter={[Function]}
+          onEntering={[Function]}
+          onEscapeKeyDown={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onHide={[Function]}
+          renderBackdrop={[Function]}
+          renderDialog={[Function]}
+          restoreFocus={true}
+          show={false}
+        />
+      </Modal>
+    </ModalLoading>
+    <CompanyList
+      access={
+        Object {
+          "delete": Object {},
+          "update": Object {},
+        }
+      }
+      baseUrl="/urlFake"
+      handleDeleteOpen={[Function]}
+      list={
+        Array [
+          Object {
+            "bairro": "Brooklin Paulista",
+            "cidade": "São Paulo",
+            "cnpj": "39.282.099/0001-05",
+            "codPostal": "04557-030",
+            "complemento": "Sala 2",
+            "email": "edmondo.gazzillo@gmail.com",
+            "estado": "São Paulo",
+            "id": 1,
+            "logradouro": "Rua Marquês de Cascais",
+            "nome": "BIILOG",
+            "nomeContato": "Edmondo Gazzillo",
+            "numero": "152",
+            "pais": "Brasil",
+            "telefone1": "1132051654",
+            "telefone2": "11996135016",
+          },
+          Object {
+            "bairro": "Civit II",
+            "cidade": "Serra",
+            "cnpj": "03.640.467/0001-94",
+            "codPostal": "29168-090",
+            "complemento": null,
+            "email": "fabioferreira@wine.com.br",
+            "estado": "Espirito Santo",
+            "id": 2,
+            "logradouro": "Rua Comendador Alcídes Simão Helou",
+            "nome": "WINE",
+            "nomeContato": "Fábio Ferreira",
+            "numero": "1478",
+            "pais": "Brasil",
+            "telefone1": "11968574521",
+            "telefone2": null,
+          },
+          Object {
+            "bairro": "Vila Aeroporto",
+            "cidade": "Guarulhos",
+            "cnpj": "78.803.809/0001-49",
+            "codPostal": "07170-350",
+            "complemento": null,
+            "email": "vander_levorato@lincolnelectric.com.br",
+            "estado": "São Paulo",
+            "id": 3,
+            "logradouro": "Av. Papa João Paulo I",
+            "nome": "LinconLN",
+            "nomeContato": "Vander Levorato",
+            "numero": "1818",
+            "pais": "Brasil",
+            "telefone1": "1135284700 ",
+            "telefone2": null,
+          },
+          Object {
+            "bairro": "Éden",
+            "cidade": "Sorocaba",
+            "cnpj": "80.783.926/0001-30",
+            "codPostal": "18087-220",
+            "complemento": null,
+            "email": "servicos.rental@brasif.com.br",
+            "estado": "São Paulo",
+            "id": 4,
+            "logradouro": "Avenida Jerome Case",
+            "nome": "CNHi",
+            "nomeContato": "Não Informado",
+            "numero": "1801",
+            "pais": "Brasil",
+            "telefone1": "1533341700",
+            "telefone2": null,
+          },
+        ]
+      }
+    >
+      <ForwardRef>
+        <table
+          className="table"
+        >
+          <thead>
+            <tr>
+              <th>
+                Nome
+              </th>
+              <th>
+                Contato
+              </th>
+              <th>
+                CNPJ
+              </th>
+              <th>
+                E-mail
+              </th>
+              <th>
+                Ações
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              key="1"
+            >
+              <td>
+                BIILOG
+              </td>
+              <td>
+                Edmondo Gazzillo
+              </td>
+              <td>
+                39.282.099/0001-05
+              </td>
+              <td>
+                edmondo.gazzillo@gmail.com
+              </td>
+              <td>
+                <ButtonIconUpdate
+                  linkTo="/urlFake/update/1"
+                >
+                  <Button
+                    active={false}
+                    as={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "displayName": "Link",
+                        "propTypes": Object {
+                          "innerRef": [Function],
+                          "onClick": [Function],
+                          "replace": [Function],
+                          "target": [Function],
+                          "to": [Function],
+                        },
+                        "render": [Function],
+                      }
+                    }
+                    disabled={false}
+                    size="sm"
+                    to="/urlFake/update/1"
+                    variant="primary"
+                  >
+                    <Link
+                      className="btn btn-primary btn-sm"
+                      disabled={false}
+                      to="/urlFake/update/1"
+                    >
+                      <LinkAnchor
+                        className="btn btn-primary btn-sm"
+                        disabled={false}
+                        href="/urlFake/update/1"
+                        navigate={[Function]}
+                      >
+                        <a
+                          className="btn btn-primary btn-sm"
+                          disabled={false}
+                          href="/urlFake/update/1"
+                          onClick={[Function]}
+                        >
+                          <FiEdit>
+                            <IconBase
+                              attr={
+                                Object {
+                                  "fill": "none",
+                                  "stroke": "currentColor",
+                                  "strokeLinecap": "round",
+                                  "strokeLinejoin": "round",
+                                  "strokeWidth": "2",
+                                  "viewBox": "0 0 24 24",
+                                }
+                              }
+                            >
+                              <svg
+                                fill="none"
+                                height="1em"
+                                stroke="currentColor"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                style={
+                                  Object {
+                                    "color": undefined,
+                                  }
+                                }
+                                viewBox="0 0 24 24"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
+                                  key="0"
+                                />
+                                <path
+                                  d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"
+                                  key="1"
+                                />
+                              </svg>
+                            </IconBase>
+                          </FiEdit>
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                  </Button>
+                </ButtonIconUpdate>
+                 
+                <ButtonIconDelete
+                  execute={[Function]}
+                >
+                  <Button
+                    active={false}
+                    disabled={false}
+                    onClick={[Function]}
+                    size="sm"
+                    variant="danger"
+                  >
+                    <button
+                      className="btn btn-danger btn-sm"
+                      disabled={false}
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <AiFillDelete>
+                        <IconBase
+                          attr={
+                            Object {
+                              "viewBox": "0 0 1024 1024",
+                            }
+                          }
+                        >
+                          <svg
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            strokeWidth="0"
+                            style={
+                              Object {
+                                "color": undefined,
+                              }
+                            }
+                            viewBox="0 0 1024 1024"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M864 256H736v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zm-200 0H360v-72h304v72z"
+                              key="0"
+                            />
+                          </svg>
+                        </IconBase>
+                      </AiFillDelete>
+                    </button>
+                  </Button>
+                </ButtonIconDelete>
+              </td>
+            </tr>
+            <tr
+              key="2"
+            >
+              <td>
+                WINE
+              </td>
+              <td>
+                Fábio Ferreira
+              </td>
+              <td>
+                03.640.467/0001-94
+              </td>
+              <td>
+                fabioferreira@wine.com.br
+              </td>
+              <td>
+                <ButtonIconUpdate
+                  linkTo="/urlFake/update/2"
+                >
+                  <Button
+                    active={false}
+                    as={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "displayName": "Link",
+                        "propTypes": Object {
+                          "innerRef": [Function],
+                          "onClick": [Function],
+                          "replace": [Function],
+                          "target": [Function],
+                          "to": [Function],
+                        },
+                        "render": [Function],
+                      }
+                    }
+                    disabled={false}
+                    size="sm"
+                    to="/urlFake/update/2"
+                    variant="primary"
+                  >
+                    <Link
+                      className="btn btn-primary btn-sm"
+                      disabled={false}
+                      to="/urlFake/update/2"
+                    >
+                      <LinkAnchor
+                        className="btn btn-primary btn-sm"
+                        disabled={false}
+                        href="/urlFake/update/2"
+                        navigate={[Function]}
+                      >
+                        <a
+                          className="btn btn-primary btn-sm"
+                          disabled={false}
+                          href="/urlFake/update/2"
+                          onClick={[Function]}
+                        >
+                          <FiEdit>
+                            <IconBase
+                              attr={
+                                Object {
+                                  "fill": "none",
+                                  "stroke": "currentColor",
+                                  "strokeLinecap": "round",
+                                  "strokeLinejoin": "round",
+                                  "strokeWidth": "2",
+                                  "viewBox": "0 0 24 24",
+                                }
+                              }
+                            >
+                              <svg
+                                fill="none"
+                                height="1em"
+                                stroke="currentColor"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                style={
+                                  Object {
+                                    "color": undefined,
+                                  }
+                                }
+                                viewBox="0 0 24 24"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
+                                  key="0"
+                                />
+                                <path
+                                  d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"
+                                  key="1"
+                                />
+                              </svg>
+                            </IconBase>
+                          </FiEdit>
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                  </Button>
+                </ButtonIconUpdate>
+                 
+                <ButtonIconDelete
+                  execute={[Function]}
+                >
+                  <Button
+                    active={false}
+                    disabled={false}
+                    onClick={[Function]}
+                    size="sm"
+                    variant="danger"
+                  >
+                    <button
+                      className="btn btn-danger btn-sm"
+                      disabled={false}
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <AiFillDelete>
+                        <IconBase
+                          attr={
+                            Object {
+                              "viewBox": "0 0 1024 1024",
+                            }
+                          }
+                        >
+                          <svg
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            strokeWidth="0"
+                            style={
+                              Object {
+                                "color": undefined,
+                              }
+                            }
+                            viewBox="0 0 1024 1024"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M864 256H736v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zm-200 0H360v-72h304v72z"
+                              key="0"
+                            />
+                          </svg>
+                        </IconBase>
+                      </AiFillDelete>
+                    </button>
+                  </Button>
+                </ButtonIconDelete>
+              </td>
+            </tr>
+            <tr
+              key="3"
+            >
+              <td>
+                LinconLN
+              </td>
+              <td>
+                Vander Levorato
+              </td>
+              <td>
+                78.803.809/0001-49
+              </td>
+              <td>
+                vander_levorato@lincolnelectric.com.br
+              </td>
+              <td>
+                <ButtonIconUpdate
+                  linkTo="/urlFake/update/3"
+                >
+                  <Button
+                    active={false}
+                    as={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "displayName": "Link",
+                        "propTypes": Object {
+                          "innerRef": [Function],
+                          "onClick": [Function],
+                          "replace": [Function],
+                          "target": [Function],
+                          "to": [Function],
+                        },
+                        "render": [Function],
+                      }
+                    }
+                    disabled={false}
+                    size="sm"
+                    to="/urlFake/update/3"
+                    variant="primary"
+                  >
+                    <Link
+                      className="btn btn-primary btn-sm"
+                      disabled={false}
+                      to="/urlFake/update/3"
+                    >
+                      <LinkAnchor
+                        className="btn btn-primary btn-sm"
+                        disabled={false}
+                        href="/urlFake/update/3"
+                        navigate={[Function]}
+                      >
+                        <a
+                          className="btn btn-primary btn-sm"
+                          disabled={false}
+                          href="/urlFake/update/3"
+                          onClick={[Function]}
+                        >
+                          <FiEdit>
+                            <IconBase
+                              attr={
+                                Object {
+                                  "fill": "none",
+                                  "stroke": "currentColor",
+                                  "strokeLinecap": "round",
+                                  "strokeLinejoin": "round",
+                                  "strokeWidth": "2",
+                                  "viewBox": "0 0 24 24",
+                                }
+                              }
+                            >
+                              <svg
+                                fill="none"
+                                height="1em"
+                                stroke="currentColor"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                style={
+                                  Object {
+                                    "color": undefined,
+                                  }
+                                }
+                                viewBox="0 0 24 24"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
+                                  key="0"
+                                />
+                                <path
+                                  d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"
+                                  key="1"
+                                />
+                              </svg>
+                            </IconBase>
+                          </FiEdit>
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                  </Button>
+                </ButtonIconUpdate>
+                 
+                <ButtonIconDelete
+                  execute={[Function]}
+                >
+                  <Button
+                    active={false}
+                    disabled={false}
+                    onClick={[Function]}
+                    size="sm"
+                    variant="danger"
+                  >
+                    <button
+                      className="btn btn-danger btn-sm"
+                      disabled={false}
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <AiFillDelete>
+                        <IconBase
+                          attr={
+                            Object {
+                              "viewBox": "0 0 1024 1024",
+                            }
+                          }
+                        >
+                          <svg
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            strokeWidth="0"
+                            style={
+                              Object {
+                                "color": undefined,
+                              }
+                            }
+                            viewBox="0 0 1024 1024"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M864 256H736v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zm-200 0H360v-72h304v72z"
+                              key="0"
+                            />
+                          </svg>
+                        </IconBase>
+                      </AiFillDelete>
+                    </button>
+                  </Button>
+                </ButtonIconDelete>
+              </td>
+            </tr>
+            <tr
+              key="4"
+            >
+              <td>
+                CNHi
+              </td>
+              <td>
+                Não Informado
+              </td>
+              <td>
+                80.783.926/0001-30
+              </td>
+              <td>
+                servicos.rental@brasif.com.br
+              </td>
+              <td>
+                <ButtonIconUpdate
+                  linkTo="/urlFake/update/4"
+                >
+                  <Button
+                    active={false}
+                    as={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "displayName": "Link",
+                        "propTypes": Object {
+                          "innerRef": [Function],
+                          "onClick": [Function],
+                          "replace": [Function],
+                          "target": [Function],
+                          "to": [Function],
+                        },
+                        "render": [Function],
+                      }
+                    }
+                    disabled={false}
+                    size="sm"
+                    to="/urlFake/update/4"
+                    variant="primary"
+                  >
+                    <Link
+                      className="btn btn-primary btn-sm"
+                      disabled={false}
+                      to="/urlFake/update/4"
+                    >
+                      <LinkAnchor
+                        className="btn btn-primary btn-sm"
+                        disabled={false}
+                        href="/urlFake/update/4"
+                        navigate={[Function]}
+                      >
+                        <a
+                          className="btn btn-primary btn-sm"
+                          disabled={false}
+                          href="/urlFake/update/4"
+                          onClick={[Function]}
+                        >
+                          <FiEdit>
+                            <IconBase
+                              attr={
+                                Object {
+                                  "fill": "none",
+                                  "stroke": "currentColor",
+                                  "strokeLinecap": "round",
+                                  "strokeLinejoin": "round",
+                                  "strokeWidth": "2",
+                                  "viewBox": "0 0 24 24",
+                                }
+                              }
+                            >
+                              <svg
+                                fill="none"
+                                height="1em"
+                                stroke="currentColor"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                style={
+                                  Object {
+                                    "color": undefined,
+                                  }
+                                }
+                                viewBox="0 0 24 24"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
+                                  key="0"
+                                />
+                                <path
+                                  d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"
+                                  key="1"
+                                />
+                              </svg>
+                            </IconBase>
+                          </FiEdit>
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                  </Button>
+                </ButtonIconUpdate>
+                 
+                <ButtonIconDelete
+                  execute={[Function]}
+                >
+                  <Button
+                    active={false}
+                    disabled={false}
+                    onClick={[Function]}
+                    size="sm"
+                    variant="danger"
+                  >
+                    <button
+                      className="btn btn-danger btn-sm"
+                      disabled={false}
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <AiFillDelete>
+                        <IconBase
+                          attr={
+                            Object {
+                              "viewBox": "0 0 1024 1024",
+                            }
+                          }
+                        >
+                          <svg
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            strokeWidth="0"
+                            style={
+                              Object {
+                                "color": undefined,
+                              }
+                            }
+                            viewBox="0 0 1024 1024"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M864 256H736v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zm-200 0H360v-72h304v72z"
+                              key="0"
+                            />
+                          </svg>
+                        </IconBase>
+                      </AiFillDelete>
+                    </button>
+                  </Button>
+                </ButtonIconDelete>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </ForwardRef>
+    </CompanyList>
+  </Router>
+</Provider>
+`;

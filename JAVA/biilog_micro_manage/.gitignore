@@ -1,0 +1,181 @@
+######################
+# Project Specific
+######################
+target/
+!**/src/main/**
+!**/src/test/**
+# RGF
+src/test/path_test/imagens/*
+!/src/test/path_test/imagens/empty
+# SCRIPT
+src/test/javascript/coverage/
+src/test/javascript/PhantomJS*/
+ActiveMQArtemis/
+biilog_tmp/
+
+
+######################
+# ReactJS
+######################
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.pnp
+.pnp.js
+# testing
+/coverage
+# testing
+/coverage
+# production
+/build
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+######################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+######################
+# SASS
+######################
+.sass-cache/
+
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+tmp/
+!/tmp/empty
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings
+.loadpath
+.factorypath
+/src/main/resources/rebel.xml
+# External tool builders
+.externalToolBuilders/**
+# Locally stored "Eclipse launch configurations"
+*.launch
+# CDT-specific
+.cproject
+# PDT-specific
+.buildpath
+# Eclipse STS
+.apt_generated
+.springBeans
+.sts4-cache
+
+######################
+# Intellij
+######################
+.idea
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+######################
+# Visual Studio Code
+######################
+.vscode/
+
+######################
+# NetBeans
+######################
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+######################
+# Maven
+######################
+/log/
+/target/
+
+######################
+# Gradle
+######################
+.gradle/
+/build/
+
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
+
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+# Folder config file
+Desktop.ini
+
+######################
+# Mac OSX
+######################
+.DS_Store*
+.svn
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# Directories
+######################
+/bin/
+/deploy/
+
+######################
+# Logs
+######################
+*.log
+
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
+
+######################
+# Gradle Wrapper
+######################
+!gradle/wrapper/gradle-wrapper.jar
+
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jar
+
+######################
+# ESLint
+######################
+.eslintcache

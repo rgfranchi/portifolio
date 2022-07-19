@@ -1,0 +1,46 @@
+Identifica do evento para o receive módulo:
+
+Mensagem
+-- IntegrationMessage:message
+
+- A quem pertence a regra:
+-- RuleMessage:ownerModel
+-- RuleMessage:ownerId
+-- Ex: Biilog (xptoxdo)/Ache (aada)/CNH (dfgt)/etc... 
+
+- Regra utilizada para localizar o evento:
+-- RuleMessage:name 
+-- RuleMessage:version
+-- Ex: Impacto, velocidade, liga, desliga, etc ....
+
+Código do modulo
+-- ListenerMessage:CodModulo
+
+Mongo (Document)
+--> DB=rgf_receive
+- OwnerModule (Informações da mensagem)
+    - Id (MongoID + create)
+    - ownerModel: String (Tabela do proprietário da Regra)
+    - ownerId: String (id do proprietário da regra)
+- Module (Modulo e eventos)
+    - Id (MongoID + create)
+    - ruleName: String (Nome da regra 'Listener'))
+    - ruleVersion: String (Versão da regra 'Listener')
+    - [events]: Object (reservar X eventos 'Docs Mongo')
+        - Id (MongoID + create)
+        - date_time: DateTime (hora que ocorreu o evento)
+        - typeEvent: String (tipo do evento recebido)
+        - [values]: String[] (valor(es) do evento)
+        - cod_operator: String (cod_operador ou null se não tiver operador)
+- Events (transfere após X eventos 'Docs Mongo')
+    - module_id: (MongoID + create)
+    - Id (MongoID + create)
+    - date_time: DateTime (hora que ocorreu o evento)
+    - typeEvent: String (tipo do evento recebido)
+    - [values]: String[] (valor(es) do evento)
+    - cod_operator: String (cod_operador ou null se não tiver operador)
+
+Docs Mongo
+--> https://www.mongodb.com/docs/manual/applications/data-models-relationships/
+
+

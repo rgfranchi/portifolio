@@ -1,0 +1,601 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APP verify bases 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "KEY01",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "KEY01",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ModalLoading>
+      <Modal
+        animation={false}
+        autoFocus={true}
+        backdrop={true}
+        centered={true}
+        dialogAs={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "ModalDialog",
+            "render": [Function],
+          }
+        }
+        enforceFocus={true}
+        keyboard={true}
+        onHide={[Function]}
+        restoreFocus={true}
+        show={false}
+        size="lg"
+      >
+        <Modal
+          autoFocus={true}
+          backdrop={true}
+          containerClassName="modal-open"
+          enforceFocus={true}
+          keyboard={true}
+          manager={
+            BootstrapModalManager {
+              "containers": Array [],
+              "data": Array [],
+              "handleContainerOverflow": true,
+              "hideSiblingNodes": true,
+              "modals": Array [],
+              "scrollbarSize": 0,
+            }
+          }
+          onEnter={[Function]}
+          onEntering={[Function]}
+          onEscapeKeyDown={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onHide={[Function]}
+          renderBackdrop={[Function]}
+          renderDialog={[Function]}
+          restoreFocus={true}
+          show={false}
+        />
+      </Modal>
+    </ModalLoading>
+    <App>
+      <Container
+        fluid={false}
+      >
+        <div
+          className="container"
+        >
+          <ModalLoading>
+            <Modal
+              animation={false}
+              autoFocus={true}
+              backdrop={true}
+              centered={true}
+              dialogAs={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "displayName": "ModalDialog",
+                  "render": [Function],
+                }
+              }
+              enforceFocus={true}
+              keyboard={true}
+              onHide={[Function]}
+              restoreFocus={true}
+              show={false}
+              size="lg"
+            >
+              <Modal
+                autoFocus={true}
+                backdrop={true}
+                containerClassName="modal-open"
+                enforceFocus={true}
+                keyboard={true}
+                manager={
+                  BootstrapModalManager {
+                    "containers": Array [],
+                    "data": Array [],
+                    "handleContainerOverflow": true,
+                    "hideSiblingNodes": true,
+                    "modals": Array [],
+                    "scrollbarSize": 0,
+                  }
+                }
+                onEnter={[Function]}
+                onEntering={[Function]}
+                onEscapeKeyDown={[Function]}
+                onExit={[Function]}
+                onExited={[Function]}
+                onHide={[Function]}
+                renderBackdrop={[Function]}
+                renderDialog={[Function]}
+                restoreFocus={true}
+                show={false}
+              />
+            </Modal>
+          </ModalLoading>
+          <Routes>
+            <BrowserRouter>
+              <Router
+                history={
+                  Object {
+                    "action": "POP",
+                    "block": [Function],
+                    "createHref": [Function],
+                    "go": [Function],
+                    "goBack": [Function],
+                    "goForward": [Function],
+                    "length": 1,
+                    "listen": [Function],
+                    "location": Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    },
+                    "push": [Function],
+                    "replace": [Function],
+                  }
+                }
+              >
+                <Switch>
+                  <Route
+                    component={[Function]}
+                    computedMatch={
+                      Object {
+                        "isExact": true,
+                        "params": Object {},
+                        "path": "/",
+                        "url": "/",
+                      }
+                    }
+                    exact={true}
+                    location={
+                      Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      }
+                    }
+                    path={
+                      Array [
+                        "/",
+                        "/login",
+                      ]
+                    }
+                  >
+                    <LoginPage
+                      history={
+                        Object {
+                          "action": "POP",
+                          "block": [Function],
+                          "createHref": [Function],
+                          "go": [Function],
+                          "goBack": [Function],
+                          "goForward": [Function],
+                          "length": 1,
+                          "listen": [Function],
+                          "location": Object {
+                            "hash": "",
+                            "pathname": "/",
+                            "search": "",
+                            "state": undefined,
+                          },
+                          "push": [Function],
+                          "replace": [Function],
+                        }
+                      }
+                      location={
+                        Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": undefined,
+                        }
+                      }
+                      match={
+                        Object {
+                          "isExact": true,
+                          "params": Object {},
+                          "path": "/",
+                          "url": "/",
+                        }
+                      }
+                    >
+                      <Switch>
+                        <Route
+                          computedMatch={
+                            Object {
+                              "isExact": true,
+                              "params": Object {},
+                              "path": "/",
+                              "url": "/",
+                            }
+                          }
+                          exact={true}
+                          location={
+                            Object {
+                              "hash": "",
+                              "pathname": "/",
+                              "search": "",
+                              "state": undefined,
+                            }
+                          }
+                          path={
+                            Array [
+                              "/",
+                              "/login",
+                            ]
+                          }
+                        >
+                          <Login>
+                            <LoginForm
+                              initValues={
+                                Object {
+                                  "email": "",
+                                  "password": "",
+                                }
+                              }
+                              submitForm={[Function]}
+                            >
+                              <Formik
+                                enableReinitialize={true}
+                                initialValues={
+                                  Object {
+                                    "email": "",
+                                    "password": "",
+                                  }
+                                }
+                                onSubmit={[Function]}
+                                validationSchema={
+                                  ObjectSchema {
+                                    "_blacklist": RefSet {
+                                      "list": Set {},
+                                      "refs": Map {},
+                                    },
+                                    "_conditions": Array [],
+                                    "_defaultDefault": [Function],
+                                    "_deps": Array [],
+                                    "_excludedEdges": Array [],
+                                    "_exclusive": Object {},
+                                    "_mutate": undefined,
+                                    "_nodes": Array [
+                                      "password",
+                                      "email",
+                                    ],
+                                    "_options": Object {
+                                      "abortEarly": true,
+                                      "recursive": true,
+                                    },
+                                    "_type": "object",
+                                    "_typeError": [Function],
+                                    "_whitelist": RefSet {
+                                      "list": Set {},
+                                      "refs": Map {},
+                                    },
+                                    "fields": Object {
+                                      "email": StringSchema {
+                                        "_blacklist": RefSet {
+                                          "list": Set {},
+                                          "refs": Map {},
+                                        },
+                                        "_conditions": Array [],
+                                        "_deps": Array [],
+                                        "_exclusive": Object {
+                                          "email": false,
+                                          "required": true,
+                                        },
+                                        "_mutate": undefined,
+                                        "_options": Object {
+                                          "abortEarly": true,
+                                          "recursive": true,
+                                        },
+                                        "_type": "string",
+                                        "_typeError": [Function],
+                                        "_whitelist": RefSet {
+                                          "list": Set {},
+                                          "refs": Map {},
+                                        },
+                                        "tests": Array [
+                                          [Function],
+                                          [Function],
+                                        ],
+                                        "transforms": Array [
+                                          [Function],
+                                        ],
+                                        "type": "string",
+                                      },
+                                      "password": StringSchema {
+                                        "_blacklist": RefSet {
+                                          "list": Set {},
+                                          "refs": Map {},
+                                        },
+                                        "_conditions": Array [],
+                                        "_deps": Array [],
+                                        "_exclusive": Object {
+                                          "required": true,
+                                        },
+                                        "_mutate": undefined,
+                                        "_options": Object {
+                                          "abortEarly": true,
+                                          "recursive": true,
+                                        },
+                                        "_type": "string",
+                                        "_typeError": [Function],
+                                        "_whitelist": RefSet {
+                                          "list": Set {},
+                                          "refs": Map {},
+                                        },
+                                        "tests": Array [
+                                          [Function],
+                                        ],
+                                        "transforms": Array [
+                                          [Function],
+                                        ],
+                                        "type": "string",
+                                      },
+                                    },
+                                    "tests": Array [],
+                                    "transforms": Array [
+                                      [Function],
+                                    ],
+                                    "type": "object",
+                                  }
+                                }
+                              >
+                                <div
+                                  className="login-form"
+                                >
+                                  <Form
+                                    inline={false}
+                                    onSubmit={[Function]}
+                                  >
+                                    <form
+                                      className=""
+                                      onSubmit={[Function]}
+                                    >
+                                      <h2
+                                        className="text-center"
+                                      >
+                                        BIILOG
+                                      </h2>
+                                      <FormGroup>
+                                        <div
+                                          className="form-group"
+                                        >
+                                          <FormControl
+                                            name="email"
+                                            onChange={[Function]}
+                                            placeholder="E-mail cadastrado"
+                                            type="email"
+                                            value=""
+                                          >
+                                            <input
+                                              className="form-control"
+                                              name="email"
+                                              onChange={[Function]}
+                                              placeholder="E-mail cadastrado"
+                                              type="email"
+                                              value=""
+                                            />
+                                          </FormControl>
+                                          <Feedback
+                                            type="invalid"
+                                          >
+                                            <div
+                                              className="invalid-feedback"
+                                            />
+                                          </Feedback>
+                                        </div>
+                                      </FormGroup>
+                                      <FormGroup>
+                                        <div
+                                          className="form-group"
+                                        >
+                                          <FormControl
+                                            name="password"
+                                            onChange={[Function]}
+                                            placeholder="Senha"
+                                            type="password"
+                                            value=""
+                                          >
+                                            <input
+                                              className="form-control"
+                                              name="password"
+                                              onChange={[Function]}
+                                              placeholder="Senha"
+                                              type="password"
+                                              value=""
+                                            />
+                                          </FormControl>
+                                          <Feedback
+                                            type="invalid"
+                                          >
+                                            <div
+                                              className="invalid-feedback"
+                                            />
+                                          </Feedback>
+                                        </div>
+                                      </FormGroup>
+                                      <FormGroup>
+                                        <div
+                                          className="form-group"
+                                        >
+                                          <Button
+                                            active={false}
+                                            block={true}
+                                            disabled={false}
+                                            type="submit"
+                                            variant="primary"
+                                          >
+                                            <button
+                                              className="btn btn-primary btn-block"
+                                              disabled={false}
+                                              type="submit"
+                                            >
+                                              Login
+                                            </button>
+                                          </Button>
+                                        </div>
+                                      </FormGroup>
+                                      <AlertList>
+                                        <Alert
+                                          closeLabel="Close alert"
+                                          dismissible={true}
+                                          hidden={true}
+                                          onClose={[Function]}
+                                          show={true}
+                                          transition={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "defaultProps": Object {
+                                                "appear": false,
+                                                "in": false,
+                                                "mountOnEnter": false,
+                                                "timeout": 300,
+                                                "unmountOnExit": false,
+                                              },
+                                              "displayName": "Fade",
+                                              "render": [Function],
+                                            }
+                                          }
+                                          variant="primary"
+                                        >
+                                          <Fade
+                                            appear={false}
+                                            hidden={true}
+                                            in={true}
+                                            mountOnEnter={false}
+                                            timeout={300}
+                                            unmountOnExit={true}
+                                          >
+                                            <Transition
+                                              addEndListener={[Function]}
+                                              appear={false}
+                                              enter={true}
+                                              exit={true}
+                                              hidden={true}
+                                              in={true}
+                                              mountOnEnter={false}
+                                              onEnter={[Function]}
+                                              onEntered={[Function]}
+                                              onEntering={[Function]}
+                                              onExit={[Function]}
+                                              onExited={[Function]}
+                                              onExiting={[Function]}
+                                              timeout={300}
+                                              unmountOnExit={true}
+                                            >
+                                              <div
+                                                className="fade alert alert-primary alert-dismissible show"
+                                                hidden={true}
+                                                role="alert"
+                                              >
+                                                <CloseButton
+                                                  label="Close alert"
+                                                  onClick={[Function]}
+                                                >
+                                                  <button
+                                                    className="close"
+                                                    onClick={[Function]}
+                                                    type="button"
+                                                  >
+                                                    <span
+                                                      aria-hidden="true"
+                                                    >
+                                                      ×
+                                                    </span>
+                                                    <span
+                                                      className="sr-only"
+                                                    >
+                                                      Close alert
+                                                    </span>
+                                                  </button>
+                                                </CloseButton>
+                                                <StringArrayToList
+                                                  stringArray={
+                                                    Array [
+                                                      "null",
+                                                    ]
+                                                  }
+                                                >
+                                                  <ul>
+                                                    <li
+                                                      key="0"
+                                                    >
+                                                      null
+                                                    </li>
+                                                  </ul>
+                                                </StringArrayToList>
+                                              </div>
+                                            </Transition>
+                                          </Fade>
+                                        </Alert>
+                                      </AlertList>
+                                      <div
+                                        className="clearfix"
+                                      >
+                                        <a
+                                          href="/recoverPassword"
+                                        >
+                                          Recuperar Senha ?
+                                        </a>
+                                      </div>
+                                    </form>
+                                  </Form>
+                                </div>
+                              </Formik>
+                            </LoginForm>
+                          </Login>
+                        </Route>
+                      </Switch>
+                    </LoginPage>
+                  </Route>
+                </Switch>
+              </Router>
+            </BrowserRouter>
+          </Routes>
+        </div>
+      </Container>
+    </App>
+  </Router>
+</Provider>
+`;
