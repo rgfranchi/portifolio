@@ -1,0 +1,17 @@
+Teste EasyTech
+
+Acessar a raiz da aplicação.
+Inicializar Docker (Postgres/pg_admin). 
+cmd: docker-compose up
+
+Iniciar a aplicação:
+cmd: npm start
+
+Verificar urls:
+importar para o Insomnia arquivo "Insomnia_backend_teste.json"
+
+Bibliotecas
+npm install express
+npm install nodemon -D
+npm install postgres
+npm install express-basic-auth

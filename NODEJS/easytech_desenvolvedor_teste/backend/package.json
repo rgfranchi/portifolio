@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Teste para empresa Easytech",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Guerra Franchi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-basic-auth": "^1.2.1",
+    "postgres": "^3.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
