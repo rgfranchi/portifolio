@@ -12,12 +12,27 @@ if(!createTable()){
     process.exit();
 }
 
-router.use(basicAuth({
-    users: { 'admin': 'supersecret' }
-}))
+// all requests to this router will first hit this middleware
+router.use(function (req, res, next) {
+    console.log("method:%s |url %s|path %s", req.method, req.url, req.path);
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Methods", "*");
+    res.header("Access-Control-Allow-Credentials", "true");
+    res.header(
+      "Access-Control-Allow-Headers",
+      "Access-Control-Allow-Headers, Authorization, Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers"
+    );
+    next();
+});
+
+//@TODO pane ao acessar com Frontend
+// router.use(basicAuth({
+//     users: { 'admin':'supersecret' }
+// }));
 
 router.post('/create', async (req, res) => {
     console.log('CREATE',req.body);
+    console.log('CREATE',req);
     const resp = await save(req.body);
     return res.json( { message: resp  } );
 });

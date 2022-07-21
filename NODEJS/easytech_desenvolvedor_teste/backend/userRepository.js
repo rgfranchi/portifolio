@@ -88,15 +88,16 @@ export const findBy = async (param) => {
 } 
 
 export const login = async (data) => {
-    let ret = ""
+    let ret = null;
     const senha = Buffer.from(data.senha).toString("base64");
     try{
-        ret = await sql`SELECT * FROM usuario WHERE email = ${data.email} AND senha = ${senha}`;
+        ret = await sql`SELECT * FROM usuario WHERE email = ${data.email} AND senha = ${senha} limit 1`;
     } catch (e){
         console.error(e);
         return "FALHA AO LOGAR"
     }
-    return ret['count'] == '1' ? true : false;
+    console.log(ret);
+    return ret['count'] == '1' ? ret : false;
 } 
 
 

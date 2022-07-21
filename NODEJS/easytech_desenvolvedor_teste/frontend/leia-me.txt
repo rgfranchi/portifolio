@@ -1,0 +1,15 @@
+Teste EasyTech
+
+Inicializar Antes a aplicação Backend. 
+
+Iniciar a aplicação:
+cmd: npm start
+
+Bibliotecas
+npx create-react-app . 
+npm install react-bootstrap bootstrap
+
+Falhas:
+Erro ao acessar com 'Basic auth', 
+- Backend: código comentado index.js (28 a 31) 
+- Frontend: código comentado api.js (5 a 8) 
